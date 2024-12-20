@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} Multilingual FrameNet {% endblock %}
+
+{% block content %}
+<h1> Data </h1>
+<p> On this page you can find data from our multilingual database.
+</p>
+
+<div class="container1">
+    <a class="column" href="/frames">
+        <p style="font-weight: bolder;">Frames</p>
+        <p style="margin-top: 20px">List of frames</p>
+    </a>
+    <a class="column" href="/lexical_units">
+        <p style="font-weight: bolder;">Lexical units</p>
+        <p style="margin-top: 20px">List of lexical units</p>
+    </a>
+    <a class="column" href="https://github.com/hemulitch/multilingual-database-of-frames">
+        <p style="font-weight: bolder;">Database</p>
+        <p style="margin-top: 20px">Offline data</p>
+    </a>
+</div>
+{% endblock %}
