@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+
+{% block title %}Frame Details{% endblock %}
+
+{% block content %}
+<style>
+    .framenet-container {
+      background-color: grey;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    
+    .framenet-title {
+      cursor: pointer;
+      color: white;
+      margin: 0;
+    }
+    
+    .framenet-info {
+      background-color: white;
+      padding: 5px;
+      margin: 10px;
+      display: none; /* Initially hidden */
+      border-radius: 5px;
+    }
+    .highlighted-word {
+    font-weight: bold;  
+    color: rgb(0, 0, 0);         
+    background-color: #96c357; 
+    }
+</style>
+  
+<script>
+function toggleInfo(id) {
+    var infoElement = document.getElementById(id);
+    if (infoElement.style.display === "none" || infoElement.style.display === "") {
+    infoElement.style.display = "block";
+    } else {
+    infoElement.style.display = "none";
+    }
+}
+</script>
+
+<p>multilingual index: {{ frame.id }}</p>
+<h1 style="margin-bottom: 60px;"> {{ frame.frame_name }}</h1>
+
+{% if bfn %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('bfn-info')">Berkeley FrameNet</h4>
+<div id="bfn-info" class="framenet-info">
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ bfn.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ bfn.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ bfn.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ bfn.link }}"> Link</a></p>
+</div>
+</div>
+{% endif %}
+  
+{% if brasilfn %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('brasilfn-info')">Brasil FrameNet</h4>
+<div id="brasilfn-info" class="framenet-info">
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ brasilfn.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ brasilfn.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ brasilfn.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ brasilfn.link }}"> Link</a></p>
+</div>
+</div>
+{% endif %}
+
+{% if swefn %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('swefn-info')">Swedish FrameNet</h4>
+<div id="swefn-info" class="framenet-info">
+
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ swefn.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ swefn.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ swefn.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ swefn.link }}"> Link</a></p>
+
+</div>
+</div>
+{% endif %}
+
+
+{% if gfol %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('gfol-info')">GFOL</h4>
+<div id="gfol-info" class="framenet-info">
+
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ gfol.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ gfol.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ gfol.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ gfol.link }}"> Link</a></p>
+
+</div>
+</div>
+{% endif %}
+
+
+{% if dicoinfo %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('dicoinfo-info')">DiCoInfo</h4>
+<div id="dicoinfo-info" class="framenet-info">
+
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ dicoinfo.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ dicoinfo.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ dicoinfo.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ dicoinfo.link }}"> Link</a></p>
+
+</div>
+</div>
+{% endif %}
+
+
+{% if germanfn %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('germanfn-info')">German FrameNet</h4>
+<div id="germanfn-info" class="framenet-info">
+
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ germanfn.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ germanfn.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ germanfn.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ germanfn.link }}"> Link</a></p>
+
+</div>
+</div>
+{% endif %}
+
+{% if spanishfn %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('spanishfn-info')">Spanish FrameNet</h4>
+<div id="spanishfn-info" class="framenet-info">
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ spanishfn.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ spanishfn.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ spanishfn.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ spanishfn.link }}"> Link</a></p>
+
+</div>
+</div>
+{% endif %}
+
+
+{% if dicoenviro %}
+<div class="framenet-container">
+<h4 class="framenet-title" onclick="toggleInfo('dicoenviro-info')">DiCoEnviro</h4>
+<div id="dicoenviro-info" class="framenet-info">
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame:</span> {{ dicoenviro.frame }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Frame Elements:</span> {{ dicoenviro.frame_elements }}</p>
+    <p style="text-align: left; margin-left: 20px;"><span class="highlighted-word">Definition:</span> {{ dicoenviro.definition }}</p>
+    <p style="text-align: left; margin-left: 20px;"><a style="font-weight: bold; color: rgb(0, 0, 0); background-color: #96c357;" href="{{ dicoenviro.link }}"> Link</a></p>
+</div>
+</div>
+{% endif %}
+
+{% endblock %}
