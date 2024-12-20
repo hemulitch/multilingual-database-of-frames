@@ -1,0 +1,1796 @@
+FrameName,Definition,FrameElements,LexicalUnits,Link,LinkToBFN,MatchEvaluation
+Age - TBP,"The words and phrases in this frame reference the length of time some Entity has existed (or has filled some role). This length of time is the Entity's Age, and is sometimes expressed by a particular aspect of the Entity - the Expressor - such as a body part or a feature of the Entity (e.g. hands, voice). The Entity need not be a living thing; many of the words in this frame can apply to objects, organizations, etc., for example ""das neue Buch"" (""the new book""). ","Entity
+Age
+Expressor","Age - TBP
+alt - adjective               
+alt / älter werden - multi-word expression                                              
+Alter, das - noun                                     
+altern - verb                                            
+alternd - adjective                                     
+Alterung, die - noun                                             
+ausreifen - verb                                            
+Baby, das - noun                                         
+erwachsen - adjective                        
+erwachsen werden - multi-word expression                                          
+Erwachsene: der / die Erwachsene; ein Erwachsener / eine Erwachsene - noun                                            
+Frau: die alte Frau - multi-word expression                                               
+Frau: die ältere Frau - multi-word expression                                     
+frisch - adjective                           
+Greis: der Greis / die Greisin - noun                                       
+heranreifen - verb                                       
+Jahr, das - noun                               
+Jugend, die - noun                                   
+Jugendliche: der / die Jugendliche; ein Jugendlicher / eine Jugendliche - noun                                            
+jung - adjective                                       
+Junge, der - noun                     
+Kind, das - noun                                         
+Kindheit, die - noun                                         
+Kleinkind, das - noun                               
+Mädchen. das - noun                                 
+Mann: der alte Mann - multi-word expression                                         
+Mann: der ältere Mann - multi-word expression                                    
+nachreifen - verb                                        
+neu - adjective                                      
+Neugeborene: das Neugeborene / ein Neugeborenes - noun                                                
+Pensionär: der Pensionär / die Pensionärin - noun                                               
+reif - adjective                                     
+Reife, die - noun                                          
+reifen - verb                                       
+Reifung, die - noun                                    
+Rentner: der Rentner / die Rentnerin - noun                                       
+Senior: der Senior / die Seniorin - noun                                
+Teenager, der - noun                                           
+unreif - adjective                                  
+veralten - verb                                       
+Vergreisung, die - noun                             
+wachsen - verb;                           
+People by Age
+Baby, das - noun                                         
+Erwachsene: der / die Erwachsene; ein Erwachsener / eine Erwachsene - noun                                                
+Frau: die alte Frau - multi-word expression                                        
+Frau: die ältere Frau - multi-word expression                                            
+Greis: der Greis / die Greisin - noun                                         
+Jugendliche: der / die Jugendliche; ein Jugendlicher / eine Jugendliche - noun                                            
+Junge, der - noun                                   
+Kind, das - noun                              
+Kleinkind, das - noun                              
+Mädchen. das - noun                                        
+Mann: der alte Mann - multi-word expression                                       
+Mann: der ältere Mann - multi-word expression                                              
+Neugeborene: das Neugeborene / ein Neugeborenes - noun                                            
+Pensionär: der Pensionär / die Pensionärin - noun                                            
+Rentner: der Rentner / die Rentnerin - noun                                           
+Senior: der Senior / die Seniorin - noun                                     
+Teenager, der - noun;                                    
+Age Adjectives
+alt - adjective                                  
+erwachsen - adjective                                   
+frisch - adjective                                    
+jung - adjective                                         
+neu - adjective                               
+reif - adjective                                   
+unreif - adjective;                                   
+Aging
+alt / älter werden - multi-word expression                                            
+altern - verb                                         
+alternd - adjective                           
+Alterung, die - noun                                 
+ausreifen - verb                                 
+erwachsen werden - multi-word expression                                          
+heranreifen - verb                                             
+nachreifen - verb                                         
+Reife, die - noun                                       
+reifen - verb                                
+Reifung, die - noun                                      
+veralten - verb                                      
+Vergreisung, die - noun                                  
+wachsen - verb",https://frames.coerll.utexas.edu/frames/age_TBP,Existence,?
+Arguing,The words and phrases in this frame describe a conflict between two Sides (Side_1 and Side_2) who disagree on some Issue. The conflict results in a verbal argument. The Arguing frame involves only a verbal conflict and does not entail any physical altercation.,"Side_1
+Side_2
+Sides
+Issue","Arguing
+aneinandergeraten - verb                                            
+angreifen - verb                          
+argumentieren - verb                         
+Gezänk, das - noun                             
+Konflikt, der - noun                            
+Streit, der - noun                             
+streiten: sich streiten - verb                                              
+verteidigen: (sich) verteidigen - verb                                         
+zanken: sich zanken - verb",https://frames.coerll.utexas.edu/frames/arguing,Quarreling,ExactMatch
+Body Descriptions,This frame is evoked by words describing the entire body and/or a Body_part  of an Individual. The lexical units in this frame all play the role of the frame element Descriptor.,"Body_part
+Individual
+Descriptor","Body Descriptions
+attraktiv - adjective                                 
+dick - adjective                                   
+dünn - adjective                             
+dürr - adjective                                
+fett - adjective                                       
+groß - adjective                                   
+gutaussehend - adjective                                                
+hübsch - adjective                                      
+klein - adjective                                 
+korpulent - adjective                   
+mager - adjective                                      
+mollig - adjective                                       
+pummelig - adjective                                 
+schlank - adjective                                        
+schön - adjective                                           
+sportlich - adjective                                        
+süß - adjective                                        
+unsportlich - adjective",https://frames.coerll.utexas.edu/frames/body%20descriptions,Body_description_holistic,TooGeneral
+Body Parts,"This frame is evoked by words for Body_parts belonging to a Possessor. The Body_part as well as the body of the Possessor may be characterized by an adjective, the Descriptor.","Body_part
+Possessor
+Descriptor","Body Parts
+Arm, der - noun
+Auge, das - noun
+Augenbraue, die - noun
+Backe, die - noun
+Bauch, der - noun
+Bein, das - noun
+Brust, die - noun
+Daumen, der - noun
+Ellbogen, der - noun
+Finger, der - noun
+Fuß, der - noun
+Fußgelenk, das - noun
+Gehirn, das - noun
+Gesäß, das - noun
+Gesicht, das - noun
+Haar, das - noun
+Hals, der - noun
+Hand, die - noun
+Handgelenk, das - noun
+Herz, das - noun
+Hintern, der - noun
+Hüfte, die - noun
+Kinn, das - noun
+Knie, das - noun
+Knöchel, der - noun
+Kopf, der - noun
+Körper, der - noun
+Leber, die - noun
+Lippe, die - noun
+Lunge, die - noun
+Mund, der - noun
+Muskel, der - noun
+Nase, die - noun
+Niere, die - noun
+Oberschenkel, der - noun
+Ohr, das - noun
+Po, der - noun
+Rücken, der - noun
+Schläfe, die - noun
+Schulter, die - noun
+Stirn, die - noun
+Wange, die - noun
+Zahn, der - noun
+Zehe, die - noun
+Zunge, die - noun
+",https://frames.coerll.utexas.edu/frames/body-parts,Body_parts,ExactMatch
+Buying and Selling,"These words describe various perspectives on the commercial transactions, in which a Buyer receives Goods from a Seller or a Store in exchange for some Money or another type of payment.","Buyer
+Seller
+Goods
+Money
+Store","Buying and Selling
+Angebot, das - noun
+ausgeben - verb
+billig - adjective
+einkaufen - verb
+Einkaufszentrum, das - noun
+Geschäft, das - noun
+gratis - adjective
+günstig - adjective
+kaufen - verb
+Kaufhaus, das - noun
+kosten - verb
+Kosten (pl.), die - noun
+kostenlos - adjective
+Kunde: der Kunde / die Kundin - noun
+Laden, der - noun
+Miete, die - noun
+mieten - verb
+Mieter: der Mieter / die Mieterin - noun
+Preis, der - noun
+preiswert - adjective
+Rechnung, die - noun
+Sonderangebot, das - noun
+teuer - adjective
+verkaufen - verb
+Verkäufer: der Verkäufer / die Verkäuferin - noun
+vermieten - verb
+Vermieter: der Vermieter / die Vermieterin - noun
+
+Buying
+einkaufen - verb
+kaufen - verb
+
+Selling
+verkaufen - verb
+Verkäufer: der Verkäufer / die Verkäuferin - noun
+
+Shopping
+einkaufen - verb
+Einkaufszentrum, das - noun
+Geschäft, das - noun
+Kaufhaus, das - noun
+Kunde: der Kunde / die Kundin - noun
+Laden, der - noun
+Sonderangebot, das - noun
+
+Prices
+billig - adjective
+gratis - adjective
+günstig - adjective
+kosten - verb
+Kosten (pl.), die - noun
+kostenlos - adjective
+Preis, der - noun
+preiswert - adjective
+teuer - adjective
+",https://frames.coerll.utexas.edu/frames/buying%20and%20selling,Commercial_transaction,ExactMatch
+Causation,"In this frame, some Cause causes an Effect. Almost any kind of thing could constitute a Cause, such as a person, a thing, or a whole situation. When the Effect happens to a particular entity, we call this entity the Affected.","Cause
+Effect
+Affected","Causation
+also - conjunction
+Anlass, der - noun
+denn - conjunction
+deshalb - conjunction
+deswegen - conjunction
+Ergebnis, das - noun
+Folge, die - noun
+führen zu - multi-word expression
+Grund, der - noun
+lassen: etwas (machen) lassen - construction
+machen - verb
+resultieren (aus) - verb
+Ursache, die - noun
+verantwortlich (für) - adjective
+verursachen - verb
+warum - adverb
+wegen - preposition
+weil - conjunction
+wirken - verb
+Wirkung, die - noun
+",https://frames.coerll.utexas.edu/frames/causation,Causation,ExactMatch
+Character Trait: Negative,"The Character Trait: Negative frame contains lexical units for character traits that are specifically negative, such as ""unhöflich"" (""impolite""), ""grausam"" (""cruel) or ""gemein"" (""mean""). This frame is similar to the Mental Property frame in that they both involve a (usually implicit) Judge who determines that some Protagonist possesses a particular character trait, based on the their Behavior. The primary difference is that with Character Trait, the basis of the judgement is Behavior toward other human beings (the Company). This gives Character Trait frames a definitive social component. ","Protagonist
+Company
+Behavior
+Expressor
+Content
+Judge","Character Trait: Negative
+abscheulich - adjective
+barbarisch - adjective
+barsch - adjective
+bissig - adjective
+böse - adjective
+boshaft - adjective
+Eigenbrötler: der Eigenbrötler/die Eigenbrötlerin - noun
+gemein - adjective
+grausam - adjective
+Grausamkeit, die - noun
+grob - adjective
+hinterhältig - adjective
+kalt - adjective
+mies - adjective
+niederträchtig - adjective
+respektlos - adjective
+rücksichtslos - adjective
+ruppig - adjective
+schlecht - adjective
+schroff - adjective
+unfreundlich - adjective
+ungesellig - adjective
+unhöflich - adjective
+unreif - adjective
+unsympathisch - adjective
+unwirsch - adjective
+",https://frames.coerll.utexas.edu/frames/character%20trait:%20negative,Social_interaction_evaluation,TooSpecific
+Cleaning,"In this frame, a Cleaner cleans a location, object or entity (the Cleaned) by removing some entities or substance (Mess) that are aesthetically or hygienically undesirable. In some cases, the Cleaner uses some cleaning Instrument (e.g. brush, vacuum) and/or Medium (e.g. soap, water) to assist with the cleaning.","Cleaner
+Cleaned
+Mess
+Instrument
+Medium","Cleaning
+abräumen - verb
+abtrocknen - verb
+abwaschen - verb
+aufräumen - verb
+Besen, der - noun
+Bett: das Bett machen - multi-word expression
+Bügelbrett, das - noun
+Bügeleisen, das - noun
+bügeln - verb
+Bürste, die - noun
+dreckig - adjective
+fegen - verb
+Fleck: der Fleck, der Flecken - noun
+Kehrblech, das - noun
+kehren - verb
+Kehrschaufel, die - noun
+Lappen, der - noun
+Müll, der - noun
+Müll: den Müll / den Abfall rausbringen - multi-word expression
+ordentlich - adjective
+Ordnung, die - noun
+putzen - verb
+Putzfrau, die - noun
+Putzmann, der - noun
+Putzmittel, das - noun
+rein - adjective
+reinigen - verb
+Reinigung, die - noun
+Reinigungskraft, die - noun
+sauber - adjective
+sauber machen - verb
+säubern - verb
+Saustall, der - noun
+Schmutz, der - noun
+schmutzig - adjective
+Schwamm, der - noun
+Spüle, die - noun
+spülen - verb
+spülen: (das) Geschirr spülen - multi-word expression
+Spülmaschine, die - noun
+Spülmittel, das - noun
+Staub saugen - multi-word expression
+Staub wischen - multi-word expression
+Staub, der - noun
+staubsaugen - verb
+Staubsauger, der - noun
+Wäsche waschen - multi-word expression
+Wäsche, die - noun
+waschen - verb
+Wäscheständer, der - noun
+Wäschetrockner, der - noun
+Waschmaschine, die - noun
+Waschmittel, das - noun
+wischen - verb
+
+Cleaner
+Putzfrau, die - noun
+Putzmann, der - noun
+Reinigungskraft, die - noun
+
+Instrument
+Besen, der - noun
+Bügelbrett, das - noun
+Bügeleisen, das - noun
+Bürste, die - noun
+Kehrblech, das - noun
+Kehrschaufel, die - noun
+Lappen, der - noun
+Schwamm, der - noun
+Spüle, die - noun
+Spülmaschine, die - noun
+Staubsauger, der - noun
+Wäscheständer, der - noun
+Wäschetrockner, der - noun
+Waschmaschine, die - noun
+
+Medium
+Putzmittel, das - noun
+Spülmittel, das - noun
+Waschmittel, das - noun
+
+Mess
+Fleck: der Fleck, der Flecken - noun
+Müll, der - noun
+Schmutz, der - noun
+Staub, der - noun
+
+Cleaning activities
+abräumen - verb
+abtrocknen - verb
+abwaschen - verb
+aufräumen - verb
+Bett: das Bett machen - multi-word expression
+bügeln - verb
+fegen - verb
+kehren - verb
+Müll: den Müll / den Abfall rausbringen - multi-word expression
+putzen - verb
+reinigen - verb
+sauber machen - verb
+säubern - verb
+spülen - verb
+spülen: (das) Geschirr spülen - multi-word expression
+Staub saugen - multi-word expression
+Staub wischen - multi-word expression
+staubsaugen - verb
+Wäsche waschen - multi-word expression
+waschen - verb
+wischen - verb
+",https://frames.coerll.utexas.edu/frames/cleaning,Emptying,TooSpecific
+Clothing,"This frame refers to Clothing and its characteristics, including anything that people conventionally wear. The Wearer wears a piece of Clothing that is made of a certain material and can have a certain style. In some cases, the Body_location (where the garment is worn) may be specified. Clothing_parts are included in this frame.","Clothing
+Body_location
+Clothing_part
+Wearer","Clothing
+Absatz, der - noun
+Anzug, der - noun
+Ärmel, der - noun
+Badeanzug, der - noun
+Badehose, die - noun
+Badelatschen, die - noun
+Bekleidung, die - noun
+BH, der - noun
+Bikini, der - noun
+Bluse, die - noun
+Boxershorts (pl.), die - noun
+Fäustling, der - noun
+Fliege, die - noun
+Flipflop, der - noun
+Garderobe, die - noun
+Gürtel, der - noun
+Handschuh, der - noun
+Hemd, das - noun
+Höschen, das - noun
+Hose, die - noun
+Hosenbein, das - noun
+Hosentasche, die - noun
+Hut, der - noun
+Jacke, die - noun
+Jeans, die - noun
+Kappe, die - noun
+Kapuze, die - noun
+Klamotten, die - noun
+Kleid, das - noun
+Kleidung, die - noun
+Kleidungsstück, das - noun
+Klettverschluss, der - noun
+Knopf, der - noun
+Kopfbedeckung, die - noun
+Kopftuch, das - noun
+Kostüm, das - noun
+Kragen, der - noun
+Krawatte, die - noun
+Mantel, der - noun
+Mode, die - noun
+Mütze, die - noun
+Nachthemd, das - noun
+Pantoffel, der - noun
+Pullover, der - noun
+Pyjama, der / das - noun
+Reißverschluss, der - noun
+Rock, der - noun
+Sandale, die - noun
+Sandalette die - noun
+Saum, der - noun
+Schal, der - noun
+Schlafanzug, der - noun
+Schlips, der - noun
+Schlüpfer, der - noun
+Schnürsenkel, der - noun
+Schuh, der - noun
+Schürze, die - noun
+Shorts (pl.), die - noun
+Slip, der - noun
+Socke, die - noun
+Sohle, die - noun
+Stiefel, der - noun
+Strumpf, der - noun
+Strumpfhose, die - noun
+Sweatshirt, das - noun
+T-Shirt, das - noun
+Tasche, die - noun
+Uniform, die - noun
+Unterhose, die - noun
+Unterwäsche, die - noun
+Weste, die - noun
+
+Clothing_parts
+Absatz, der - noun
+Ärmel, der - noun
+Hosenbein, das - noun
+Hosentasche, die - noun
+Kapuze, die - noun
+Klettverschluss, der - noun
+Knopf, der - noun
+Kragen, der - noun
+Reißverschluss, der - noun
+Saum, der - noun
+Schnürsenkel, der - noun
+Sohle, die - noun
+Tasche, die - noun
+",https://frames.coerll.utexas.edu/frames/clothing,Clothing,ExactMatch
+Clothing Accessories,"A Wearer wears Accessories, which are made of some Material. The Body_part and/or  the Clothing on which the Accessory is worn or attached might be mentioned. Most of the Accessories are non-essential (clothing) items.","Accessory
+Body_part
+Clothing
+Material
+Wearer","Clothing Accessories
+Accessoire, das - noun
+Armband, das - noun
+Armreifen, der - noun
+Brille, die - noun
+Brosche, die - noun
+Gürtel, der - noun
+Hosenträger, der - noun
+Kette, die - noun
+Ohrring, der - noun
+Schmuck, der - noun
+Tuch, das - noun
+Uhr, die - noun
+",https://frames.coerll.utexas.edu/frames/clothing%20accessories,Clothing_parts,WeakMatch
+Communication: Request,"In this frame, a Speaker asks an Addressee for something, or asks them to carry out some action.
+The Speaker is typically the subject of the communication verb, while the Addressee is often realized as the direct object (as in, ""Ich frage dich!""  ""I ask you!"") or with a preposition (as in, ""er verlangt von mir,  dass ich ihm helfe,""     ""he asks of me,  that I help him""). The Message can be expressed in a variety of ways, such as a direct quote, a clause, or a noun phrase (see examples in particular LU entries for LU-specific details of how to express the Message). Least frequent of all the FEs in this frame is the Medium used to convey the Message, which could be something like: ""in einem Brief"" (""in a letter""), ""am Telefon"" (""on the phone""), ""per Email"" (""by email""), or ""im Internet"" (""on the internet""). Although this FE can theoretically be included in any Request evoking sentence, it is rarely encountered, and never mandatory.","Speaker
+Addressee
+Message
+Medium","Communication: Request
+Aufforderung, die - noun
+Befehl, der - noun
+befehlen - verb
+bestellen - verb
+bitten - verb
+einbestellen - verb
+einladen - verb
+Einladung, die - noun
+fordern - verb
+fragen - verb
+Nachfrage, die - noun
+sagen - verb
+verlangen - verb
+",https://frames.coerll.utexas.edu/frames/communication:%20request,Request,ExactMatch
+Danger,"There is a likelihood that some Danger will cause harm to an Asset.  Often, a person (the Protagonist) possesses the Asset and is thus vulnerable to the negative impact of the Danger. This frame covers situations that range from taking risks, to being in danger (or safe), to protecting or rescuing an Asset.","Asset
+Protagonist
+Danger
+Cause
+Protector","Danger
+anfällig - adjective
+bedrohen - verb
+bedroht - adjective
+Bedrohung, die - noun
+drohen - verb
+Drohung, die - noun
+Gefahr, die - noun
+gefährden - verb
+gefährdet - adjective
+gefährlich - adjective
+geschützt - adjective
+hüten - verb
+retten - verb
+Risiko, das - noun
+riskant - adjective
+riskieren - verb
+Schutz, der - noun
+schützen - verb
+sicher - adjective
+Sicherheit, die - noun
+unsicher - adjective
+wagen - verb
+wagen: sich wagen - verb
+
+In Danger
+bedrohen - verb
+bedroht - adjective
+Bedrohung, die - noun
+drohen - verb
+Drohung, die - noun
+sicher - adjective
+Sicherheit, die - noun
+unsicher - adjective
+
+Taking Risks
+Risiko, das - noun
+riskant - adjective
+riskieren - verb
+wagen - verb
+wagen: sich wagen - verb
+
+Protecting and Saving
+geschützt - adjective
+hüten - verb
+retten - verb
+Schutz, der - noun
+schützen - verb
+",https://frames.coerll.utexas.edu/frames/danger,Being_at_risk,TooGeneral
+Deciding,"In this frame, a person, the Cognizer, makes a choice in favor of a particular entity or course of action (the Chosen). The Chosen is one of several options included in a set of Possibilities, and is selected with some intended Purpose in mind, and an Explanation may be given, which serves as the basis for the choice. Because the Purpose and Explanation involve potential causation, you can find ways to express them in the Causation frame (e.g. ""um...zu,"" ""in order to,"" and ""weil,"" ""because"").
+
+Rarely, the general Topic (about which the decision is made) can be added, as in ""Auf der Versammlung sollten wir  über den Zukunftsplan beschließen."" (""At the meeting, we should decide about the future plan."").","Cognizer
+Chosen
+Possibilities
+Purpose
+Explanation
+Topic","Deciding
+aussuchen: (sich) etwas aussuchen - verb
+Auswahl, die - noun
+beschließen - verb
+entscheiden: sich entscheiden - verb
+Entscheidung, die - noun
+Entscheidung: eine Entscheidung treffen - multi-word expression
+entschließen: sich entschließen - verb
+feststellen - verb
+Wahl, die - noun
+wählen - verb
+",https://frames.coerll.utexas.edu/frames/deciding,Choosing,ExactMatch
+Desire,"In this frame someone (the Experiencer) wants something to happen - namely, an Event. The Event is some kind of change that affects someone or something (the Affected). Generally, using lexical units in this frame implies that the Event has not actually happened yet, but that the Experiencer believes they would be happier or better off if it did.","Experiencer
+Event
+Affected","Desire
+begehren - verb
+Drang, der - noun
+Ehrgeiz, der - noun
+hoffen - verb
+Hoffnung, die - noun
+Lust haben - multi-word expression
+möchten - verb
+sehnen: sich sehnen (nach) - verb
+Sehnsucht, die - noun
+widerwillig - adverb
+wollen - verb
+wünschen: (sich) wünschen - verb
+",https://frames.coerll.utexas.edu/frames/desire,Desiring,TooSpecific
+Eating and Drinking,An Ingestor consumes food or drink (Ingestibles). This may include the use of an instrument. Sentences that describe the provision of food to others are NOT included in this frame. The subframe Places to eat includes LUs that name places where Ingestors can eat and / or drink.,"Ingestor
+Ingestibles","Eating and Drinking
+Abendessen, das - noun
+Ananas, die - noun
+Apfel, der - noun
+Apfelmus: das / der Apfelmus - noun
+Apfelsine, die - noun
+Apfelstrudel, der - noun
+Aprikose, die - noun
+Artischocke, die - noun
+Aubergine, die - noun
+Auflauf, der - noun
+Aufschnitt, der - noun
+Aufstrich, der - noun
+Backwaren, die (pl.) - noun
+Ballaststoff, der - noun
+Banane, die - noun
+Beilage, die - noun
+Birne, die - noun
+Blumenkohl, der - noun
+Bohne, die - noun
+Bonbon: das Bonbon / der Bonbon - noun
+Bratkartoffel, die - noun
+Brezel, die - noun
+Brokkoli, der - noun
+Brot, das - noun
+Brötchen, das - noun
+Butter, die - noun
+Döner, der - noun
+Durst, der - noun
+durstig - adjective
+Ei, das - noun
+Eis, das - noun
+Erdbeere, die - noun
+essen - verb
+Essen, das - noun
+Fett, das - noun
+Fisch, der - noun
+Fleisch, das - noun
+fressen - verb
+Fritten, die (pl.) - noun
+Frühstück, das - noun
+frühstücken - verb
+Futter, das - noun
+Garnele, die - noun
+Gemüse, das - noun
+Gericht, das - noun
+Gewürz, das - noun
+Gurke, die - noun
+Hackfleisch, das - noun
+Hähnchen, das - noun
+Hamburger, der - noun
+Himbeere, die - noun
+Honig, der - noun
+Hühnerfleisch, das - noun
+Hunger, der - noun
+hungrig - adjective
+Imbiss, der - noun
+Joghurt, der or das - noun
+Johannisbeere, die - noun
+Kalorie, die - noun
+Karotte, die - noun
+Kartoffel, die - noun
+Kartoffelchips, die (pl.) - noun
+Käse, der - noun
+Keks, der - noun
+Kirsche, die - noun
+Knoblauch, der - noun
+Kuchen, der - noun
+Lauch, der - noun
+Lebensmittel, das - noun
+lecker - adjective
+Mahl, das - noun
+Mahlzeit, die - noun
+Mais, der - noun
+Margarine, die - noun
+Marmelade, die - noun
+Meeresfrüchte, die (pl.) - noun
+Mittagessen, das - noun
+Möhre, die - noun
+Mohrrübe, die - noun
+Müsli, das - noun
+Nahrung, die - noun
+naschen - verb
+Nudel, die - noun
+Nutella: das / die Nutella - noun
+Obst, das - noun
+Öl, das - noun
+Olivenöl, das - noun
+Orange, die - noun
+Paprika, der - noun
+Paprika, die - noun
+Pasta, die - noun
+Pfeffer, der - noun
+Pfirsich, der - noun
+Pflaume, die - noun
+Pilz, der - noun
+Pizza, die - noun
+Pommes, die (pl.) - noun
+Popcorn, das - noun
+Praline, die - noun
+Putenfleisch, das - noun
+Quark, der - noun
+Reis, der - noun
+Rezept, das - noun
+Rindfleisch, das - noun
+Sahne, die - noun
+Salat, der - noun
+Salz, das - noun
+Sandwich, das - noun
+satt - adjective
+saufen - verb
+Schinken, der - noun
+schlucken - verb
+schmecken - verb
+Schnitzel: das Wiener Schnitzel - noun
+Schokolade, die - noun
+Schweinefleisch, das - noun
+Senf, der - noun
+Speck, der - noun
+Speise, die - noun
+speisen - verb
+Suppe, die - noun
+Süßigkeit, die - noun
+Thunfisch, der - noun
+Toast, der - noun
+Tomate, die - noun
+Torte, die - noun
+Traube, die - noun
+trinken - verb
+Truthahn, der - noun
+Wassermelone, die - noun
+Wurst, die - noun
+Zitrone, die - noun
+Zucker, der - noun
+Zutat, die - noun
+Zwiebel, die - noun
+
+Places to eat
+Bar, die - noun
+Besenwirtschaft, die - noun
+Biergarten, der - noun
+Café, das - noun
+Cafeteria, die - noun
+Chinese, der - noun
+Dönerbude, die - noun
+Esszimmer, das - noun
+Gasthaus, das - noun
+Grieche, der - noun
+Imbiss, der - noun
+Italiener, der - noun
+Japaner, der - noun
+Kneipe, die - noun
+Küche, die - noun
+Mensa, die - noun
+Mexikaner, der - noun
+Pizzeria, die - noun
+reservieren - verb
+Restaurant, das - noun
+Schnellimbiss, der - noun
+
+Food
+Ananas, die - noun
+Apfel, der - noun
+Apfelmus: das / der Apfelmus - noun
+Apfelsine, die - noun
+Apfelstrudel, der - noun
+Aprikose, die - noun
+Artischocke, die - noun
+Aubergine, die - noun
+Auflauf, der - noun
+Aufschnitt, der - noun
+Aufstrich, der - noun
+Backwaren, die (pl.) - noun
+Ballaststoff, der - noun
+Banane, die - noun
+Beilage, die - noun
+Birne, die - noun
+Blumenkohl, der - noun
+Bohne, die - noun
+Bonbon: das Bonbon / der Bonbon - noun
+Bratkartoffel, die - noun
+Brezel, die - noun
+Brokkoli, der - noun
+Brot, das - noun
+Brötchen, das - noun
+Butter, die - noun
+Döner, der - noun
+Ei, das - noun
+Eis, das - noun
+Erdbeere, die - noun
+Fett, das - noun
+Fisch, der - noun
+Fleisch, das - noun
+Fritten, die (pl.) - noun
+Garnele, die - noun
+Gemüse, das - noun
+Gewürz, das - noun
+Gurke, die - noun
+Hackfleisch, das - noun
+Hähnchen, das - noun
+Hamburger, der - noun
+Himbeere, die - noun
+Honig, der - noun
+Hühnerfleisch, das - noun
+Joghurt, der or das - noun
+Johannisbeere, die - noun
+Kalorie, die - noun
+Karotte, die - noun
+Kartoffel, die - noun
+Kartoffelchips, die (pl.) - noun
+Käse, der - noun
+Keks, der - noun
+Kirsche, die - noun
+Knoblauch, der - noun
+Kuchen, der - noun
+Lauch, der - noun
+Lebensmittel, das - noun
+Mais, der - noun
+Margarine, die - noun
+Marmelade, die - noun
+Meeresfrüchte, die (pl.) - noun
+Möhre, die - noun
+Mohrrübe, die - noun
+Müsli, das - noun
+Nudel, die - noun
+Nutella: das / die Nutella - noun
+Obst, das - noun
+Öl, das - noun
+Olivenöl, das - noun
+Orange, die - noun
+Paprika, der - noun
+Paprika, die - noun
+Pasta, die - noun
+Pfeffer, der - noun
+Pfirsich, der - noun
+Pflaume, die - noun
+Pilz, der - noun
+Pizza, die - noun
+Pommes, die (pl.) - noun
+Popcorn, das - noun
+Praline, die - noun
+Putenfleisch, das - noun
+Quark, der - noun
+Reis, der - noun
+Rindfleisch, das - noun
+Sahne, die - noun
+Salat, der - noun
+Salz, das - noun
+Sandwich, das - noun
+Schinken, der - noun
+Schnitzel: das Wiener Schnitzel - noun
+Schokolade, die - noun
+Schweinefleisch, das - noun
+Senf, der - noun
+Speck, der - noun
+Suppe, die - noun
+Süßigkeit, die - noun
+Thunfisch, der - noun
+Toast, der - noun
+Tomate, die - noun
+Torte, die - noun
+Traube, die - noun
+Truthahn, der - noun
+Wassermelone, die - noun
+Wurst, die - noun
+Zitrone, die - noun
+Zucker, der - noun
+Zutat, die - noun
+Zwiebel, die - noun
+
+Beverages
+Alkohol, der - noun
+alkoholfrei - adjective
+alkoholisch - adjective
+Bier, das - noun
+Cola, die - noun
+Getränk, das - noun
+Kaffee, der - noun
+Limonade, die - noun
+Milch, die - noun
+Mineralwasser, das - noun
+Saft, der - noun
+Sekt, der - noun
+Tee, der - noun
+Wasser: das stille Wasser - noun
+Wein, der - noun
+
+Eating and Drinking: General terms
+Abendessen, das - noun
+Durst, der - noun
+durstig - adjective
+essen - verb
+Essen, das - noun
+fressen - verb
+Frühstück, das - noun
+frühstücken - verb
+Futter, das - noun
+Gericht, das - noun
+Hunger, der - noun
+hungrig - adjective
+Imbiss, der - noun
+lecker - adjective
+Mahl, das - noun
+Mahlzeit, die - noun
+Mittagessen, das - noun
+Nahrung, die - noun
+naschen - verb
+Rezept, das - noun
+satt - adjective
+saufen - verb
+schlucken - verb
+schmecken - verb
+Speise, die - noun
+speisen - verb
+trinken - verb
+",https://frames.coerll.utexas.edu/frames/Eating_and_Drinking,Ingestion,ExactMatch
+Education,"This frame contains words referring to teaching and learning, including people and things involved in the process. A Student comes to learn about a Subject, a Skill, or a Fact, as a result of instruction by a Teacher. Formal education takes place at Institutions in which students take Courses in order to reach a Qualification, but a Student can also study on their own","Student
+Teacher
+Course
+Institution
+Material
+Fact
+Skill
+Subject
+Qualification","Education
+Abitur, das: das Abitur machen - noun
+Abiturient: der Abiturient / die Abiturientin - noun
+abschließen (das Studium abschließen) - verb
+Absolvent: der Absolvent / die Absolventin - noun
+Bafög, (das) - noun
+beibringen - verb
+belegen - verb
+bestehen: die Prüfung / den Test bestehen - verb
+Bibliothek, die - noun
+büffeln - verb
+Doktorand: der Doktorand / die Doktorandin - noun
+Dozent: der Dozent / die Dozentin - noun
+durchfallen - verb
+durchkommen - verb
+einschreiben: (sich) einschreiben - verb
+exmatrikulieren - verb
+Gesamtschule, die - noun
+Gymnasium, das - noun
+Hauptschule, die - noun
+Hörsaal, der - noun
+immatrikulieren, (sich) immatrikulieren - verb
+Kita, die - noun
+Klasse, die - noun
+Klassenzimmer, das - noun
+Klausur, die - noun
+Kommilitone: der Kommilitone / die Kommilitonin - noun
+Kurs, der - noun
+lehren - verb
+Lehrer: der Lehrer / die Lehrerin - noun
+Lehrveranstaltung, die - noun
+lernen - verb
+lernen (für den / einen Test) - verb
+Mensa, die - noun
+Note, die - noun
+Professor: der Professor / die Professorin - noun
+Prüfung, die - noun
+Realschule, die - noun
+Schule, die - noun
+Schüler: der Schüler / die Schülerin - noun
+Schulferien, die - noun
+Schuljahr, das - noun
+Schulstunde, die - noun
+schwänzen - verb
+Semester, das - noun
+Semesterferien, die - noun
+Seminar, das - noun
+Seminarraum, der - noun
+Student: der Student / die Studentin - noun
+Studentenwohnheim, das - noun
+Studienfach, das - noun
+Studienjahr, das - noun
+studieren - verb
+Studierende: der Studierende, ein Studierender /die, eine Studierende - noun
+Uni, die - noun
+Unterricht, der - noun
+unterrichten - verb
+Unterrichtsstunde, die - noun
+Vorlesung, die - noun
+Vorlesungsverzeichnis, das - noun
+Zensur, die - noun
+Zeugnis, das - noun
+
+Learning & Studying
+büffeln - verb
+einschreiben: (sich) einschreiben - verb
+immatrikulieren, (sich) immatrikulieren - verb
+lernen - verb
+lernen (für den / einen Test) - verb
+schwänzen - verb
+studieren - verb
+
+Teaching
+beibringen - verb
+lehren - verb
+unterrichten - verb
+
+Schools
+Gesamtschule, die - noun
+Gymnasium, das - noun
+Hauptschule, die - noun
+Realschule, die - noun
+Schule, die - noun
+Uni, die - noun
+
+People
+Abiturient: der Abiturient / die Abiturientin - noun
+Absolvent: der Absolvent / die Absolventin - noun
+Doktorand: der Doktorand / die Doktorandin - noun
+Dozent: der Dozent / die Dozentin - noun
+Kommilitone: der Kommilitone / die Kommilitonin - noun
+Lehrer: der Lehrer / die Lehrerin - noun
+Professor: der Professor / die Professorin - noun
+Schüler: der Schüler / die Schülerin - noun
+Student: der Student / die Studentin - noun
+Studierende: der Studierende, ein Studierender /die, eine Studierende - noun
+
+Passing & Failing
+belegen - verb
+bestehen: die Prüfung / den Test bestehen - verb
+durchfallen - verb
+durchkommen - verb
+
+Classes & Courses
+einschreiben: (sich) einschreiben - verb
+Klasse, die - noun
+Kurs, der - noun
+Lehrveranstaltung, die - noun
+Schulstunde, die - noun
+Seminar, das - noun
+Studienfach, das - noun
+Unterricht, der - noun
+Unterrichtsstunde, die - noun
+Vorlesung, die - noun
+Vorlesungsverzeichnis, das - noun
+",https://frames.coerll.utexas.edu/frames/education,Education_teaching,ExactMatch
+Exercise and Fitness,"This frame describes situations in which a Person actively improves or maintains their fitness level through physical activity. Sometimes, the exercise targets a particular Body part. The specific Means of maintaining the Person’s fitness level may also be mentioned.","Person
+Means
+Body_part","Exercise and Fitness
+abnehmen - verb
+anspannen: sich / einen Körperteil anspannen - verb
+aufwärmen: sich / Muskeln aufwärmen - verb
+Ausdauertraining, das - noun
+dehnen: sich / Muskeln dehnen - verb
+Fett verbrennen - multi-word expression
+fit: sich fit halten - multi-word expression
+Fitness, die - noun
+Fitnesscenter, das - noun
+Fitnessstudio, das - noun
+Fitnessübung, die - noun
+Fitnesszentrum, das - noun
+Gewicht: das / sein Gewicht (stabil) halten - multi-word expression
+Gewichte heben - multi-word expression
+joggen - verb
+Klimmzug, der - noun
+Kniebeuge, die - noun
+Krafttraining, das - noun
+Liegestütz, der - noun
+lockern: (Muskeln, Körperteil) lockern - verb
+machen: (Yoga usw.) machen - verb
+Matte, die - noun
+Muckibude, die - noun
+Muskelkater, der - noun
+Muskeln aufbauen - multi-word expression
+Rumpfbeuge, die - noun
+Rumpfheben, das - noun
+Schwimmbad, das - noun
+spielen: (Fußball etc.) spielen - verb
+Sport treiben - multi-word expression
+Sport, der - noun
+Sportart, die - noun
+Sportkurs, der - noun
+Sportler: der Sportler / die Sportlerin - noun
+Sportzentrum, das - noun
+Stadion, das - noun
+Trainer: der Trainer / die Trainerin - noun
+trainieren - verb
+Turnhalle, die - noun
+zum Sport gehen - multi-word expression
+zunehmen - verb
+",https://frames.coerll.utexas.edu/frames/exercise%20and%20fitness,Exercising,ExactMatch
+Experiencing Emotion,"In this frame, an Experiencer has emotions, either concerning some Content or a Topic, or caused by a Stimulus. Emotion, here, refers to a broad range of subjective experiences or reactions, including states of mental stimulation, like being interested.","Experiencer
+Content
+Topic
+Stimulus","Experiencing Emotion
+Angst, die - noun
+ärgern - verb
+aufregen - verb
+aufregend - adjective
+beeindrucken - verb
+begeistert - adjective
+beneiden (jdn. um etw.) - verb
+bereuen - verb
+böse (auf jmdn. sein) - adjective
+depressiv - adjective
+egal: jdm. egal sein - multi-word expression
+eifersüchtig - adjective
+einschüchtern - verb
+entsetzt - adjective
+enttäuschen - verb
+enttäuschend - adjective
+Enttäuschung, die - noun
+Freude, die - noun
+froh - adjective
+fürchten - verb
+gefallen (dat.) - verb
+genießen - verb
+gern - adverb
+gern haben - multi-word expression
+glücklich - adjective
+Hass, der - noun
+hassen - verb
+Interesse, das - noun
+interessieren - verb
+jdm. Wurst sein - multi-word expression
+lieben - verb
+Mitleid, das - noun
+mögen - verb
+neidisch - adjective
+Nerven: jdm. auf die Nerven gehen - multi-word expression
+nervös - adjective
+schämen: sich (akk.) schämen - verb
+schockieren - verb
+Sorge, die: sich (dat.) Sorgen machen (um) - multi-word expression
+sorgen: sich sorgen (um etwas / jemanden) - verb
+Spaß, der - noun
+traurig - adjective
+trösten - verb
+überraschen - verb
+vermissen - verb
+verzweifelt - adjective
+wütend - adjective
+zufrieden - adjective
+
+Like, Dislike, Interest
+egal: jdm. egal sein - multi-word expression
+gefallen (dat.) - verb
+gern - adverb
+gern haben - multi-word expression
+Hass, der - noun
+hassen - verb
+Interesse, das - noun
+interessieren - verb
+jdm. Wurst sein - multi-word expression
+lieben - verb
+mögen - verb
+
+Positive Feelings
+beeindrucken - verb
+begeistert - adjective
+Freude, die - noun
+froh - adjective
+genießen - verb
+glücklich - adjective
+Spaß, der - noun
+trösten - verb
+zufrieden - adjective
+
+Negative Feelings
+Angst, die - noun
+ärgern - verb
+aufregen - verb
+beneiden (jdn. um etw.) - verb
+bereuen - verb
+böse (auf jmdn. sein) - adjective
+depressiv - adjective
+eifersüchtig - adjective
+einschüchtern - verb
+entsetzt - adjective
+enttäuschen - verb
+enttäuschend - adjective
+Enttäuschung, die - noun
+fürchten - verb
+Mitleid, das - noun
+neidisch - adjective
+Nerven: jdm. auf die Nerven gehen - multi-word expression
+nervös - adjective
+schämen: sich (akk.) schämen - verb
+schockieren - verb
+Sorge, die: sich (dat.) Sorgen machen (um) - multi-word expression
+sorgen: sich sorgen (um etwas / jemanden) - verb
+traurig - adjective
+überraschen - verb
+vermissen - verb
+verzweifelt - adjective
+wütend - adjective
+",https://frames.coerll.utexas.edu/frames/experiencing%20emotion,Experiencer_focused_emotion,ExactMatch
+Family and Relatives,"This frame contains words that denote kinship relations, i.e. the terms for family members and relatives. In annotations, we use the frame elements Relative_1 and Relative_2, or Relatives when they appear together.","Relative_1
+Relative_2
+Relatives","Family and Relatives
+adoptieren - verb
+adoptiv- - prefix
+Bruder, der - noun
+Cousin, der - noun
+Cousine / Kusine, die - noun
+Einzelkind, das - noun
+Eltern, die - noun
+Enkel: der Enkel / die Enkelin - noun
+Familie, die - noun
+Familienmitglied, das - noun
+Geschwister, die - noun
+Großmutter, die - noun
+Großonkel, der - noun
+Großtante, die - noun
+Großvater, der - noun
+halb - adjective
+Heirat, die - noun
+heiraten - verb
+Hochzeit, die - noun
+Kind, das - noun
+leiblich - adjective
+Mama, die - noun
+Mutter, die - noun
+mütterlich - adjective
+mütterlicherseits - adverb
+Neffe, der - noun
+Nichte, die - noun
+Oma, die - noun
+Onkel, der - noun
+Opa, der - noun
+Papa, der - noun
+Patchworkfamilie, die - noun
+Pate, der - noun
+Patenkind, das - noun
+Patin, die - noun
+Polterabend, der - noun
+Schwager, der - noun
+Schwägerin, die - noun
+Schwester, die - noun
+schwieger- - prefix
+Sohn, der - noun
+Stammbaum, der - noun
+stief- - prefix
+Tante, die - noun
+Tochter, die - noun
+ur- - prefix
+Vater, der - noun
+väterlich - adjective
+väterlicherseits - adverb
+Verwandte: der / die Verwandte - noun
+Zwilling, der - noun
+Zwillingsbruder, der - noun
+Zwillingsschwester, die - noun
+",https://frames.coerll.utexas.edu/frames/family%20and%20relatives,Kinship,ExactMatch
+Fighting,"These lexical units describe a conflict between two Sides  (Side_1 and Side_2) who disagree on some Issue. The encounter takes the form of a physical fight, and may have a Purpose that the Sides hope to achieve. The difference between the Fighting frame and the Arguing frame is that Fighting always involves some sort of physical altercation, while Arguing denotes a verbal conflict (which may or may not escalate to violence). 
+
+One of the Sides may use an Instrument in the fight (e.g. ""er greift ihn mit einem Messer   an,"" ""he attacks him with a knife""). ","Side_1
+Side_2
+Sides
+Issue
+Purpose
+Instrument","Fighting
+angreifen - verb
+Kampf, der - noun
+kämpfen - verb
+Konflikt, der - noun
+Krieg, der - noun
+",https://frames.coerll.utexas.edu/frames/fighting,Quarreling,TooSpecific
+Grooming,"In this frame, an Agent engages in personal body care (of either themself or someone else; the Patient is the one being groomed). Sometimes, a specific Body Part of the Patient is mentioned. An Instrument (e.g. a wash cloth) can be used in this process as well as a Medium (e.g. soap and water).","Agent
+Body_part
+Patient
+Instrument
+Medium","Grooming
+baden - verb
+Bürste, die - noun
+bürsten (die Haare bürsten) - verb
+Creme, die - noun
+duschen - verb
+eincremen - verb
+Friseur, zum Friseur gehen - multi-word expression
+Haar, das: (sich) die Haare schneiden lassen - multi-word expression
+Kamm, der - noun
+kämmen (die Haare kämmen) - verb
+maniküren (sich maniküren lassen) - verb
+putzen (die Zähne putzen) - verb
+rasieren - verb
+schminken - verb
+schrubben - verb
+Seife, die - noun
+Shampoo, das - noun
+waschen - verb
+Waschlappen, der - noun
+Zahnbürste, die - noun
+Zahnpasta, die - noun
+Zahnseide benutzen - verb
+zupfen - verb
+",https://frames.coerll.utexas.edu/frames/grooming,Grooming,ExactMatch
+Personal Relationship,"The lexical units in this frame have to do with Partners involved in personal relationships; sometimes they are mentioned separately (as Partner_1 and Partner_2). Some of the words denote people engaged in a particular kind of relationship, others denote the relationship itself, and still others the events bringing about or ending the relationships. Read the Details for these lexical units carefully -- German and English speakers use many of them in very different ways (in relation to both cultural meaning and grammatical use)!","Partner_2
+Partner_1
+Partners","Personal Relationship
+Affäre, die - noun
+anmachen - verb
+befreunden: sich (acc.) befreunden (mit) - verb
+befreundet sein (mit) - multi-word expression
+Bekannte: der Bekannte, ein Bekannter / die, eine Bekannte - noun
+Beziehung, die - noun
+Clique, die - noun
+Ehe, die - noun
+Eheleute, die (pl.): der Ehemann / die Ehefrau - noun
+Fernbeziehung, die - noun
+flirten - verb
+Frau, die - noun
+Freund, der - noun
+Freund: der Freund / die Freundin - noun
+Freundin, die - noun
+Freundschaft, die - noun
+Geliebte: der Geliebte, ein Geliebter / die, eine Geliebte - noun
+geschieden - adjective
+Junggeselle, der - noun
+kennenlernen - verb
+Kumpel, der - noun
+Lebensgefährte: der Lebensgefährte / die Lebensgefährtin - noun
+ledig - adjective
+Mann, der - noun
+Paar, das - noun
+Partner: der Partner / die Partnerin - noun
+Romanze, die - noun
+scheiden: sich (acc.) von jdm. scheiden lassen - verb
+Scheidung, die - noun
+schlafen: mit jemandem schlafen - multi-word expression
+Schluss machen (mit) - multi-word expression
+Single, der - noun
+trennen: sich (acc.) trennen (von) - verb
+Verabredung, die - noun
+Verhältnis, das - noun
+verheiratet - adjective
+verknallt (in+acc.) - adjective
+verlieben: sich (acc.) verlieben (in+acc.) - verb
+verliebt (in+acc.) - adjective
+verloben: sich (acc.) verloben (mit) - verb
+verlobt - adjective
+Verlobte: der Verlobte, ein Verlobter / die, eine Verlobte - noun
+Verlobung, die - noun
+Witwe: die Witwe / der Witwer - noun
+zusammen sein: mit jdm. zusammen sein - multi-word expression
+
+Friendship
+befreunden: sich (acc.) befreunden (mit) - verb
+befreundet sein (mit) - multi-word expression
+Bekannte: der Bekannte, ein Bekannter / die, eine Bekannte - noun
+Clique, die - noun
+Freund: der Freund / die Freundin - noun
+Freundschaft, die - noun
+Kumpel, der - noun
+
+Dating
+Fernbeziehung, die - noun
+Freund, der - noun
+Freundin, die - noun
+Geliebte: der Geliebte, ein Geliebter / die, eine Geliebte - noun
+Schluss machen (mit) - multi-word expression
+trennen: sich (acc.) trennen (von) - verb
+Verabredung, die - noun
+verlieben: sich (acc.) verlieben (in+acc.) - verb
+verliebt (in+acc.) - adjective
+zusammen sein: mit jdm. zusammen sein - multi-word expression
+
+Marriage
+Affäre, die - noun
+Ehe, die - noun
+Eheleute, die (pl.): der Ehemann / die Ehefrau - noun
+Frau, die - noun
+geschieden - adjective
+Mann, der - noun
+scheiden: sich (acc.) von jdm. scheiden lassen - verb
+Scheidung, die - noun
+trennen: sich (acc.) trennen (von) - verb
+verheiratet - adjective
+verloben: sich (acc.) verloben (mit) - verb
+verlobt - adjective
+Verlobte: der Verlobte, ein Verlobter / die, eine Verlobte - noun
+Verlobung, die - noun
+Witwe: die Witwe / der Witwer - noun
+
+Single (or not)
+anmachen - verb
+Beziehung, die - noun
+flirten - verb
+Junggeselle, der - noun
+kennenlernen - verb
+Lebensgefährte: der Lebensgefährte / die Lebensgefährtin - noun
+ledig - adjective
+Paar, das - noun
+Partner: der Partner / die Partnerin - noun
+Romanze, die - noun
+schlafen: mit jemandem schlafen - multi-word expression
+Single, der - noun
+Verhältnis, das - noun
+verknallt (in+acc.) - adjective
+",https://frames.coerll.utexas.edu/frames/personal%20relationship,Personal_relationship,ExactMatch
+Relaxing and Resting,Words in the Relaxing and Resting frame describe situations in which the Relaxer (or a specific Body_part of the Relaxer) recovers from an Impairment or an earlier Activity to regain their previous strength and condition. A Stimulus may cause the Relaxer to unwind and recover.,"Relaxer
+Body_part
+Activity
+Impairment
+Stimulus","Relaxing and Resting
+abschalten - verb
+abspannen - verb
+ausgeruht - adjective
+ausruhen: (sich) ausruhen - verb
+chillen - verb
+entspannen: (sich) entspannen - verb
+entspannend - adjective
+entspannt - adjective
+Entspannung, die - noun
+erholen: (sich) erholen - verb
+erholsam - adjective
+Erholung, die - noun
+faulenzen - verb
+Pause, die - noun
+pausieren - verb
+Rast, die - noun
+rasten - verb
+relaxen - verb
+relaxt, relaxed - adjective
+Ruhe, die - noun
+ruhen - verb
+verschnaufen - verb
+",https://frames.coerll.utexas.edu/frames/relaxing%20and%20resting,Rejuvenation,WeakMatch
+Sleep,"A Sleeper enters a state of unconsciousness, remains in this state for some amount of time, and then returns to full wakeful consciousness. This process includes the following steps: falling asleep, sleeping, waking up and getting up.",Sleeper,"Sleep
+Alptraum, der - noun
+aufstehen - verb
+aufwachen - verb
+ausschlafen - verb
+bewusstlos - adjective
+Bewusstsein: das Bewusstsein verlieren - multi-word expression
+dösen - verb
+einschlafen - verb
+müde - adjective
+Ohnmacht: in Ohnmacht fallen - multi-word expression
+Schlaf, der - noun
+Schläfchen, das - noun
+schlafen - verb
+schläfrig - adjective
+Schlummertaste, die - noun
+Traum, der - noun
+verschlafen - verb
+wach - adjective
+wecken - verb
+Wecker, der - noun
+
+Falling Asleep
+dösen - verb
+einschlafen - verb
+müde - adjective
+schläfrig - adjective
+
+Sleeping
+Alptraum, der - noun
+ausschlafen - verb
+Schlaf, der - noun
+Schläfchen, das - noun
+schlafen - verb
+Traum, der - noun
+verschlafen - verb
+
+Waking
+aufstehen - verb
+aufwachen - verb
+Schlummertaste, die - noun
+wecken - verb
+Wecker, der - noun
+
+Losing Consciousness
+bewusstlos - adjective
+Bewusstsein: das Bewusstsein verlieren - multi-word expression
+Ohnmacht: in Ohnmacht fallen - multi-word expression
+",https://frames.coerll.utexas.edu/frames/sleep,Sleep_wake_cycle,ExactMatch
+Taste and Smell,"The words in this frame have to do with an Experiencer perceiving tastes and smells of a Source. The Source can be a variety of items like foods and drinks, flowers, air, etc. The Descriptors (e.g. sweet or pungent) describe the tastes and smells that can be perceived from the Source. The Attribute describes the kind of perception, i.e. if it is a taste sensation, a smell sensation or both. 
+
+","Source
+Descriptor
+Attribute
+Experiencer","Taste and Smell
+beißend - adjective
+bitter - adjective
+blumig - adjective
+Duft, der - noun
+duften - verb
+fade - adjective
+Geruch, der - noun
+Geschmack, der - noun
+herzhaft - adjective
+leicht - adjective
+riechen - verb
+salzig - adjective
+sauer - adjective
+säuerlich - adjective
+scharf - adjective
+schmecken - verb
+süß - adjective
+süßlich - adjective
+würzig - adjective
+",https://frames.coerll.utexas.edu/frames/taste%20and%20smell,Perception_active,TooSpecific
+Thinking: Awareness,"Awareness is when a Cognizer has a piece of Content in their mental model of the world; they are aware of it. The Cognizer may become aware of the Content through direct perception, but usually awareness comes through deduction based on other things the Cognizer has perceived.
+
+This frame is distinct from the Certainty frame, in that it does not profile the relationship of the Cognizer to the Content (i.e. how certain they are that it is true), but rather presupposes it (the Cognizer in Awareness knows or assumes the Content to be true and includes it in their view of the world; their certainty of it is not at issue).","Cognizer
+Content
+Topic
+Expressor
+Degree","Thinking: Awareness
+ahnen - verb
+Ahnung, die - noun
+denken - verb
+Glaube, der - noun
+glauben (an+akk.) - verb
+Idee, die - noun
+Ignoranz, die - noun
+unbewusst - adverb
+vermuten - verb
+vermutlich - adverb
+verstehen - verb
+vorstellen: sich etwas vorstellen - verb
+wissen - verb
+Wissen, das - noun
+",https://frames.coerll.utexas.edu/frames/thinking:%20awareness,Awareness,ExactMatch
+Thinking: Certainty,"This frame concerns a Cognizer's certainty about the correctness of a belief or set of expectations, the Content or Topic. It only includes uses where a Cognizer is expressed. ","Cognizer
+Content
+Topic
+Expressor
+Degree","Thinking: Certainty
+Glaube, der - noun
+glauben - verb
+sicher - adjective
+sicher: sich (dat.) sicher sein - multi-word expression
+Zweifel, der - noun
+",https://frames.coerll.utexas.edu/frames/thinking:%20certainty,Certainty,ExactMatch
+Thinking: Familiarity,"This frame has to do with a Cognizer who is familiar with an Entity; this means the Cognizer has seen or experienced the Entity a number of times, causing the Entity to be recognizable to the Cognizer, to some Degree.","Cognizer
+Entity
+Degree","Thinking: Familiarity
+auskennen: sich auskennen - verb
+bekannt - adjective
+kennen - verb
+neu - adjective
+unbekannt - adjective
+",https://frames.coerll.utexas.edu/frames/thinking:%20familiarity,Familiarity,ExactMatch
+Thinking: Opinion,"A Cognizer holds a particular Opinion, which may be portrayed as being about a particular Topic.","Cognizer
+Opinion
+Topic
+Degree","Thinking: Opinion
+denken - verb
+finden - verb
+Gedanke, der - noun
+Glaube, der - noun
+glauben - verb
+meinen - verb
+Meinung, die - noun
+",https://frames.coerll.utexas.edu/frames/thinking:%20opinion,Opinion,ExactMatch
+Thinking: Pondering,"A person, the Cognizer, thinks about a Topic over a period of time. What is pondered may be a course of action that the person might take, or something more general.
+
+","Cognizer
+Topic","Thinking: Pondering
+denken (an+acc.) - verb
+Denken, das - noun
+fragen: sich (acc.) fragen - verb
+Gedanke, der - noun
+Gedanken: sich Gedanken machen (über+acc.) - multi-word expression
+Idee, die - noun
+nachdenken (über+acc.) - verb
+überlegen - verb
+",https://frames.coerll.utexas.edu/frames/thinking:%20pondering,Cogitation,ExactMatch
+Vehicle,"Words in this frame refer to Vehicles that people use to travel and for transportation. The subframe Vehicle Parts contains words that name parts of the whole Vehicle, i.e. those that appear as the frame element Vehicle_parts, and the subframe General terms includes terms that are related to vehicles and traffic in general.
+
+Because of the close real-world relationship between this frame and the related frames Vehicle: Operate and Vehicle: Ride, which deal with using vehicles as transportation, the frame elements Driver and Passenger from those frames are included here (after all, it wouldn't be a vehicle at all if it couldn't be used for transportation).
+
+","Vehicle_part
+Vehicle
+Driver
+Passenger","Vehicle
+Auto, das - noun
+Bahn, die - noun
+Billigflieger, der - noun
+Boot, das - noun
+Bremse, die - noun
+Bus, der - noun
+Cabrio, das - noun
+Einrad, das - noun
+Fahrrad, das - noun
+Fahrzeug, das - noun
+Flugzeug, das - noun
+Gurt, der - noun
+Hubschrauber, der - noun
+Hupe, die - noun
+Inliner, der - noun
+Inlineskate, der - noun
+Klingel, die - noun
+Kraftfahrzeug, das - noun
+Lenker, der - noun
+Lenkrad, das - noun
+Mietwagen, der - noun
+Moped, das - noun
+Motor, der - noun
+Motorrad, das - noun
+Motorroller, der - noun
+Oldtimer, der - noun
+Pedal, das - noun
+Rad, das - noun
+Rollschuh, der - noun
+S-Bahn, die - noun
+Schiff, das - noun
+Schlauch, der - noun
+Schlitten, der - noun
+Schlittschuh, der - noun
+Segelboot, das - noun
+Sicherheitsgurt, der - noun
+Sitz, der - noun
+Skateboard, das - noun
+Ski, der - noun
+Stau, der - noun
+Straßenbahn, die - noun
+Taxi, das / der - noun
+Transportmittel, das - noun
+U-Bahn, die - noun
+Ventil, das - noun
+Verkehr, der - noun
+Verkehrsmittel, das - noun
+Wagen, der - noun
+Zug, der - noun
+
+Vehicles
+Auto, das - noun
+Bahn, die - noun
+Billigflieger, der - noun
+Boot, das - noun
+Bus, der - noun
+Cabrio, das - noun
+Einrad, das - noun
+Fahrrad, das - noun
+Fahrzeug, das - noun
+Flugzeug, das - noun
+Hubschrauber, der - noun
+Inliner, der - noun
+Inlineskate, der - noun
+Kraftfahrzeug, das - noun
+Mietwagen, der - noun
+Moped, das - noun
+Motorrad, das - noun
+Motorroller, der - noun
+Oldtimer, der - noun
+Rad, das - noun
+Rollschuh, der - noun
+S-Bahn, die - noun
+Schiff, das - noun
+Schlitten, der - noun
+Schlittschuh, der - noun
+Segelboot, das - noun
+Skateboard, das - noun
+Ski, der - noun
+Straßenbahn, die - noun
+Taxi, das / der - noun
+U-Bahn, die - noun
+Wagen, der - noun
+Zug, der - noun
+
+Vehicle Parts
+Bremse, die - noun
+Gurt, der - noun
+Hupe, die - noun
+Klingel, die - noun
+Lenker, der - noun
+Lenkrad, das - noun
+Motor, der - noun
+Pedal, das - noun
+Rad, das - noun
+Schlauch, der - noun
+Sicherheitsgurt, der - noun
+Sitz, der - noun
+Ventil, das - noun
+
+General Terms
+Fahrzeug, das - noun
+Stau, der - noun
+Transportmittel, das - noun
+Verkehr, der - noun
+Verkehrsmittel, das - noun
+",https://frames.coerll.utexas.edu/frames/vehicle,Vehicle,TooGeneral
+Work,"These lexical units describe various aspects of employment, where an Employee works for an Employer in a certain Position or Field, completing assigned Tasks for Compensation. Both Employer and Employee must agree to enter into the employment relationship (the Employer hires the Employee, and the Employee agrees to fill the Position in exchange for Compensation ), and either party can end the employment relationship (the Employee can quit, or the Employer can fire the Employee).","Employee
+Employer
+Position
+Field
+Task
+Compensation","Work
+Angebot, das - noun
+angestellt - adjective
+Angestellte: der Angestellte, ein Angestellter / die, eine Angestellte - noun
+annehmen: (einen Job) annehmen - multi-word expression
+anstellen - verb
+Arbeit suchen - multi-word expression
+Arbeit, die - noun
+arbeiten - verb
+arbeitslos - adjective
+Arbeitslosigkeit, die - noun
+Arbeitsstelle, die - noun
+Arbeitstag, der - noun
+Auftrag, der - noun
+Beförderung, die - noun
+bei (dat.) - preposition
+Beruf, der - noun
+bewerben: sich (acc.) bewerben (um / auf + acc.) - verb
+Bewerbung, die - noun
+bezahlen - verb
+Chef: der Chef / die Chefin - noun
+einstellen - verb
+entlassen - verb
+Entlassung, die - noun
+Gehalt, das - noun
+Job, der - noun
+jobben - verb
+Karriere, die - noun
+Kollege: der Kollege / die Kollegin - noun
+kündigen: (einen Job) kündigen - multi-word expression
+Lebenslauf, der - noun
+Lohn, der - noun
+Mitarbeiter: der Mitarbeiter / die Mitarbeiterin - noun
+pensioniert - adjective
+Rente: in Rente gehen - multi-word expression
+Rentner: der Rentner / die Rentnerin - noun
+Stellenanzeige, die - noun
+Streik, der - noun
+streiken - verb
+suchen: Arbeit suchen - multi-word expression
+Unternehmer: der Unternehmer / die Unternehmerin - noun
+verdienen - verb
+Vertrag, der - noun
+Vorgesetzte: der Vorgesetzte, ein Vorgesetzter / die, eine Vorgesetzte - noun
+Vorstellungsgespräch, das - noun
+
+Beginning and Ending Employment
+Angebot, das - noun
+annehmen: (einen Job) annehmen - multi-word expression
+anstellen - verb
+Arbeit suchen - multi-word expression
+bewerben: sich (acc.) bewerben (um / auf + acc.) - verb
+Bewerbung, die - noun
+einstellen - verb
+entlassen - verb
+Entlassung, die - noun
+kündigen: (einen Job) kündigen - multi-word expression
+Lebenslauf, der - noun
+pensioniert - adjective
+Rente: in Rente gehen - multi-word expression
+Rentner: der Rentner / die Rentnerin - noun
+Stellenanzeige, die - noun
+suchen: Arbeit suchen - multi-word expression
+Vorstellungsgespräch, das - noun
+
+Being Employed
+angestellt - adjective
+Angestellte: der Angestellte, ein Angestellter / die, eine Angestellte - noun
+Arbeit, die - noun
+arbeiten - verb
+arbeitslos - adjective
+Arbeitslosigkeit, die - noun
+Arbeitsstelle, die - noun
+Arbeitstag, der - noun
+Auftrag, der - noun
+Beförderung, die - noun
+bei (dat.) - preposition
+Beruf, der - noun
+bezahlen - verb
+Chef: der Chef / die Chefin - noun
+Gehalt, das - noun
+Job, der - noun
+jobben - verb
+Karriere, die - noun
+Kollege: der Kollege / die Kollegin - noun
+Lohn, der - noun
+Mitarbeiter: der Mitarbeiter / die Mitarbeiterin - noun
+Unternehmer: der Unternehmer / die Unternehmerin - noun
+verdienen - verb
+Vertrag, der - noun
+Vorgesetzte: der Vorgesetzte, ein Vorgesetzter / die, eine Vorgesetzte - noun
+",https://frames.coerll.utexas.edu/frames/work,Being_employed,ExactMatch
