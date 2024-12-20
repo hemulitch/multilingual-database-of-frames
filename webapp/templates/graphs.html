@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} Multilingual FrameNet {% endblock %}
+
+{% block content %}
+<h1> Graphs </h1>
+
+    
+<div class="container1">
+    <a class="column" href="/graph1_menu">
+        <p style="font-weight: bolder;">Graph 1</p>
+        <p style="margin-top: 20px">See all connections between framenets</p>
+    </a>
+    <a class="column" href="/graph2_menu">
+        <p style="font-weight: bolder;">Graph 2</p>
+        <p style="margin-top: 20px">See connections between certain frames of different framenets</p>
+    </a>
+    <a class="column" href="/graph3_menu">
+        <p style="font-weight: bolder;">Graph3</p>
+        <p style="margin-top: 20px">See connections between certain frames in one framenet</p>
+    </a>
+</div>
+
+{% endblock %}
