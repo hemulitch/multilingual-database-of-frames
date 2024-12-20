@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+
+{% block title %}Lexical Unit Detail{% endblock %}
+
+{% block content %}
+
+<style>
+    .lu-container {
+      background-color: grey;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+    
+    .lu-title {
+      cursor: pointer;
+      color: white;
+      margin: 0;
+    }
+    
+    .lu-info {
+      background-color: white;
+      padding: 5px;
+      margin: 10px;
+      display: none; /* Initially hidden */
+      border-radius: 5px;
+    }
+    .highlighted-word {
+    font-weight: bold;  
+    color: rgb(0, 0, 0);         
+    background-color: #96c357; 
+    }
+</style>
+  
+<script>
+function toggleInfo(id) {
+    var infoElement = document.getElementById(id);
+    if (infoElement.style.display === "none" || infoElement.style.display === "") {
+    infoElement.style.display = "block";
+    } else {
+    infoElement.style.display = "none";
+    }
+}
+</script>
+
+<p>language: {{ lu.language }}</p>
+<h1 style="margin-bottom: 60px;">{{ lu.lu }}</h1>
+
+{% if related_frames.BFN  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('bfn-info')">Berkeley FrameNet</h4>
+<div id="bfn-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.BFN %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+
+{% if related_frames.BrasilFN  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('brasilfn-info')">Brasil FrameNet</h4>
+<div id="brasilfn-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.BrasilFN %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% if related_frames.GermanFN  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('germanfn-info')">German FrameNet</h4>
+<div id="germanfn-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.GermanFN %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% if related_frames.GFOL  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('gfol-info')">GFOL</h4>
+<div id="gfol-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.GFOL %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% if related_frames.SpanishFN  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('spanishfn-info')">Spanish FrameNet</h4>
+<div id="spanishfn-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.SpanishFN %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% if related_frames.DiCoEnviro  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('dicoenviro-info')">DiCoEnviro</h4>
+<div id="dicoenviro-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.DiCoEnviro %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% if related_frames.DiCoInfo  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('dicoinfo-info')">DiCoInfo</h4>
+<div id="dicoinfo-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.DiCoInfo %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% if related_frames.SweFN  %}
+<div class="lu-container">
+<h4 class="lu-title" onclick="toggleInfo('swefn-info')">Swedish FrameNet</h4>
+<div id="swefn-info" class="lu-info">
+    <ul style="list-style-type: none;">
+        {% for frame in related_frames.SweFN %}
+            <li style="margin-top: 30px;">
+                <a><span class="highlighted-word">Frame:</span> </a><a href="{{ url_for('frame_detail', frame_id=frame.frame_id) }}"> {{ frame.frame_name }}</a> </br>
+                <a><span class="highlighted-word">POS:</span> {{ frame.pos }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+{% endif %}
+
+{% endblock %}
+   
