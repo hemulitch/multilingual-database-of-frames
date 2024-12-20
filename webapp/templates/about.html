@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %} About the project {% endblock %}
+
+{% block content %}
+<h1> What is Multilingual FrameNet? </h1>
+    <p> The project aims to create an integrated database connecting various linguistic resources (FrameNets) across languages, such as Berkeley FrameNet, DiCoEnviro, SweFN, and other framed semantic systems. 
+        We developed a database structure based on existing relations between frames and FrameNets, linking multilingual data. The project utilized information available on web pages for FrameNets (see links below). All collected, organized and marked up by us data is available on our GitHub and on this website.
+    </p>
+
+<h2 style="margin-top: 60px; margin-bottom: 60px; text-align: center;"> FrameNets </h2>
+
+<div class="container2" id="outer">
+    <a class="block" style="color: black" href="https://framenet.icsi.berkeley.edu/">
+        Berkeley FrameNet
+    </a>
+    <a class="block" style="color: black" href="https://spraakbanken.gu.se/karp/?mode=swefn&lexicon=swefn&lang=eng&show=swefn">
+        SweFN
+    </a>
+    <a class="block" style="color: black" href="https://www2.ufjf.br/framenetbr-en/">
+        Brasil FrameNet
+    </a>
+    <a class="block" style="color: black" href="https://spanishfn.org/">
+        Spanish FrameNet
+    </a>
+    <a class="block" style="color: black" href="https://framenet-constructicon.hhu.de">
+        German FrameNet
+    </a>
+    <a class="block" style="color: black" href="https://frames.coerll.utexas.edu">
+        GFOL
+    </a>
+    <a class="block" style="color: black" href="https://olst.ling.umontreal.ca/dicoenviro/framed/">
+        DiCoEnviro
+    </a>
+    <a class="block" style="color: black" href="https://olst.ling.umontreal.ca/dicoinfo/framed/">
+        DiCoInfo
+    </a>
+</div>
+
+{% endblock %}
