@@ -1,22 +1,22 @@
-id,FrameName,EnglishLexicalUnits,FrenchLexicalUnits,PortugueseLexicalUnits,ChineseLexicalUnits,SpanishLexicalUnits,FrameElements,Link,Definition,LinkToBFN,MatchEvaluation,FrameRelation
-,Abundance,"abundance 1,
+global_id,id,,FrameName,EnglishLexicalUnits,FrenchLexicalUnits,PortugueseLexicalUnits,ChineseLexicalUnits,SpanishLexicalUnits,FrameElements,Link,Definition,LinkToBFN,MatchEvaluation,FrameRelation
+4,0,Abundance,Abundance,"abundance 1,
 abundant 1,
 rare 1,
 rarity 1","abondance 1,
 abondant 1,
 rare 1",,,,Theme Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Abundance,The Theme is present in a Location in a specific quantity or amount.,Abundance,WeakMatch,Abundance :See also: Distribution
-,Accumulating,"accumulate 1,
+13,1,Accumulating,Accumulating,"accumulate 1,
 accumulation 1,
 concentration 1","accumulation 1,
 accumuler 1, 
 concentration 1",,"浓度 1, 
 累积 1","acumulación 1, 
 acumular 1",Patient Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Accumulating,A Patient becomes increasingly present in a Location.,?,NoMatch,Greenhouse_effect :Is perspectivized in: Accumulating
-,Adapting,"adapt 1,
+33,2,Adapting,Adapting,"adapt 1,
 adaptation 1","adaptation 1a,
 adapter 1a",,适应 1,"adaptación 1a,
 adaptar 1a",Patient Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Adapting,A Patient evolves in order to deal with a Cause.,?,NoMatch,
-,Adding_species_in_location,"introduce 1,
+35,3,Adding_species_in_location,Adding_species_in_location,"introduce 1,
 introduction 1,
 reintroduce 1,
 reintroduction 1","alevinage 1,
@@ -29,42 +29,42 @@ Species_colonization :Is inchoative of: Adding_species_in_location
 Adding_species_in_location :Is inherited by: Relocating
 Adding_species_in_location :See also: Adding_trees_in_location
 "
-,Adding_trees_in_location,,,,,,Agent Patient Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Adding_trees_in_location,,?,NoMatch,"Adding_trees_in_location :Is perspectivized in: Convering_area_with_trees
+36,4,Adding_trees_in_location,Adding_trees_in_location,,,,,,Agent Patient Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Adding_trees_in_location,,?,NoMatch,"Adding_trees_in_location :Is perspectivized in: Convering_area_with_trees
 Adding_trees_in_location :Is perspectivized in: Covering_area_with_trees
 Adding_trees_in_location :Is subframe of: Forestry
 Adding_species_in_location :See also: Adding_trees_in_location
 Adding_trees_in_location :Is perspectivized in:  Planting_trees"
-,Aging,mature 2,atteindre un/une maturité,,,,Theme,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Aging,A Theme is undergoing a change in age typically associated with some deterioration or change in state.,Aging,ExactMatch,"Aging :Is subframe of: Cycle_of_life_and_death
+48,5,Aging,Aging,mature 2,atteindre un/une maturité,,,,Theme,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Aging,A Theme is undergoing a change in age typically associated with some deterioration or change in state.,Aging,ExactMatch,"Aging :Is subframe of: Cycle_of_life_and_death
 Ontogeny :Precedes: Aging
 Aging :See also: Animal_by_development
 
 
 "
-,Agriculture,"agriculture 1,
+50,6,Agriculture,Agriculture,"agriculture 1,
 farm 2,
 farming 1",agriculture 1,,,,Agent Patient Environment,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Agriculture,The Agent places or takes care of the Patient in an Environment so that the Patient can grow and later be collected for a specific use.,Agriculture,ExactMatch,"Agriculture :Is subframe of: Using_resource
 Breeding :Is subframe of: Agriculture
 Growing_food :Is subframe of: Agriculture"
-,Ambient_temperature,"cold 1,
+60,7,Ambient_temperature,Ambient_temperature,"cold 1,
 cool 2,
 temperature 1,
 warm 2","froid 1,
 température 1,
 tempéré 1",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Ambient_temperature,The temperature of a Patient.,Ambient_temperature,TooGeneral,"Cause_temperature_change :Is causative of: Ambient_temperature 
 Ambient_temperature: See also: Change_of_temperature"
-,Animal_by_activity,predator 1,"pollinisateur 2,
+63,8,Animal_by_activity,Animal_by_activity,predator 1,"pollinisateur 2,
 prédateur 1,
 rapace 1,
 ravageur 2",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_activity,,?,NoMatch,"Animal_by_behavior :Is inherited by: Animal_by_activity
 "
-,Animal_by_behavior,"breeding 2,
+64,9,Animal_by_behavior,Animal_by_behavior,"breeding 2,
 rodent 1","migrateur 1,
 migrateur 2,
 reproducteur 1,
 reproducteur 3",,,,Agent,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_behavior,An Agent is a species defined according to a typical behavior or activity.,?,NoMatch,"Animal_by_behavior :Is inherited by: Animal_by_activity
 Animal :Is inherited by: Animal_by_behavior
 "
-,Animal_by_development,"adult 1,
+65,10,Animal_by_development,Animal_by_development,"adult 1,
 adult 2,
 hatchling 1,
 immature 1,
@@ -82,11 +82,11 @@ juvénile 1,
 mature 1,
 maturité 1",,,,Theme,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_development,"The stage in which a Theme finds itself in terms of the evolution of its life, especially with respect of its ability to reproduce.",?,NoMatch,"Animals :Is inherited by: Animal_by_development
 Aging :See also: Animal_by_development "
-,Animal_by_family,,,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_family,,?,NoMatch,"Animal_by_relation :Is inherited by: Animal_by_family 
+66,11,Animal_by_family,Animal_by_family,,,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_family,,?,NoMatch,"Animal_by_relation :Is inherited by: Animal_by_family 
 Animal_by_family :Is perspectivized in: Baby_animal
 Animal_by_family :Is perspectivized in: Reproducing_animal"
-,Animal_by_relation,,,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_relation,,?,NoMatch,Animal_by_relation :Is inherited by: Animal_by_family 
-,Animals,"animal 1,
+67,12,Animal_by_relation,Animal_by_relation,,,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Animal_by_relation,,?,NoMatch,Animal_by_relation :Is inherited by: Animal_by_family 
+68,13,Animals,Animals,"animal 1,
 bald eagle 1,
 bird 1,
 black-footed ferret 1,
@@ -121,35 +121,35 @@ Animals :Is inherited by: Baby_animal
 Animals :Is inherited by: Reproducing_animal
 Animals :See also: Species_activity 
 "
-,Assessing,"assess 1b,
+95,14,Assessing,Assessing,"assess 1b,
 assessment 1",,,评估 1,,Agent Patient Method,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Assessing,An Agent examines a Patient with a Method in order to give a fairly accurate description of value or the state the Patient.,Assessing,ExactMatch,Assessing :See also: Estimating
-,Attaching,"connect 1b,
+104,15,Attaching,Attaching,"connect 1b,
 plug in 1b","branchement 1,
 brancher 1b",,,,Agent Patient Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Attaching,An Agent causes a Patient to be physically connected to a Destination.,Attaching,ExactMatch,"Attaching :Is causative of: Becoming_attached
 Attaching :Precedes: Filling"
-,Baby_animal,"chick 1,
+130,16,Baby_animal,Baby_animal,"chick 1,
 cub 1,
 offspring 1",petit 1,,,,Patient Agent,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Baby_animal,The child of an Agent that is an animal.,?,NoMatch,"Animals :Is inherited by: Baby_animal
 Animal_by_family :Is perspectivized in: Baby_animal"
-,Balancing,"stabilization 1a,
+132,17,Balancing,Balancing,"stabilization 1a,
 stabilize 1a","stabilisation 1a,
 stabiliser 1a",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Balancing,The Patient remains in a given state.,?,NoMatch,"Cause_balance :Is causative of: Balancing
 Balancing: Is inchoative of: Cause_balance"
-,Become_contaminated,acidify 1a,acidifier 1a,,,,Destination Material,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Become_contaminated,A Destination is being imbued by a Material to the point that the Material alters the composition of the Destination.,?,NoMatch,"Cause_contamination :Is causative of: Become_contaminated
+141,18,Become_contaminated,Become_contaminated,acidify 1a,acidifier 1a,,,,Destination Material,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Become_contaminated,A Destination is being imbued by a Material to the point that the Material alters the composition of the Destination.,?,NoMatch,"Cause_contamination :Is causative of: Become_contaminated
 Become_contaminated :Is inchoative of: Contamination
 Become_contaminated :Is inchoative of: Cause_contamination
 Contamination :Is causative of: Become_contaminated"
-,Become_rejuvenated,recover 3a,rétablir 1a,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Become_rejuvenated,,?,NoMatch,"Ceasing_to_be :Precedes: Become_rejuvenated
+143,19,Become_rejuvenated,Become_rejuvenated,recover 3a,rétablir 1a,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Become_rejuvenated,,?,NoMatch,"Ceasing_to_be :Precedes: Become_rejuvenated
 Become_rejuvenated :Is subframe of: Cycle_of_existence_scenario
 Become_rejuvenated :Is inchoative of: Rejuvenation
 Rejuvenation :Is causative of: Become_rejuvenated"
-,Becoming_filled,charge 1a,"charger 1a,
+151,20,Becoming_filled,Becoming_filled,charge 1a,"charger 1a,
 recharger 1a,
 stockage 2,
 stocker 2a",,,,Destination Means,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Becoming_filled,A Destination becomes filled with a Means.,?,NoMatch,"Filling :Is causative of: Becoming_filled
 Becoming_filled :Is inchoative of: Filling
 Becoming_filled :Precedes: Make_use_of_energy"
-,Being_at_risk,"endangerment 1,
+158,21,Being_at_risk,Being_at_risk,"endangerment 1,
 sensitivity 1,
 threatened 1,
 vulnerability 1,
@@ -159,26 +159,26 @@ vulnérable 1",,,amenazado 1,Patient Cause,https://olst.ling.umontreal.ca/dicoen
 Being_at_risk :See also: Ceasing_to_be 
 Endangering :Is causative of: Being_at_risk
 Risk_scenario :Is perspectivized in: Being_at_risk "
-,Being_born,"birth 1,
+161,22,Being_born,Being_born,"birth 1,
 hatch 1","éclore 1,
 éclosion 1,
 naissance 1,
 naître 1",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Being_born,The beginning of the life of a Patient at a particular time and place.,Being_born,ExactMatch,"Birth_scenario :Is perspectivized in: Being_born
 Being_born :Precedes: Ontogeny
 Being_born :Is subframe of: Cycle_of_life_and_death"
-,Being_contaminated,"acidified 1,
+164,23,Being_contaminated,Being_contaminated,"acidified 1,
 contaminated 1,
 polluted 1","acidifié 1,
 contaminé 1,
 pollué 1",,,,Destination Material,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Being_contaminated,A Destination is imbued by a Material to the point that the Material alters the composition of the Destination.,?,NoMatch,
-,Being_in_captivity,captive 1,"captif 1,
+169,24,Being_in_captivity,Being_in_captivity,captive 1,"captif 1,
 captivité 1",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Being_in_captivity,A Patient is being held against its will is a location that differs from the location where it normally lives.,Being_in_captivity,TooSpecific,Being_in_captivity :See also: Taking_captive
-,Biodiversity,"biodiversity 1,
+193,25,Biodiversity,Biodiversity,"biodiversity 1,
 diversity 1","biodiversité 1,
 diversité 1","biodiversidade 1,
 diversidade 1","多样性 1,
 生物多样性 1",,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Biodiversity,A Support that is characterized according to the variety of its natural content.,?,NoMatch,Biological_entity :Has property: Biodiversity
-,Biological_classification,"mammal 1,
+195,26,Biological_classification,Biological_classification,"mammal 1,
 species 1","cétacé 1,
 espèce 1,
 invertébré 1,
@@ -187,12 +187,12 @@ sous-espèce 1,
 taxon 1,
 vertébré 1",espécie 1,物种 1,,Member,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Biological_classification,A scientific taxonomic classification in which a Member is classified based on common biological characteristics it shares with others.,Biological_classification,ExactMatch,"Biological_entity :Is used by: Biological_classification
 Biological_classification :Is used by: Grouping_by_type"
-,Biological_conditions,"biology 2,
+196,27,Biological_conditions,Biological_conditions,"biology 2,
 ecology 2","biologie 2,
 écologie 2,
 génétique 3,
 hydrologie 1",,,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Biological_conditions,The set of characteristics and activies associated with a biological entity.,?,NoMatch,Biological_entity :Is used by: Biological_conditions
-,Biological_entity,"life 2,
+197,28,Biological_entity,Biological_entity,"life 2,
 nature 1,
 organism 1,
 wildlife 1","être vivant 1,
@@ -207,53 +207,53 @@ Biological_entity :Has property: Biodiversity
 Biological_entity :Is used by: Biological_conditions
 Biological_entity :Is used by: Grouping_by_number
 Biological_entity :Is used by: Biological_classification"
-,Birth_scenario,,,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Birth_scenario,,Birth_scenario,ExactMatch,"Birth_scenario :Is perspectivized in: Being_born
+200,29,Birth_scenario,Birth_scenario,,,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Birth_scenario,,Birth_scenario,ExactMatch,"Birth_scenario :Is perspectivized in: Being_born
 Birth_scenario :Is perspectivized in: Giving_birth"
-,Breeding,"aquaculture 1,
+222,30,Breeding,Breeding,"aquaculture 1,
 husbandry 1,
 mariculture 1","aquaculture 1,
 élevage 1.1,
 élever 4",pecuária 1,,,Agent Patient Environment,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Breeding,,?,NoMatch,Breeding :Is subframe of: Agriculture
-,Bringing,"carry 1,
+223,31,Bringing,Bringing,"carry 1,
 transportation 1.1","transport 2,
 transporter 2",,,,Instrument Theme Source Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Bringing,The Instrument makes a Theme move from a Source to a Destination.,Bringing,?,"Use_vehicle :Is perspectivized in: Bringing
 Bringing :See also: Vehicle_for_transportation"
-,Burning_into_ashes,"incinerate 1,
+228,32,Burning_into_ashes,Burning_into_ashes,"incinerate 1,
 incineration 1","incinération 1,
 incinérer 1",,,,Agent Patient Result,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Burning_into_ashes,An Agent uses fire to transform a Patient into a Result.,?,NoMatch,Burning_into_ashes :Is subframe of: Removing
-,Businesses,,compagnie 1,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Businesses,"A commercial venture run by an Agent that exploits, transforms or produces a Patient in order to sell it to a consumer.",Businesses,?,Businesses :See also: Human_by_activity
-,Calculation,"calculate 1a,
+231,33,Businesses,Businesses,,compagnie 1,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Businesses,"A commercial venture run by an Agent that exploits, transforms or produces a Patient in order to sell it to a consumer.",Businesses,?,Businesses :See also: Human_by_activity
+234,34,Calculation,Calculation,"calculate 1a,
 calculate 1b,
 calculation 1","calculer 1a,
 calculer 1b",,计算 1b,,Agent Patient Method,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Calculation,An Agent determines the extent or importance of a Patient using a Method.,?,NoMatch,"Calculation :Is subframe of: Predicting_scenario
 Calculation :Precedes: Predicting"
-,Capturing,"capture 1,
+240,35,Capturing,Capturing,"capture 1,
 capture 1.1,
 sequester 1,
 sequestration 1","capture 1,
 capturer 1,
 piégeage 2,
 piéger 2",,,,Agent Patient Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Capturing,An Agent places a Patient in a Location in order to prevent the Patient from being in the atmosphere and contribute to the greenhouse effect.,?,NoMatch,Capturing :Precedes: Storing
-,Catastrophe,disaster 1,catastrophe 1,,灾难 1,,Patient Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Catastrophe,A Cause affects a Patient negatively.,Catastrophe,ExactMatch,
-,Catching_with_gear,"fish 3,
+243,36,Catastrophe,Catastrophe,disaster 1,catastrophe 1,,灾难 1,,Patient Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Catastrophe,A Cause affects a Patient negatively.,Catastrophe,ExactMatch,
+245,37,Catching_with_gear,Catching_with_gear,"fish 3,
 fishing 1,
 longline 1.1,
 trap 2,
 trapping 2","pêche 1,
 pêcher 1,
 pêches 1",,,,Agent Patient Instrument,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Catching_with_gear,An Agent attempts to catch a Patient with an Instrument for the purpose of using the Patient as a consumer product.,?,NoMatch,Taking_captive :Is inherited by: Catching_with_gear
-,Categorization,designate 1,désigner 1,,,,Agent Patient State,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Categorization,An Agent assigns a label standing for a State to a Patient.,Categorization,TooSpecific,
-,Causation,consequence 1,conséquence 1,,后果 1,,Cause Patient Result,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Causation,A Cause causes a Result on Patient.,Causation,?,
-,Cause_balance,,"équilibrer 1,
+246,38,Categorization,Categorization,designate 1,désigner 1,,,,Agent Patient State,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Categorization,An Agent assigns a label standing for a State to a Patient.,Categorization,TooSpecific,
+247,39,Causation,Causation,consequence 1,conséquence 1,,后果 1,,Cause Patient Result,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Causation,A Cause causes a Result on Patient.,Causation,?,
+249,40,Cause_balance,Cause_balance,,"équilibrer 1,
 stabilisation 1b,
 stabiliser 1b",,,,Agent | Cause Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_balance,,?,NoMatch,"Balancing :Is inchoative of: Cause_balance
 Cause_balance :Is causative of: Balancing"
-,Cause_change_into_reusable_material,"compost 2,
+253,41,Cause_change_into_reusable_material,Cause_change_into_reusable_material,"compost 2,
 composting 1","compostage 1,
 composter 1,
 transformer 2",,,compostar 1,Agent Patient Result,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_change_into_reusable_material,An Agent causes a Patient to undergo a change into a Result.,?,NoMatch,"Cause_change_into_reusable_material :Is subframe of: Recover
 Cause_change_into_reusable_material :Precedes: Reuse"
-,Cause_change_natural_feature,"deplete 1,
+254,42,Cause_change_natural_feature,Cause_change_natural_feature,"deplete 1,
 depletion 1,
 erode 1b","appauvrir 1b,
 appauvrissement 1,
@@ -261,7 +261,7 @@ appauvrissement 1,
 Cause_change_natural_feature :Is causative of: Change_natural_feature
 Change_natural_feature :Is inchoative of: Cause_change_natural_feature
 Cause_change_natural_feature :See also: Damaging"
-,Cause_change_of_impact,"abate 1,
+256,43,Cause_change_of_impact,Cause_change_of_impact,"abate 1,
 abatement 1,
 accelerate 1b,
 amplify 1,
@@ -286,7 +286,7 @@ renforcer 1",,"减弱 1b,
 缓解 1",mitigar 1,Agent | Cause Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_change_of_impact,An Agent or a Cause affects the speed or the intensity at which a Patient occurs.,?,NoMatch,"Cause_change_of_state :Is inherited by: Cause_change_of_impact
 Cause_change_of_impact :Is causative of: Change_of_impact
 Change_of_impact :Is inchoative of: Cause_change_of_impact"
-,Cause_change_of_position_on_a_scale,"decrease 1b,
+258,44,Cause_change_of_position_on_a_scale,Cause_change_of_position_on_a_scale,"decrease 1b,
 decrease 1b.1,
 increase 1b,
 reduce 1b","abaisser 1,
@@ -307,7 +307,7 @@ disminuir 1b,
 reducir 1b",Agent | Cause Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_change_of_position_on_a_scale,An Agent or a Cause affects the position of a Patient on a scale from a starting point to an endpoint.,Cause_change_of_position_on_a_scale,ExactMatch,"Cause_change_of_state :Is inherited by: Cause_change_of_position_on_a_scale
 Cause_change_of_position_on_a_scale :Is causative of: Change_position_on_a_scale
 Change_position_on_a_scale :Is inchoative of: Cause_change_of_position_on_a_scale"
-,Cause_change_of_state,"alter 1,
+259,45,Cause_change_of_state,Cause_change_of_state,"alter 1,
 alteration 1,
 change 1b,
 perturbation 1","altération 1,
@@ -325,17 +325,17 @@ Cause_change_of_state :Is inherited by: Cause_temperature_change
 Cause_change_of_state :See also: Objective_influence
 Cause_change_of_state :Is causative of: Undergo_change_of_state
 Undergo_change_of_state :Is inchoative of: Cause_change_of_state"
-,Cause_contamination,"contaminate 1b,
+261,46,Cause_contamination,Cause_contamination,"contaminate 1b,
 pollute 1b","polluer 1b,
 pollution 1b.1","poluição 1b.1,
 poluir 1b",,,Agent | Cause | Instrument Destination Material,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_contamination,"An Agent, a Cause or an Instrument contributes to the change of composition of a Destination by discharging a Material into the Destiation.",?,NoMatch,"Cause_contamination :Is causative of: Become_contaminated
 Become_contaminated :Is inchoative of: Cause_contamination
 Cause_contamination :Is causative of: Being_contaminated
 Discharge :Precedes: Cause_contamination"
-,Cause_motion,propel 1,"propulser 1,
+269,47,Cause_motion,Cause_motion,propel 1,"propulser 1,
 propulsion 1.1,
 traction 1.1",,,,Instrument | Means Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_motion,A Means or an Instrument causes a Patient to undergo translational motion.,Cause_motion,?,c :See also: Operate_vehicle
-,Cause_temperature_change,"cool 1b,
+271,48,Cause_temperature_change,Cause_temperature_change,"cool 1b,
 cooling 1b,
 warm 1b,
 warming 1b","réchauffement 1b,
@@ -345,10 +345,10 @@ refroidissement 1b",,,calentar 1b,Cause Patient,https://olst.ling.umontreal.ca/d
 Cause_temperature_change :Is causative of: Ambient_temperature
 Cause_temperature_change :Is causative of: Change_of_temperature
 Change_of_temperature :Is inchoative of: Cause_temperature_change"
-,Cause_to_become_powered_by_means,"electrification 1,
+279,49,Cause_to_become_powered_by_means,Cause_to_become_powered_by_means,"electrification 1,
 electrify 1","électrification 1,
 électrifier 1",,,,Agent Patient Means,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_to_become_powered_by_means,An Agent causes a Patient to operate with a Means.,?,NoMatch,Cause_to_become_powered_by_means :Is subframe of: Converting
-,Cause_to_make_progress,"development 1,
+288,50,Cause_to_make_progress,Cause_to_make_progress,"development 1,
 industrialization 1,
 urbanization 1","aménagement 1.1,
 aménager 1,
@@ -357,10 +357,10 @@ industrialisation 1,
 urbanisation 1",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cause_to_make_progress,An Agent works on a Patient so that it reaches a more advanced and organized state.,Cause_to_make_progress,?,"Human_activity :Is inherited by: Cause_to_make_progress
 Cause_to_make_progress :Is causative of: Progression
 Progression :Is inchoative of: Cause_to_make_progress"
-,Causing_contamination,polluting 1,"acidifiant 1,
+295,51,Causing_contamination,Causing_contamination,polluting 1,"acidifiant 1,
 contaminant 1,
 polluant 1",,,,Material | Cause | Instrument | Agent,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Causing_contamination,,?,NoMatch,
-,Ceasing_to_be,"disappear 1,
+296,52,Ceasing_to_be,Ceasing_to_be,"disappear 1,
 disappearance 1,
 extinction 1,
 go extinct","disparaître 1,
@@ -373,7 +373,7 @@ extinción 1",Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php
 Surviving :Precedes: Ceasing_to_be
 Ceasing_to_be :Precedes: Become_rejuvenated
 Ceasing_to_be :Is subframe of: Cycle_of_existence_scenario"
-,Change_natural_feature,"erode 1a,
+305,53!!!!!!,Change_natural_feature,Change_natural_feature,"erode 1a,
 erosion 1,
 retreat 1,
 retreat 1.1,
@@ -394,7 +394,7 @@ retrait 1",,"上升 2,
 退缩 1",,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Change_natural_feature,A Patient changes shape of appearance.,?,NoMatch,"Cause_change_natural_feature :Is causative of: Change_natural_feature
 Change_natural_feature :Is inchoative of: Cause_change_natural_feature
 Change_of_temperature :Precedes: Change_natural_feature"
-,Change_of_impact,"accelerate 1a,
+307,54,Change_of_impact,Change_of_impact,"accelerate 1a,
 acceleration 1,
 intensification 1,
 intensify 1a","accélération 1,
@@ -410,7 +410,7 @@ ralentissement 1",,"减缓 1a,
 加速 1a",,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Change_of_impact,The speed at which a Patient occurs changes.,?,NoMatch,"Cause_change_of_impact :Is causative of: Change_of_impact
 Change_of_impact :Is inchoative of: Cause_change_of_impact
 Change_position_on_a_scale :Is inherited by: Change_of_impact"
-,Change_of_phase,"freeze 1,
+309,55,Change_of_phase,Change_of_phase,"freeze 1,
 frost 1,
 melt 1a,
 melting 1,
@@ -426,7 +426,7 @@ geler 1",,"消融 1,
 Undergo_change_of_state :Is inherited by: Change_of_phase
 Change_of_phase :Is inchoative of: Cause_change_of_phase
 Change_of_phase :See also: Water_emanating"
-,Change_of_temperature,"climate change 1,
+315,56,Change_of_temperature,Change_of_temperature,"climate change 1,
 cool 1a,
 cooling 1a,
 warm 1a,
@@ -446,7 +446,7 @@ Cause_temperature_change :Is causative of: Change_of_temperature
 Change_of_temperature :Precedes: Change_natural_feature
 Change_of_temperature :Precedes: Change_of_phase
 Change_of_temperature :See also: Weather_event"
-,Change_position_on_a_scale,"decline 1,
+317,57,Change_position_on_a_scale,Change_position_on_a_scale,"decline 1,
 decline 1.1,
 decrease 1a,
 grow 1,
@@ -479,12 +479,12 @@ Change_position_on_a_scale :Is inchoative of: Cause_change_of_position_on_a_scal
 Cause_change_of_position_on_a_scale :Is causative of: Change_position_on_a_scale
 Change_position_on_a_scale :Is inherited by: Change_of_impact
 Change_position_on_a_scale :Is inherited by: Change_of_temperature"
-,Climate,climate 1,"climat 1,
+334,58,Climate,Climate,climate 1,"climat 1,
 microclimat 1",clima 1,气候 1,,Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Climate,Ambient conditions of temperature in a given Location., Weather,?,Climate :Is used by: Weather_event
-,Collecting,collect 1,"collecte 1,
+346,59,Collecting,Collecting,collect 1,"collecte 1,
 ramassage 1",,,,Agent Patient Source,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Collecting,An Agent takes a Patient away from a Source.,?,NoMatch,"Collecting :Is subframe of: Managing_waste
 Collecting :Precedes: Sorting"
-,Contamination,"acidification 1,
+407,60,Contamination,Contamination,"acidification 1,
 acidify 1b,
 contaminate 1a,
 eutrophication 1,
@@ -502,7 +502,7 @@ salinisation 1",poluir 1a,,,Material Destination,https://olst.ling.umontreal.ca/
 Contamination :Is causative of: Become_contaminated
 Contamination :Is causative of: Being_contaminated
 Contamination :See also: Substance_by_introduction"
-,Converting,"conversion 1,
+414,61,Converting,Converting,"conversion 1,
 convert 1,
 hybridization 1,
 transform 1","conversion 1,
@@ -511,7 +511,7 @@ convertir 1,
 hybridation 1,
 transformation 1,
 transformer 1",,,,Agent | Cause Patient Result,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Converting,An Agent or a Cause causes the Patient to be changed into a Result,?,NoMatch,Cause_to_become_powered_by_means :Is subframe of: Converting
-,Covering_area_with_trees,"afforest 1,
+426,62,Covering_area_with_trees,Covering_area_with_trees,"afforest 1,
 afforestation 1,
 reforest 1,
 reforestation 1","boisement 1,
@@ -520,26 +520,26 @@ reboisement 1,
 reboiser 1","florestamento 1,
 reflorestamento 1,
 reflorestar 1",,,Agent Destination Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Covering_area_with_trees,An Agent places a Patient in a Destination so that the Destination becomes covered with the Patient.,?,NoMatch,Adding_trees_in_location :Is perspectivized in: Covering_area_with_trees
-,Covering_locale,"atmosphere 1,
+427,63,Covering_locale,Covering_locale,"atmosphere 1,
 biosphere 1,
 cryosphere 1,
 ozone layer 1","atmosphère 1,
 biosphère 1,
 couche d'ozone 1",atmosfera 1,大气层 1,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Covering_locale,A locale with a specific composition defined according to the part of the Support is covers or surrounds.,?,NoMatch,Locale :Is inherited by: Covering_locale
-,Cutting_trees,cut down 1,"abattage 2,
+441,64,Cutting_trees,Cutting_trees,cut down 1,"abattage 2,
 abattre 2,
 coupe 1",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cutting_trees,"An Agent causes a Patient to fall to the ground by cutting it, usually at the base.",?,NoMatch,Cutting_trees :Is subframe of: Forestry
-,Cycle_of_existence_scenario,,,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cycle_of_existence_scenario,,Cycle_of_existence_scenario,?,"Become_rejuvenated :Is subframe of: Cycle_of_existence_scenario
+442,65,Cycle_of_existence_scenario,Cycle_of_existence_scenario,,,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cycle_of_existence_scenario,,Cycle_of_existence_scenario,?,"Become_rejuvenated :Is subframe of: Cycle_of_existence_scenario
 Ceasing_to_be :Is subframe of: Cycle_of_existence_scenario
 Surviving :Is subframe of: Cycle_of_existence_scenario
 Cycle_of_existence_scenario :Is inherited by: Cycle_of_life_and_death"
-,Cycle_of_life_and_death,,,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cycle_of_life_and_death,,Cycle_of_life_and_death,?,"Aging :Is subframe of: Cycle_of_life_and_death
+443,66,Cycle_of_life_and_death,Cycle_of_life_and_death,,,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Cycle_of_life_and_death,,Cycle_of_life_and_death,?,"Aging :Is subframe of: Cycle_of_life_and_death
 Being_born :Is subframe of: Cycle_of_life_and_death
 Cycle_of_existence_scenario :Is inherited by: Cycle_of_life_and_death
 Dead_or_alive :Is subframe of: Cycle_of_life_and_death
 Death :Is subframe of: Cycle_of_life_and_death
 Ontogeny :Is subframe of: Cycle_of_life_and_death"
-,Damaging,"damage 1,
+444,67,Damaging,Damaging,"damage 1,
 damage 2,
 degradation 1,
 degrade 1","dégradation 1b,
@@ -554,17 +554,17 @@ degradar 1b",Agent | Cause Patient,https://olst.ling.umontreal.ca/dicoenviro/fra
 Damaging :See also: Cause_change_of_phase
 Damaging :Is causative of: Deteriorating
 Deteriorating :Is inchoative of: Damaging"
-,Dead_or_alive,"alive 1,
+448,68,Dead_or_alive,Dead_or_alive,"alive 1,
 dead 1,
 live 3,
 living 1","mort 1,
 vivant 1,
 en vie",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Dead_or_alive,A Patient is in the state of being alive or is no longer in this state.,Dead_or_alive,ExactMatch,Dead_or_alive :Is subframe of: Cycle_of_life_and_death
-,Death,"death 1,
+449,69,Death,Death,"death 1,
 mortality 1",mortalité 1,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Death,The life of a Patient ends.,Death,ExactMatch,"Death :Is subframe of: Cycle_of_life_and_death
 Death :Is inchoative of: Killing
 Killing :Is causative of: Death"
-,Decontamination,"decontaminate 1,
+454,70,Decontamination,Decontamination,"decontaminate 1,
 decontamination 1","assainir 1,
 assainissement 1,
 décontamination 1,
@@ -573,40 +573,40 @@ dépolluer 1,
 épuration 1,
 épurer 1b,
 purifier 1b",,,,Agent Source Material,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Decontamination,"An Agent removes Material, which typically alters the composition of a Source and can be harmful, from a Source.",?,NoMatch,
-,Deteriorating,,"dégrader 1a,
+476,71,Deteriorating,Deteriorating,,"dégrader 1a,
 détériorer 1a",,退化 1,"degradación 1a,
 degradar 1a",Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Deteriorating,A Patient is affected in such a way that it is in poor condition.,?,NoMatch,"Damaging :Is causative of: Deteriorating
 Deteriorating :Is inchoative of: Damaging
 Undergo_change_of_state :Is inherited by: Deteriorating"
-,Discharge,"discharge 3,
+489,72,Discharge,Discharge,"discharge 3,
 dump 1","déversement 2.1,
 déverser 2b,
 rejeter 1",,,,Agent Patient Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Discharge,"An Agent releases a Patient in a Destination, intentionally or unintentionally, and can contribute to contaminate this Destination with the Patient.",?,NoMatch,"Discharge :Precedes: Cause_contamination
 Discharge :Is causative of: Spilling
 Spilling :Is inchoative of: Discharge"
-,Distribution,"distributed 1,
+504,73,Distribution,Distribution,"distributed 1,
 distribution 2,
 range 3","distribution 2,
 réparti 1,
 répartition 1",,,,Theme Expanse | Location | Location1 | Location2,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Distribution,,?,NoMatch,"Distribution :See also: Abundance
 Residence :Is used by: Distribution"
-,Disturbing,"disturb 1,
+505,74,Disturbing,Disturbing,"disturb 1,
 disturbance 1,
 harass 1","dérangement 1,
 déranger 1",,,,Agent | Cause Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Disturbing,,?,NoMatch,Taking :Is inherited by: Disturbing
-,Driver,motorist 1,conducteur 2,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Driver,,?,NoMatch,"Driver :See also: Human_by_use
+518,75,Driver,Driver,motorist 1,conducteur 2,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Driver,,?,NoMatch,"Driver :See also: Human_by_use
 Driver :See also: Operate_vehicle
 Driver :See also: Passenger"
-,Drought,drought 1,sécheresse 1,,干旱 2,,Location Time,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Drought,,?,NoMatch,Drought :Is subframe of: Weather_event
-,Electricity,electricity 1,électricité 1,,,,Agent Purpose Destination Source,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Electricity,A form of energy produced by a Source and used by an Agent to feed a Destination and make this Destination work or for a specific Purpose related to the well being of the Agent..,Electricity,?,
-,Elements_and_compounds,"arsenic 1,
+520,76,Drought,Drought,drought 1,sécheresse 1,,干旱 2,,Location Time,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Drought,,?,NoMatch,Drought :Is subframe of: Weather_event
+541,77,Electricity,Electricity,electricity 1,électricité 1,,,,Agent Purpose Destination Source,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Electricity,A form of energy produced by a Source and used by an Agent to feed a Destination and make this Destination work or for a specific Purpose related to the well being of the Agent..,Electricity,?,
+543,78,Elements_and_compounds,Elements_and_compounds,"arsenic 1,
 chloramine 1,
 chlorine 1,
 iodine 1,
 nitrogen 1","azote 1,
 oxygène 1",,,,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Elements_and_compounds,A chemical substance usually associated with a symbol that can represent a threat to the environment if found in abnormal concentrations.,?,NoMatch,"Substance :Is inherited by: Elements_and_compounds
 Elements_and_compounds :Is inherited by: Gas"
-,Emitting,"emission 1,
+550,79,Emitting,Emitting,"emission 1,
 emission 2.1,
 emit 1,
 emit 2,
@@ -632,12 +632,12 @@ Patient
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Emitting,An Agent or a Source discharges a Patient into a Destination.,Emitting,?,"Emitting :Precedes: Reflecting
 Emitting :Precedes: Soaking_up
 Soaking_up :Precedes: Emitting"
-,Emptying,"discharge 1b,
+567,80,Emptying,Emptying,"discharge 1b,
 discharge 1b.1","décharge 1,
 décharger 1b",,,,"Agent
 Source
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Emptying,An Agent removes a Means from a Source.,Emptying,?,
-,Endangered,"endangered 1,
+572,81,Endangered,Endangered,"endangered 1,
 imperiled 1","en péril 1,
 poser un/une danger,
 poser un/une risque,
@@ -650,7 +650,7 @@ présenter un/une risque,
 représenter un/une danger,
 représenter un/une menace,
 représenter un/une risque",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Endangered,,?,NoMatch,
-,Endangering,"endanger 1,
+573,82,Endangering,Endangering,"endanger 1,
 imperil 1,
 threaten 1,
 pose a risk,
@@ -671,10 +671,10 @@ Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr
 Endangering :Is causative of: Endangered
 Endangering :See also: Risky_situation
 "
-,Energy_use,,,,,,"Destination
+575,83,Energy_use,Energy_use,,,,,,"Destination
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Energy_use,,?,NoMatch,"Energy_use :Is perspectivized in: Give_energy
 Energy_use :Is perspectivized in: Make_use_of_energy"
-,Estimating,"estimate 1b,
+589,84,Estimating,Estimating,"estimate 1b,
 estimation 1","estimation 1,
 estimer 1a,
 estimer 1b",,"估算 1,
@@ -684,19 +684,19 @@ Value
 Method",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Estimating,An Agent carries out an approximate calculation so as to arrive at an approximate Value for a Patient with a specific Method., Estimating ,?,"Estimating :See also: Assessing
 Estimating :Precedes: Predicting
 Estimating :Is subframe of: Predicting_scenario"
-,Fertilizing,fertilize 1,"fertilisation 1,
+656,85,Fertilizing,Fertilizing,fertilize 1,"fertilisation 1,
 fertiliser 1b",,,,"Agent
 Destination
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Fertilizing,,?,NoMatch,"Fertilizing :Is subframe of: Growing_food
 Fertilizing :Precedes: Planting"
-,Fertilizing_animal,spawn 1,"fécondation 1,
+657,86,Fertilizing_animal,Fertilizing_animal,spawn 1,"fécondation 1,
 féconder 1,
 frai 1,
 frayer 1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Fertilizing_animal,,?,NoMatch,"Laying_eggs :Precedes: Fertilizing_animal
 Procreative_sex :Precedes: Fertilizing_animal
 Fertilizing_animal :Precedes: Giving_birth"
-,Filling,"charge 1b,
+661,87,Filling,Filling,"charge 1b,
 fueling 1,
 recharge 1b,
 refueling 1","charge 1,
@@ -709,28 +709,28 @@ Destination
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Filling,An Agent places a Means in a Destination., Filling,?,"Attaching :Precedes: Filling
 Filling :Is causative of: Becoming_filled
 Becoming_filled :Is inchoative of: Filling"
-,Flood,flood 1,"inondation 1,
+680,88,Flood,Flood,flood 1,"inondation 1,
 inonder 1",,洪水 1,,"Cause
 Location",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Flood,A Cause fills a Location with water.,?,NoMatch,Flood :Is subframe of: Weather_event
-,Food,"fish 2,
+682,89,Food,Food,"fish 2,
 food 1","aliment 1,
 blé 1,
 céréale 1,
 poisson 2",,,,Agent,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Food,A resource used by an Agent to grow and survive.,Food,?,Resource :Is inherited by: Food
-,Food_gathering,"harvest 1,
+683,90,Food_gathering,Food_gathering,"harvest 1,
 harvest 1.1","récolte 1.1,
 récolter 1",,,,"Agent
 Patient
 Source",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Food_gathering,An Agent removes a Patient that is ready to an accepted degree from a Source. The Patient comes from a Source where it has been grown and matured.,Food_gathering,ExactMatch,"Planting :Precedes: Food_gathering
 Food_gathering :Is subframe of: Growing_food"
-,Forestry,forestry 1,"foresterie 1,
+686,91,Forestry,Forestry,forestry 1,"foresterie 1,
 sylviculture 1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Forestry,,?,NoMatch,"Adding_trees_in_location :Is subframe of: Forestry
 Removing_trees_from_location :Is subframe of: Forestry
 Cutting_trees :Is subframe of: Forestry
 Forestry :Is subframe of: Using_resource"
-,Functional_area,aquifer 1,aquifère 1,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Functional_area,An area serving a specific purpose related to the Patient.,?,NoMatch,Locale :Is inherited by: Functional_area
-,Gas,"carbon dioxide 1,
+701,92,Functional_area,Functional_area,aquifer 1,aquifère 1,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Functional_area,An area serving a specific purpose related to the Patient.,?,NoMatch,Locale :Is inherited by: Functional_area
+704,93,Gas,Gas,"carbon dioxide 1,
 carbon 1,
 gas 1,
 methane 1,
@@ -738,11 +738,11 @@ ozone 1","dioxyde de carbone 1,
 méthane 1",,"二氧化碳 1,
 甲烷 1",dióxido de carbono 1,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Gas,A substance in gazeous form that is often found in high concentrations in the atmosphere.,?,NoMatch,"Elements_and_compounds :Is inherited by: Gas
 Gas :Is used by: Gas_by_producer"
-,Gas_by_producer,greenhouse gas 1,gaz à effet de serre 1,,温室气体 1,,Agent | Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Gas_by_producer,,?,NoMatch,"Gas :Is used by: Gas_by_producer
+705,94,Gas_by_producer,Gas_by_producer,greenhouse gas 1,gaz à effet de serre 1,,温室气体 1,,Agent | Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Gas_by_producer,,?,NoMatch,"Gas :Is used by: Gas_by_producer
 Gas_by_producer :See also: Greenhouse_effect"
-,Give_energy,fuel 2a,alimenter 2b,,,,"Means
+718,95,Give_energy,Give_energy,fuel 2a,alimenter 2b,,,,"Means
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Give_energy,,?,NoMatch,Energy_use :Is perspectivized in: Give_energy
-,Giving_birth,"parturition 1,
+721,96,Giving_birth,Giving_birth,"parturition 1,
 produce 3,
 give birth","mettre bas 1,
 mise bas 1,
@@ -750,23 +750,23 @@ donner naissance",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Giving_birth,An Agent gives life to a Patient.,Giving_birth,?,"Birth_scenario :Is perspectivized in: Giving_birth
 Fertilizing_animal :Precedes: Giving_birth
 Giving_birth :Is subframe of: Procreation"
-,Greenhouse_effect,greenhouse effect 1,effet de serre 1,,温室效应 1,,"Agent | Cause
+738,97,Greenhouse_effect,Greenhouse_effect,greenhouse effect 1,effet de serre 1,,温室效应 1,,"Agent | Cause
 Location",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Greenhouse_effect,,?,NoMatch,"Greenhouse_effect :See also: Gas_by_producer
 Greenhouse_effect :Is perspectivized in: Accumulating"
-,Grouping_by_number,"colony 1,
+743,98,Grouping_by_number,Grouping_by_number,"colony 1,
 community 1,
 population 2","colonie 1,
 communauté 1,
 peuplement 1,
 population 2,
 sous-population 1",,,,Part,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Grouping_by_number,A group of Parts that share some features and that interact in a given environment.,?,NoMatch,Biological_entity :Is used by: Grouping_by_number
-,Grouping_by_type,"fauna 1,
+744,99,Grouping_by_type,Grouping_by_type,"fauna 1,
 flora 1,
 vegetation 1","avifaune 1,
 faune 1,
 flore 1,
 végétation 1",,,,Part Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Grouping_by_type,A group of Parts that is characteristic of a Location.,?,NoMatch,Biological_classification :Is used by: Grouping_by_type
-,Growing_food,"cropping 1,
+745,100,Growing_food,Growing_food,"cropping 1,
 cultivate 1,
 cultivation 1,
 grow 3,
@@ -780,12 +780,12 @@ Planting :Is subframe of: Growing_food
 Preparing_soil :Is subframe of: Growing_food
 Fertilizing :Is subframe of: Growing_food
 Food_gathering  :Is subframe of: Growing_food"
-,Hide_in_ground,"landfill 2,
+768,101,Hide_in_ground,Hide_in_ground,"landfill 2,
 landfilling 1","enfouir 1,
 enfouissement 1",,,,"Agent
 Patient
 Location",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Hide_in_ground,,?,NoMatch,Hide_in_ground :Is subframe of: Removing
-,Human_activity,activity 1,activité 1,,活动 1,,"Agent
+784,102,Human_activity,Human_activity,activity 1,activité 1,,活动 1,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_activity,An Agent engages in a series of acttions the purpose of which is to exploit a Patient for his own use.,?,NoMatch,"Human_activity :Is inherited by: Cause_to_make_progress
 Human_activity :See also: Human_by_activity
 Human_activity :Is inherited by: Manufacturing
@@ -793,7 +793,7 @@ Human_activity :Is inherited by: Separating
 Human_activity :Has property: Sustainability
 Human_activity :Is inherited by: Taking
 Human_activity :Is inherited by: Using_resource"
-,Human_by_activity,"farmer 1,
+785,103,Human_by_activity,Human_by_activity,"farmer 1,
 fisher 1,
 hunter 1,
 manufacturer 1,
@@ -810,13 +810,13 @@ producteur 1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_activity,An Agent that is characterized according to the activity it carries out with respect to a Patient.,?,NoMatch,"Human_by_activity :See also: Businesses
 Human_by_activity :See also: Human_activity
 Human_entity :Is inherited by: Human_by_activity"
-,Human_by_conviction,environmentalist 1,"climato-sceptique 1,
+786,104,Human_by_conviction,Human_by_conviction,environmentalist 1,"climato-sceptique 1,
 défenseur 1,
 écologiste 1,
 environnementaliste 1",,,,"Agent
 Patient
 Topic",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_conviction,,?,NoMatch,Human_entity :Is inherited by:  Human_by_conviction
-,Human_by_knowledge,"biologist 1,
+787,105,Human_by_knowledge,Human_by_knowledge,"biologist 1,
 botanist 1,
 climatologist 1,
 ecologist 1,
@@ -825,16 +825,16 @@ expert 1",,专家 1,,"Agent
 Topic | Domain",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_knowledge,An Agent who has an expertise in a given Domain and uses this expertise to observe and understand a Patient.,?,NoMatch,"Human_entity :Is inherited by: Human_by_knowledge
 Scientific_field :Is used by: Human_by_knowledge
 Human_by_knowledge :See also: Predicting_scenario"
-,Human_by_number,,collectivité 2,,,,Part,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_number,,?,NoMatch,"Human_entity :Is used by: Human_by_number
+788,106,Human_by_number,Human_by_number,,collectivité 2,,,,Part,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_number,,?,NoMatch,"Human_entity :Is used by: Human_by_number
 Human_by_number :Is inherited by: Human_by_number_in_location"
-,Human_by_number_in_location,,"collectivité 1,
+789,107,Human_by_number_in_location,Human_by_number_in_location,,"collectivité 1,
 population 1",,,,Part,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_number_in_location,,?,NoMatch,Human_by_number :Is inherited by: Human_by_number_in_location
-,Human_by_use,consumer 1,"consommateur 1,
+790,108,Human_by_use,Human_by_use,consumer 1,"consommateur 1,
 utilisateur 1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_by_use,An Agent who is characterized according to the use he/she makes of a given Patient.,?,NoMatch,"Human_by_use :See also: Driver
 Human_by_use :See also: Passenger
 Human_entity :Is inherited by: Human_by_use"
-,Human_entity,humanity 1,"homme 1,
+791,109,Human_entity,Human_entity,humanity 1,"homme 1,
 homme 2,
 humain 2,
 humain 3,
@@ -844,27 +844,27 @@ Human_entity :Is inherited by: Human_by_conviction
 Human_entity :Is inherited by: Human_by_knowledge
 Human_entity :Is inherited by: Human_by_use
 Human_entity :Is used by: Human_by_number"
-,Human_hunting,"hunt 2,
+792,110,Human_hunting,Human_hunting,"hunt 2,
 poach 1","braconnage 1,
 braconner 1,
 chasse 2,
 chasser 2",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Human_hunting,"An Agent attempts to catch a Patient, often with the help of an instrument, for food, leisure, sport of commercial purposes.",?,NoMatch,"Human_hunting :See also: Hunting
 Taking :Is inherited by: Human_hunting "
-,Hunting,"hunt 1,
+793,111,Hunting,Hunting,"hunt 1,
 predation 1,
 prey 2","chasse 1,
 chasser 1,
 prédation 1",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Hunting,"An Agent attempts to catch a Patient, usually to kill the Patient and use it as food.",Hunting,?,"Hunting :See also: Hunter
 Hunting :See also: Human_hunting
 Species_activity :Is inherited by: Hunting"
-,Ingestion,"consume 2,
+840,112,Ingestion,Ingestion,"consume 2,
 feed 1","alimentation 2a,
 alimenter 1,
 consommation 3,
 consommer 3,
 nourrir 1a",,,,"Agent
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Ingestion,An Agent consumes a Means (food) to survive and grow.,Ingestion,?,Species_activity :Is inherited by: Ingestion
-,Judgment_of_impact_on_the_environment,"clean 1,
+871,113,Judgment_of_impact_on_the_environment,Judgment_of_impact_on_the_environment,"clean 1,
 environmental 2,
 green 1","écologique 2,
 environnemental 2,
@@ -874,7 +874,7 @@ ecológico 2",,,"Instrument
 Cause
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Judgment_of_impact_on_the_environment,,?,NoMatch,"Judgment_of_impact_on_the_environment :See also: Recreation
 Judgment_of_impact_on_the_environment :See also: Sustainability"
-,Judgment_of_intensity,"extreme 1,
+872,114,Judgment_of_intensity,Judgment_of_intensity,"extreme 1,
 extreme 2,
 intense 1,
 intensity 1,
@@ -885,7 +885,7 @@ intense 1,
 intensité 1,
 violent 1",,"严重 1,
 极端 1",,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Judgment_of_intensity,The characterization of the intensity of a Patient.,Judgment_of_intensity,?,Weather_event :Has property: Judgment_of_intensity
-,Killing,"decimate 1,
+879,115,Killing,Killing,"decimate 1,
 kill 1,
 killing 1,
 shoot 1,
@@ -899,11 +899,11 @@ causer un/une mort,
 entraîner un/une mort",,,,"Cause | Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Killing,An Agent or a Cause causes the death of the Patient.,Killing ,?,"Killing :Is causative of: Death
 Death :Is inchoative of: Killing"
-,Laying_eggs,"lay 1,
+890,116,Laying_eggs,Laying_eggs,"lay 1,
 laying 1","pondre 1,
 ponte 1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Laying_eggs,,?,NoMatch,Laying_eggs :Precedes: Fertilizing_animal
-,Locale,"Earth 1,
+907,117,Locale,Locale,"Earth 1,
 globe 1,
 land 1,
 ocean 1,
@@ -926,7 +926,7 @@ Locale :Is used by: Locale_by_reference
 Locale :Is used by: Locale_extent
 Locale :Is inherited by: Natural_features
 Locale :Is inherited by: Political_locale"
-,Locale_by_beneficiary,"environment 2,
+908,118,Locale_by_beneficiary,Locale_by_beneficiary,"environment 2,
 habitat 1,
 range 2","environnement 2,
 habitat 1,
@@ -935,7 +935,7 @@ résidence 1",,"栖息地 1,
 Locale_for_beneficiary :Is inherited by: Locale_by_beneficiary
 Locale_by_beneficiary :Is inherited by: Locale_by_conditions_for_beneficiary
 Locale_by_beneficiary :Is inherited by: Locale_by_purpose"
-,Locale_by_conditions,"agroecosystem 1,
+911,119,Locale_by_conditions,Locale_by_conditions,"agroecosystem 1,
 ecosystem 1,
 environment 1","agroécosystème 1,
 biome 1,
@@ -945,81 +945,81 @@ environnement 1","ecossistema 1,
 meio ambiente 1","环境 1,
 生态系统 1",,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_conditions,An area of the Support defined according to the set of conditions and components it contains.,?,NoMatch,"Locale :Is inherited by: Locale_by_conditions
 Locale_by_conditions :Is inherited by: Locale_by_conditions_for_beneficiary"
-,Locale_by_conditions_for_beneficiary,,milieu 1,,,,"Support
+912,120,Locale_by_conditions_for_beneficiary,Locale_by_conditions_for_beneficiary,,milieu 1,,,,"Support
 Theme",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_conditions_for_beneficiary,,?,NoMatch,"Locale_by_beneficiary :Is inherited by: Locale_by_conditions_for_beneficiary
 Locale_by_conditions :Is inherited by: Locale_by_conditions_for_beneficiary"
-,Locale_by_division,"area 1,
+913,121,Locale_by_division,Locale_by_division,"area 1,
 region 1,
 territory 2,
 zone 1","région 1,
 territoire 2,
 zone 1",região 1,区域 1,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_division,A relatively stable bounded location that is a part of a Support. It is generally a division of a Locale.,?,NoMatch,Locale :Is inherited by: Locale_by_division
-,Locale_by_exploitation,land 2,"rizière 1,
+915,122,Locale_by_exploitation,Locale_by_exploitation,land 2,"rizière 1,
 terre 4",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_exploitation,,?,NoMatch,Locale :Is inherited by: Locale_by_exploitation
-,Locale_by_feature,"mangrove 1,
+916,123,Locale_by_feature,Locale_by_feature,"mangrove 1,
 marsh 1,
 swamp 1","désert 1,
 mangrove 1,
 marais 1,
 marécage 1,
 tourbière 1",,,,Support Part,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_feature,A large or small ecological area of a larger Support with a specific Part that characterizes it.,?,NoMatch,Natural_features :Is inherited by: Locale_by_feature
-,Locale_by_purpose,"hibernaculum 1,
+918,124,Locale_by_purpose,Locale_by_purpose,"hibernaculum 1,
 site 1,
 territory 1","aire 1,
 frayère 1,
 site 1,
 territoire 1",,,,"Theme
 Purpose",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_purpose,"A bounded location used by a Theme for a specific Purpose (live, reproduce, etc.)",?,NoMatch,Locale_by_beneficiary :Is inherited by: Locale_by_purpose
-,Locale_by_reference,,"équateur 1,
+919,125,Locale_by_reference,Locale_by_reference,,"équateur 1,
 hémisphère 1,
 latitude 1,
 longitude 1,
 pôle 1,
 tropique 1",,,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_by_reference,,?,NoMatch,Locale :Is used by: Locale_by_reference
-,Locale_extent,"global 1,
+922,126,Locale_extent,Locale_extent,"global 1,
 worldwide 1","global 1,
 local 1,
 mondial 1,
 planétaire 1",,,,Event | Entity,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_extent,The extent to which an Entity spreads on or an Event occurs in a Locale.,?,NoMatch,Locale :Is used by: Locale_extent
-,Locale_for_beneficiary,"park 1,
+923,127,Locale_for_beneficiary,Locale_for_beneficiary,"park 1,
 reserve 1",réserve 2,,,,Agent Theme,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Locale_for_beneficiary,"A bounded area usually managed by an Agent for use by Theme (for protection, survival, reproduction, etc.).",?,NoMatch,Locale_for_beneficiary :Is inherited by: Locale_by_beneficiary
-,Make_use_of_energy,,"consommation 2,
+947,128,Make_use_of_energy,Make_use_of_energy,,"consommation 2,
 consommer 2",,,,"Destination
 Means",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Make_use_of_energy,,?,NoMatch,"Becoming_filled :Precedes: Make_use_of_energy
 Energy_use :Is perspectivized in: Make_use_of_energy
 Operated_with_means :Is used by: Make_use_of_energy"
-,Managing_waste,"manage 1,
+950,129,Managing_waste,Managing_waste,"manage 1,
 management 1",,,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Managing_waste,An Agent performs a series of steps in order to ensure that the Patient is properly processed.,?,NoMatch,"Collecting :Is subframe of: Managing_waste
 Recover :Is subframe of: Managing_waste
 Removing :Is subframe of: Managing_waste
 Sorting :Is subframe of: Managing_waste
 Managing_waste :See also: Waste"
-,Manufacturing,"manufacture 1,
+957,130,Manufacturing,Manufacturing,"manufacture 1,
 produce 2,
 production 2","fabrication 1,
 fabriquer 1,
 production 2,
 produire 2",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Manufacturing,"An Agent produces or exploits a Patient, usually in order to make profits..",Manufacturing,?,Human_activity :Is inherited by: Manufacturing
-,Means_of_transportation,transportation 1.2,transports 1,,,,"Patient
+963,131,Means_of_transportation,Means_of_transportation,transportation 1.2,transports 1,,,,"Patient
 Source
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Means_of_transportation,An entity specifically designed to bring a Patient from a Source to a Destination.,?,NoMatch,"Means_of_transportation :Is perspectivized in: Vehicle
 Means_of_transportation :Is perspectivized in: Vehicle_for_transportation"
-,Measuring,"measure 1a,
+973,132,Measuring,Measuring,"measure 1a,
 measure 1b","mesurer 1a,
 mesurer 1b",,,,"Agent
 Patient
 Instrument",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Measuring,,?,NoMatch,"Measuring :Precedes: Predicting
 Measuring :Is subframe of: Predicting_scenario"
-,Mining,"extract 1,
+995,133,Mining,Mining,"extract 1,
 mine 1","extraction 1,
 extraire 1",,,,"Agent
 Patient
 Source",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Mining,"An Agent attempts to obtain a desirable Patient, located in a Source, by digging or tunneling in this Source.",Mining,?,Mining :Is subframe of: Using_resource
-,Motion,"drive 1,
+999,134,Motion,Motion,"drive 1,
 travel 1",parcourir 1,,,,"Instrument
 Expanse",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Motion,,Motion,?,
-,Natural_features,"atoll 1,
+1 016,135,Natural_features,Natural_features,"atoll 1,
 continent 1,
 glacier 1,
 mountain 1,
@@ -1040,13 +1040,13 @@ rivière 1,
 toundra 1",,冰川 1,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Natural_features,A component of a Support defined by shape and characterized by natural geographic features.,Natural_features,?,"Locale :Is inherited by: Natural_features
 Natural_features :Is inherited by: Locale_by_feature
 Natural_features :Is inherited by: Relational_natural_features"
-,Natural_substance,"air 1,
+1 018,136,Natural_substance,Natural_substance,"air 1,
 biomass 1,
 snow 1,
 water 1","biomasse 1,
 eau 1",ar 1,"水 1,
 雪 1",biomasa 1,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Natural_substance,,?,NoMatch,Substance :Is inherited by: Natural_substance
-,Objective_influence,"affect 1,
+1 032,137,Objective_influence,Objective_influence,"affect 1,
 effect 1,
 impact 1,
 impact 2,
@@ -1078,13 +1078,13 @@ influenciar 1,
 influir 1,
 repercusión 1","Agent | Cause
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Objective_influence,"A Cause, or sometimes an Agent, has an influence (that is often negative) on a Patient. The Patient can undergo changes due to this influence.",Objective_influence,?,Objective_influence :See also: Cause_change_of_state
-,Ontogeny,"grow 2,
+1 042,138,Ontogeny,Ontogeny,"grow 2,
 growth 2","croissance 2,
 développement 2,
 développer 3",,生长 1,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Ontogeny,A Patient changes in size or develops into a different state.,Ontogeny,?,"Ontogeny :Precedes: Aging
 Being_born :Precedes: Ontogeny
 Ontogeny :Is subframe of: Cycle_of_life_and_death"
-,Operate_vehicle,"drive 2,
+1 044,139,Operate_vehicle,Operate_vehicle,"drive 2,
 ride 1","conduire 1,
 conduite 1",,,,"Agent
 Patient
@@ -1093,20 +1093,20 @@ Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frame
 Operate_vehicle :See also: Driver
 Use_vehicle :Is perspectivized in: Operate_vehicle
 Operate_vehicle :Is subframe of: Operate_vehicle_scenario"
-,Operated_with_means,"electric 1b,
+1 046,140,Operated_with_means,Operated_with_means,"electric 1b,
 hybrid 1","électrique 1b,
 hybride 1,
 à essence,
 tout électrique",,,,Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Operated_with_means,A Destination that uses a means to operate.,?,NoMatch,Operated_with_means :Is used by: Make_use_of_energy
-,Overexploiting,"overfish 1,
+1 058,141,Overexploiting,Overexploiting,"overfish 1,
 overfishing 1,
 waste 2","gaspillage 1,
 gaspiller 1,
 surpêche 1",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Overexploiting,,?,NoMatch,Using_resource :Is used by: Overexploiting
-,Passenger,passenger 1,,,,,"Theme
+1 070,142,Passenger,Passenger,passenger 1,,,,,"Theme
 Instrument",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Passenger,,?,NoMatch,"Passenger :See also: Human_by_use
 Passenger :See also: Ride_vehicle"
-,Planting,"plant 2,
+1 117,143,Planting,Planting,"plant 2,
 planting 2.1,
 sow 1","ensemencement 1,
 ensemencer 1,
@@ -1120,14 +1120,14 @@ Preparing_soil :Precedes: Planting
 Planting :Precedes: Food_gathering
 Planting :Is subframe of: Growing_food
 Planting :See also: Planting_trees"
-,Planting_trees,"plant 4,
+1 118,144,Planting_trees,Planting_trees,"plant 4,
 planting 4.1","plantation 2.1,
 planter 2","plantação 1.1,
 plantar 1",,,"Agent
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Planting_trees,This frame describes a situation in which the Agent puts the Patient in the Destination for the purpose of covering the Destination partly or entirely with the Patient.,?,NoMatch,"Adding_trees_in_location :Is perspectivized in: Planting_trees
 Planting_trees :See also: Planting "
-,Plants,"plant 1,
+1 119,145,Plants,Plants,"plant 1,
 tree 1,
 weed 1","adventice 1,
 arbre 1,
@@ -1137,9 +1137,9 @@ mauvaise herbe 1,
 plante 1,
 végétal 1","árvore 1,
 planta 1",植物 1,,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Plants,A biological entity that belongs to the kingdom of plants (as opposed to that of animals).,Plants,?,Biological_entity :Is inherited by: Plants 
-,Political_locale,,"pays 1,
+1 124,146,Political_locale,Political_locale,,"pays 1,
 ville 1",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Political_locale,,Political_locale,?,Locale :Is inherited by: Political_locale
-,Precipitation,"precipitation 1,
+1 146,147,Precipitation,Precipitation,"precipitation 1,
 rain 1,
 rainfall 1","mousson 1,
 pluie 1,
@@ -1147,7 +1147,7 @@ précipitations 1",,"降水 1,
 降雨 1",,"Location
 Time
 Material",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Precipitation,Water in some solid or liquid form (the Material) falls from the sky in a particular Location and at a particular Time.,Precipitation,?,Precipitation :Is subframe of: Storm
-,Predicting,"forecast 2,
+1 148,148,Predicting,Predicting,"forecast 2,
 predict 1a,
 predict 1b,
 project 1a,
@@ -1166,7 +1166,7 @@ Estimating :Precedes: Predicting
 Measuring :Precedes: Predicting
 Predicting :Is subframe of: Predicting_scenario
 Simulating :Precedes: Predicting"
-,Predicting_scenario,,,,,,"Agent
+1 150,149,Predicting_scenario,Predicting_scenario,,,,,,"Agent
 Patient
 Method
 Substitute
@@ -1177,14 +1177,14 @@ Predicting :Is subframe of: Predicting_scenario
 Predicting_scenario :See also: Human_by_knowledge
 Predicting_scenario :Is used by: Representation
 Simulating :Is subframe of: Predicting_scenario"
-,Preparing_for_reuse,"recycle 1,
+1 155,150,Preparing_for_reuse,Preparing_for_reuse,"recycle 1,
 recycling 1","recyclage 1,
 recycler 1",,,reciclaje 1,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Preparing_for_reuse,,?,NoMatch,"Preparing_for_reuse :Is subframe of: Recover
 Preparing_for_reuse :Precedes: Reuse"
-,Preparing_soil,"no-till 1,
+1 156,151,Preparing_soil,Preparing_soil,"no-till 1,
 tillage 1",labour 1,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Preparing_soil,,?,?,"Preparing_soil :Precedes: Planting
 Preparing_soil :Is subframe of: Growing_food"
-,Preserve_in_original_state,"conservation 1,
+1 159,152,Preserve_in_original_state,Preserve_in_original_state,"conservation 1,
 conserve 1,
 preservation 1,
 preserve 1","conservation 1,
@@ -1195,25 +1195,25 @@ conservar 1,
 preservação 1,
 preservar 1",,preservar 1,"Agent | Cause
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Preserve_in_original_state,An Agent or a Cause causes that a Patient remains in its original or in a good state.,?,NoMatch,Preserve_in_original_state :See also: Protecting
-,Processing_materials,"process 1,
+1 178,153,Processing_materials,Processing_materials,"process 1,
 treat 1","conditionnement 1,
 traitement 1,
 traiter 1",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Processing_materials,An Agent processes a Patient so this Patient can be used again for another purpose.,Processing_materials,?,Processing_materials :Is subframe of: Recover
-,Procreation,"breed 1,
+1 179,154,Procreation,Procreation,"breed 1,
 breeding 1","reproduction 1,
 reproduire 3",,,,Agent | Agents | Agent-a | Agent-b,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Procreation,An Agent engages in a series of activities to have offsprings.,?,NoMatch,"Giving_birth :Is subframe of: Procreation
 Procreative_sex :Is subframe of: Procreation
 Procreation :See also: Reproducing_animal"
-,Procreative_sex,mate 1,"accouplement 1,
+1 180,155,Procreative_sex,Procreative_sex,mate 1,"accouplement 1,
 accoupler 1",,,,"Agent-a
 Agent-b
 Agent",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Procreative_sex,An Agent-a engage in a sex act with Agent-b in order to have offsprings.,Procreative_sex,?,"Procreative_sex :Precedes: Fertilizing_animal
 Procreative_sex :Is subframe of: Procreation"
-,Progression,,développer 1a,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Progression,A Patient changes from a prior state to a post state in a sequence leading to improvement or degradation,Progress,?,"Cause_to_make_progress :Is causative of: Progression
+1 188,156,Progression,Progression,,développer 1a,,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Progression,A Patient changes from a prior state to a post state in a sequence leading to improvement or degradation,Progress,?,"Cause_to_make_progress :Is causative of: Progression
 Progression :Is inchoative of: Cause_to_make_progress
 Progression :Is used by: Stage_of_progress
 Progression :See also: Undergo_change_of_state"
-,Protecting,"protect 1,
+1 197,157,Protecting,Protecting,"protect 1,
 protection 1","protection 1,
 protéger 1","proteção 1,
 proteger 1",保护 1,"protección 1,
@@ -1222,7 +1222,7 @@ Patient
 Threat",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Protecting,An Agent or a Cause prevents a Patient from being harmed by a Threat,Protecting,?,"Protecting :See also: Preserve_in_original_state
 Protecting :See also: Rejuvenation
 Run_risk :Is used by: Protecting"
-,Recover,recover 1,"récupération 1,
+1 237,158,Recover,Recover,recover 1,"récupération 1,
 récupérer 1,
 valorisation 1,
 valoriser 1",,,,Agent Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Recover,An Agent applies different methods so that a Patient can be used once again.,?,NoMatch,"Cause_change_into_reusable_material :Is subframe of: Recover
@@ -1230,12 +1230,12 @@ Preparing_for_reuse :Is subframe of: Recover
 Processing_materials :Is subframe of: Recover
 Sorting :Precedes: Recover
 Recover :Is subframe of: Managing_waste"
-,Recreation,renewable 1,"renouvelable 1
+1 239,159,Recreation,Recreation,renewable 1,"renouvelable 1
 non renouvelable",,,renovable 1,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Recreation,,?,NoMatch,Recreation :See also: Judgment_of_impact_on_the_environment
-,Reflecting,reflect 1,réfléchir 1,,反射 1,,"Source
+1 245,160,Reflecting,Reflecting,reflect 1,réfléchir 1,,反射 1,,"Source
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Reflecting,,?,NoMatch,Emitting :Precedes: Reflecting
-,Rejuvenation,"recover 3b,
+1 251,161,Rejuvenation,Rejuvenation,"recover 3b,
 restoration 1,
 restore 1","restauration 1,
 restaurer 1,
@@ -1245,7 +1245,7 @@ Cause
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Rejuvenation,The action of an Agent or the occurrence of a Cause returns an Patient to an earlier state.,Rejuvenation,?,"Become_rejuvenated :Is inchoative of: Rejuvenation
 Rejuvenation :Is causative of: Become_rejuvenated
 Rejuvenation :See also: Protecting"
-,Relational_natural_features,"coast 1,
+1 256,162,Relational_natural_features,Relational_natural_features,"coast 1,
 permafrost 1,
 surface 1","côte 1,
 delta 1,
@@ -1255,13 +1255,13 @@ pergélisol 1,
 plaque 1,
 sol 1,
 surface 1",,,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Relational_natural_features,"A part is defined in relation to a Support, either as a particular part, or as an immediately bordering entity.",Relational_natural_features,?,Natural_features :Is inherited by: Relational_natural_features
-,Relocating,"relocate 1,
+1 267,163,Relocating,Relocating,"relocate 1,
 relocation 1,
 translocation 1",translocation 1,,,,"Agent
 Patient
 Source
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Relocating,An Agent removes a Patient from a Source and places the Patient in a new Destination.,?,?,Adding_species_in_location :Is inherited by: Relocating
-,Removing,"discard 1,
+1 272,164,Removing,Removing,"discard 1,
 disposal 1,
 dispose 1","élimination 1,
 éliminer 1",,,,"Agent
@@ -1269,7 +1269,7 @@ Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr
 Hide_in_ground :Is subframe of: Removing
 Sorting :Precedes: Removing
 Removing :Is subframe of: Managing_waste"
-,Removing_trees_from_location,"clear 1,
+1 274,165,Removing_trees_from_location,Removing_trees_from_location,"clear 1,
 clearing 1,
 deforest 1,
 deforestation 1","déboisement 1,
@@ -1281,15 +1281,15 @@ desmatamento 1,
 desmatar 1",,,"Agent | Cause
 Source
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Removing_trees_from_location,An Agent or a Cause removes a Patient from a Source so that the Source becomes completely devoid of Patients.,?,NoMatch,Removing_trees_from_location :Is subframe of: Forestry
-,Repel,,"lutte 1,
+1 281,166,Repel,Repel,,"lutte 1,
 lutter 1",,,,"Agent
 Threat",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Repel,An Agent takes measures in order to counter a Threat,Repel,?,
-,Representation,"model 1,
+1 284,167,Representation,Representation,"model 1,
 scenario 1","modèle 1,
 scénario 1",,"情景 1,
 模型 1",,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Representation,,?,NoMatch,Predicting_scenario :Is used by: Representation
-,Reproducing_animal,"female 1,
+1 287,168,Reproducing_animal,Reproducing_animal,"female 1,
 male 1,
 mother 1","femelle 1,
 mâle 1,
@@ -1297,7 +1297,7 @@ mère 1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Reproducing_animal,,?,NoMatch,"Animal_by_family :Is perspectivized in: Reproducing_animal
 Animals :Is inherited by: Reproducing_animal
 Reproducing_animal :See also: Procreation"
-,Residence,"inhabit 1,
+1 297,169,Residence,Residence,"inhabit 1,
 live 2,
 nest 2,
 nesting 1,
@@ -1308,11 +1308,11 @@ vivre 2",,,,Theme Location,https://olst.ling.umontreal.ca/dicoenviro/framed/inde
 Residence :Is used by: Distribution
 Residence :Is used by: Species_colonization
 Residence :See also: Visiting"
-,Resource,resource 1,ressource 1,recurso 1,资源 1,,"Material
+1 300,170,Resource,Resource,resource 1,ressource 1,recurso 1,资源 1,,"Material
 Agent",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Resource,An entity made of Material that is found in nature that used by an Agent for a specific purpose.,?,NoMatch,"Resource :Is inherited by: Food
 Resource :See also: Substance
 Resource :See also: Using_resource"
-,Reuse,"reuse 1,
+1 310,171,Reuse,Reuse,"reuse 1,
 reuse 2","réemploi 1,
 réemployer 1,
 réutilisation 1,
@@ -1321,7 +1321,7 @@ Patient
 Purpose",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Reuse,An Agent uses a Patient that has already been used and that has been recycled or treated for a specific Purpose.,Using_resource,?,"Cause_change_into_reusable_material :Precedes: Reuse
 Preparing_for_reuse :Precedes: Reuse
 Reuse :See also: Using_resource"
-,Ride_vehicle,"carpooling 1,
+1 315,172,Ride_vehicle,Ride_vehicle,"carpooling 1,
 commute 1,
 commuting 1,
 transit 1.1,
@@ -1335,12 +1335,12 @@ Destination
 Instrument
 Source_Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Ride_vehicle,A Theme moves from a Source to a Destination by means of an Instrument.,Ride_vehicle,?,"Ride_vehicle :See also: Passenger
 Use_vehicle :Is perspectivized in: Ride_vehicle"
-,Risk_scenario,,,,,,"Agent | Cause
+1 317,173,Risk_scenario,Risk_scenario,,,,,,"Agent | Cause
 Patient
 Result",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Risk_scenario,A Patient is in a particular situation triggered by an Agent or a Cause that affects the Patient and mays end up in a Result.,Risk_scenario,?,"Risk_scenario :Is perspectivized in: Being_at_risk
 Risk_scenario :Is perspectivized in: Risky_situation
 Risk_scenario :Is perspectivized in: Run_risk"
-,Risky_situation,"harmful 1,
+1 318,174,Risky_situation,Risky_situation,"harmful 1,
 hazard 1,
 hazardous 1","danger 1,
 néfaste 1,
@@ -1349,7 +1349,7 @@ nuisible 1",,有害 1,,"Cause | Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Risky_situation,A Cause or an Agent is likely (or unlikely) to result in a harmful event befalling an Patient.,Risky_situation,ExactMatch,"Risky_situation :See also: Endangering
 Risky_situation :See also: Run_risk
 Risk_scenario :Is perspectivized in: Risky_situation"
-,Rotting,"biodegradable 1,
+1 323,175,Rotting,Rotting,"biodegradable 1,
 biodegradation 1,
 biodegrade 1,
 decay 1,
@@ -1363,7 +1363,7 @@ décomposition 1,
 dégradable 1,
 dégrader 2,
 putrescible 1",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Rotting,"A Patient, which is an organic substance, undergoes the natural process of decaying.",Rotting,ExactMatch,Undergo_change_of_state :Is inherited by: Rotting
-,Run_risk,"risk 1,
+1 324,176,Run_risk,Run_risk,"risk 1,
 threat 1","menace 1,
 risque 1",,"威胁 1.1,
 风险 1",amenaza 1,"Cause
@@ -1372,7 +1372,7 @@ Result",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=
 Run_risk :See also: Risky_situation
 Risk_scenario :Is perspectivized in: Run_risk 
 Run_risk :Is used by: Protecting"
-,Scarcity,"loss 1,
+1 330,177,Scarcity,Scarcity,"loss 1,
 rare 1,
 rarity 1,
 shortage 1","pénurie 1,
@@ -1380,23 +1380,23 @@ perte 1,
 rare 1,
 raréfaction 1,
 raréfier 1",,,,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Scarcity,A Patient is no longer available or available in very low amounts.,Scarcity,WeakMatch,
-,Scientific_field,"biology 1,
+1 333,178,Scientific_field,Scientific_field,"biology 1,
 ecology 1","biologie 1,
 climatologie 1,
 écologie 1,
 hydrologie 2,
 océanographie 1",,,,Agent Topic,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Scientific_field,,?,NoMatch,Scientific_field :Is used by: Human_by_knowledge
-,Self_motion,"migrate 1,
+1 344,179,Self_motion,Self_motion,"migrate 1,
 migration 1","déplacement 1,
 déplacer 1,
 migration 1,
 migrer 1",,,,"Theme
 Source
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Self_motion,"The Theme, a living being, moves under its own direction from a Source to a Destination.",Self_motion,TooSpecific,Species_activity :Is inherited by: Self_motion
-,Separating,fragment 2,fragmenter 1b,,,,"Agent | Cause
+1 349,180,Separating,Separating,fragment 2,fragmenter 1b,,,,"Agent | Cause
 Patient
 Part",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Separating,A Agent or a Cause creates a division in a Patient such that the Patient results in being divided into two or more Parts.,Separating,ExactMatch,Human_activity :Is inherited by: Separating
-,Simulating,"model 2,
+1 376,181,Simulating,Simulating,"model 2,
 modelling 1,
 simulate 1a,
 simulate 1b","modélisation 1,
@@ -1409,12 +1409,12 @@ simuler 1b",,"模拟 1a,
 Patient
 Substitute",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Simulating,An Agent provides an artificial reproduction of a Patient with a Substitute so that the Patient can be studied or examined by experts.,?,NoMatch,"Simulating :Precedes: Predicting
 Simulating :Is subframe of: Predicting_scenario"
-,Sleep,"hibernate 1,
+1 379,182,Sleep,Sleep,"hibernate 1,
 hibernation 1","hibernation 1,
 hiberner 1,
 en hibernation",,,,"Agent
 Duration",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Sleep,"The Agent remains in a dormant states for a given Duration, typically associated with a season.",Sleep,TooSpecific,Species_activity :Is inherited by: Sleep
-,Soaking_up,"absorb 1,
+1 383,183,Soaking_up,Soaking_up,"absorb 1,
 absorption 1,
 uptake 1.1","absorber 1,
 absorption 1","absorção 1,
@@ -1422,7 +1422,7 @@ absorver 1",吸收 1,,"Destination
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Soaking_up,A Destination becomes imbued with a Patient,Soaking_up,TooGeneral,"Emitting :Precedes: Soaking_up
 Soaking_up :Precedes: Emitting
 Soaking_up :Precedes: Trapping"
-,Sorting,"segregate 1,
+1 396,184,Sorting,Sorting,"segregate 1,
 separate 1a,
 separation 1a,
 sort 1","tri 1,
@@ -1432,14 +1432,14 @@ Criterion",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&
 Sorting :Precedes: Recover
 Sorting :Precedes: Removing
 Sorting :Is subframe of: Managing_waste"
-,Species_activity,,,,,,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Species_activity,,?,NoMatch,"Species_activity :See also: Animals
+1 405,185,Species_activity,Species_activity,,,,,,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Species_activity,,?,NoMatch,"Species_activity :See also: Animals
 Species_activity :Is inherited by: Hunting
 Species_activity :Is inherited by: Ingestion
 Species_activity :Is inherited by: Residence
 Species_activity :Is inherited by: Self_motion
 Species_activity :Is inherited by: Sleep
 Species_activity :Is inherited by: Visiting"
-,Species_colonization,"colonization 1,
+1 406,186,Species_colonization,Species_colonization,"colonization 1,
 colonize 1,
 recolonization 1","colonisation 1,
 coloniser 1,
@@ -1449,12 +1449,12 @@ peupler 1",,,,"Theme
 Location",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Species_colonization,A Theme settles in a group in a Location in order to feed and reproduce.,?,NoMatch,"Adding_species_in_location :Is causative of: Species_colonization
 Species_colonization :Is inchoative of: Adding_species_in_location
 Residence :Is used by: Species_colonization"
-,Spilling,spill 1a,"déverser 2a,
+1 410,187,Spilling,Spilling,spill 1a,"déverser 2a,
 écouler 2,
 marée noire 1.1",,,,"Patient
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Spilling,,?,NoMatch,"Discharge :Is causative of: Spilling
 Spilling :Is inchoative of: Discharge"
-,Stage_of_progress,"developed 1,
+1 419,188,Stage_of_progress,Stage_of_progress,"developed 1,
 developing 1,
 industrialized 1","développé 1,
 émergent 2,
@@ -1462,11 +1462,11 @@ industrialisé 1
 en développement,
 en voie de développement",,,,"Patient
 ",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Stage_of_progress,A Patient is at a particular stage of its development.,Stage_of_progress,ExactMatch,Progression :Is used by: Stage_of_progress
-,Storing,store 1b,"stockage 1b,
+1 432,189,Storing,Storing,store 1b,"stockage 1b,
 stocker 1b",,,,"Agent | Cause
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Storing,An Agent keeps a Patient in a Destination in order to prevent the Patient from being in atmosphere and contribute to the greenhouse effect.,Storing,TooSpecific,Capturing :Precedes: Storing
-,Storm,"cyclone 1,
+1 433,190,Storm,Storm,"cyclone 1,
 hurricane 1,
 storm 1,
 thunderstorm 1,
@@ -1480,7 +1480,7 @@ tornade 1",,"气旋 1,
 Time",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Storm,,?,NoMatch,"Precipitation :Is subframe of: Storm
 Storm :Precedes: Catastrophe
 Storm :Is subframe of: Weather_event"
-,Substance,"material 1,
+1 445,191,Substance,Substance,"material 1,
 substance 1","matière 1,
 substance 1",,,,,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Substance,,Substance,ExactMatch,"Substance :See also: Resource
 Substance :Is inherited by: Elements_and_compounds
@@ -1489,18 +1489,18 @@ Substance :Is inherited by: Substance_by_action
 Substance :Is inherited by: Substance_by_use
 Substance :Is inherited by: Waste
 Substance :Is used by: Substance_by_introduction"
-,Substance_by_action,"disinfectant 1,
+1 446,192,Substance_by_action,Substance_by_action,"disinfectant 1,
 product 2","désinfectant 2,
 détergent 1,
 produit 2",,,,"Agent
 Patient | Purpose",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Substance_by_action,A substance used by an Agent for a specific Purpose in relation with a specific Patient.,?,NoMatch,"Substance :Is inherited by: Substance_by_action
 Substance_by_action :Is inherited by: Substance_for_addition
 Substance_by_action :Is inherited by: Substance_for_removal"
-,Substance_by_introduction,contaminant 1,"contaminant 2,
+1 447,193,Substance_by_introduction,Substance_by_introduction,contaminant 1,"contaminant 2,
 polluant 2",,,,"Material
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Substance_by_introduction,,?,NoMatch,"Substance_by_introduction :See also: Contamination
 Substance :Is used by: Substance_by_introduction"
-,Substance_by_use,"bioethanol 1,
+1 449,194,Substance_by_use,Substance_by_use,"bioethanol 1,
 biofuel 1,
 biogas 1,
 ethanol 1,
@@ -1514,18 +1514,18 @@ hydrocarbure 1,
 pétrole 1,
 terre rare 1",,,,"Agent
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Substance_by_use,,?,NoMatch,Substance :Is inherited by: Substance_by_use
-,Substance_for_addition,fertilizer 1,fertilisant 1,,,,"Agent
+1 450,195,Substance_for_addition,Substance_for_addition,fertilizer 1,fertilisant 1,,,,"Agent
 Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Substance_for_addition,,?,NoMatch,Substance_by_action :Is inherited by: Substance_for_addition
-,Substance_for_removal,"insecticide 1,
+1 451,196,Substance_for_removal,Substance_for_removal,"insecticide 1,
 pesticide 1,
 surfactant 1",pesticide 1,,,,"Agent
 Source | Destination
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Substance_for_removal,,?,NoMatch,Substance_by_action :Is inherited by: Substance_for_removal
-,Supply,"supply 1,
+1 461,197,Supply,Supply,"supply 1,
 supply 1.1",,,,,"Agent | Cause
 Patient
 Recipient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Supply,,Supply,ExactMatch,
-,Surviving,"survival 1,
+1 467,198,Surviving,Surviving,"survival 1,
 survive 1","subsistance 1,
 survie 1,
 survivre 1,
@@ -1533,7 +1533,7 @@ viabilité 1,
 viable 1",sobrevivência 1,"生存 1,
 生存 1.1",,Patient,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Surviving,A Patient manages to stay alive even if difficult conditions surround it.,Surviving,TooGeneral,"Surviving :Precedes: Ceasing_to_be
 Surviving :Is subframe of: Cycle_of_existence_scenario"
-,Sustainability,"sustainability 1,
+1 469,199,Sustainability,Sustainability,"sustainability 1,
 sustainable 1,
 unsustainable 1","durable 1,
 rationnel 1;
@@ -1541,12 +1541,12 @@ non durable","sustentabilidade 1,
 sustentável 1",,"sostenibilidad 1,
 sostenible 1",Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Sustainability,,?,NoMatch,"Human_activity :Has property: Sustainability
 Sustainability :See also: Judgment_of_impact_on_the_environment"
-,Taking,take 1,,,,,"Agent | Cause
+1 476,200,Taking,Taking,take 1,,,,,"Agent | Cause
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Taking,An Agent or a Cause does something is detrimental to a Patient and contributes to its decline or disappearance.,?,NoMatch,"Human_activity :Is inherited by: Taking
 Taking :Is inherited by: Disturbing
 Taking :Is inherited by: Human_hunting
 Taking :Is inherited by: Taking_captive"
-,Taking_captive,"bycatch 1.1,
+1 477,201,Taking_captive,Taking_captive,"bycatch 1.1,
 capture 5,
 capture 5.1,
 catch 1,
@@ -1558,13 +1558,13 @@ prise 2.1",,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Taking_captive,An Agent takes and holds a Patient so that the Patient becomes available for use by the Agent.,Taking_captive,TooGeneral,"Taking_captive :See also: Being_in_captivity
 Taking :Is inherited by: Taking_captive
 Taking_captive :Is inherited by: Catching_with_gear"
-,Trapping,"trap 1a,
+1 554,202,Trapping,Trapping,"trap 1a,
 trap 1b","emprisonner 1,
 piéger 1a,
 piéger 1b",,,,"Agent
 Patient
 Location",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Trapping,An Agent keeps a Patient in a Location and prevents the Patient from escaping or a Location prevents a Patient from escaping.,?,NoMatch,Soaking_up :Precedes: Trapping
-,Undergo_change_of_state,"change 1a,
+1 573,203,Undergo_change_of_state,Undergo_change_of_state,"change 1a,
 change 1a.1,
 fluctuate 1,
 fluctuation 1,
@@ -1596,7 +1596,7 @@ Undergo_change_of_state :Is inherited by: Change_of_phase
 Undergo_change_of_state :Is inherited by: Change_position_on_a_scale
 Undergo_change_of_state :Is inherited by: Deteriorating
 Undergo_change_of_state :Is inherited by: Rotting"
-,Use_vehicle,,,,,,"Agent
+1 581,204,Use_vehicle,Use_vehicle,,,,,,"Agent
 Theme
 Instrument
 Source
@@ -1604,7 +1604,7 @@ Destination",https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frame
 Use_vehicle :Is perspectivized in: Operate_vehicle
 Use_vehicle :Is perspectivized in: Ride_vehicle
 Use_vehicle :See also: Vehicle"
-,Using_resource,"consume 1a,
+1 585,205,Using_resource,Using_resource,"consume 1a,
 consume 1b,
 consumption 1","consommation 1,
 consommer 1a,
@@ -1622,7 +1622,7 @@ Mining :Is subframe of: Using_resource
 Using_resource :See also: Resource
 Using_resource :See also: Reuse
 Using_resource :Is used by: Overexploiting"
-,Vehicle,"automobile 1,
+1 587,206,Vehicle,Vehicle,"automobile 1,
 bicycle 1,
 car 1,
 vehicle 1","automobile 1,
@@ -1632,29 +1632,29 @@ vélo 1,
 voiture 1",,,,Agent Source Destination,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Vehicle,An entity used by an Agent for transportation from a Source to a Destination.,Vehicle,TooSpecific,"Means_of_transportation :Is perspectivized in: Vehicle
 Vehicle :See also: Use_vehicle
 Vehicle :Is used by: Vehicle_subpart"
-,Vehicle_for_transportation,"train 1,
+1 589,207,Vehicle_for_transportation,Vehicle_for_transportation,"train 1,
 tram 1","autobus 1,
 métro 1,
 train 1,
 trolleybus 1",,,,Theme Source Destination Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Vehicle_for_transportation,An entity specifically designed to bring a Theme from a Source to a Destination or transporting this Theme within a Location.,?,NoMatch,"Vehicle_for_transportation :See also: Bringing
 Means_of_transportation :Is perspectivized in: Vehicle_for_transportation"
-,Vehicle_subpart,"drivetrain 1,
+1 591,208,Vehicle_subpart,Vehicle_subpart,"drivetrain 1,
 motor 1","accumulateur 1,
 batterie 1,
 moteur 1",,,,Support,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Vehicle_subpart,An entity that is integrated into a Support and that is needed to operate the Support along with other Vehicle_subparts.,Vehicle_subpart,WeakMatch,Vehicle :Is used by: Vehicle_subpart
-,Visiting,,fréquenter 1,,,,Agent Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Visiting,A Theme comes to a Location to accomplish a specific activity or a series of activities.,Visiting,WeakMatch,"Visiting :See also: Residence
+1 601,209,Visiting,Visiting,,fréquenter 1,,,,Agent Location,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Visiting,A Theme comes to a Location to accomplish a specific activity or a series of activities.,Visiting,WeakMatch,"Visiting :See also: Residence
 Species_activity :Is inherited by: Visiting"
-,Waste,"debris 1,
+1 618,210,Waste,Waste,"debris 1,
 sewage 1,
 waste 1","déchets 1,
 eaux 2",,,,Agent | Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Waste,,?,NoMatch,"Waste :See also: Managing_waste
 Substance :Is inherited by: Waste"
-,Water_emanating,"evaporate 1,
+1 619,211,Water_emanating,Water_emanating,"evaporate 1,
 evaporation 1,
 evapotranspiration 1","évaporation 1,
 évaporer 1,
 évapotranspiration 1",,蒸发 1,evaporación 1,Patient Source,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Water_emanating,A Patient emanates from a Source.,?,NoMatch,Water_emanating :See also: Change_of_phase
-,Weather_event,event 1,"événement 1,
+1 625,212,Weather_event,Weather_event,event 1,"événement 1,
 phénomène 1",,,,Location Time Cause,https://olst.ling.umontreal.ca/dicoenviro/framed/index.php?sr=frames&pr=ex&rq=Weather_event,Something triggered by a specific Cause that takes place at a Location and Time.,Event,TooSpecific,"Weather_event :See also: Change_of_temperature
 Climate :Is used by: Weather_event
 Drought :Is subframe of: Weather_event

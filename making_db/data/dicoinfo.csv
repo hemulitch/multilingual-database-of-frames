@@ -1,17 +1,134 @@
-id,FrameName,EnglishLexicalUnits,FrenchLexicalUnits,ArabicLexicalUnits,FrameElements,Link,Definition,LinkToBFN,MatchEvaluation,FrameRelation
-,Access_scenario,,,,Agent Location Destination,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Access_scenario,Agent (user or system) connects to Location (network or system) to reach to Destination(information or data),?,NoMatch,"Access_scenario :Is perspectivized in: Having_or_lacking_access
+global_id,FrameName,EnglishLexicalUnits,FrenchLexicalUnits,ArabicLexicalUnits,FrameElements,Link,Definition,LinkToBFN,MatchEvaluation,FrameRelation
+6,Access_scenario,,,,Agent Location Destination,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Access_scenario,Agent (user or system) connects to Location (network or system) to reach to Destination(information or data),?,NoMatch,"Access_scenario :Is perspectivized in: Having_or_lacking_access
 Access_scenario :Has subframe: Having_access_to"
-,Activity_resume,"restart.1b
-","redémarrer.1b,
-redémarrage.1b",إعادة-تشغيل.1b,Patient Agent,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Activity_resume,"Agent (user) resumes activity of Patient (program, system or computer)",Activity_resume,WeakMatch,"Activity_resume :Inherits from: Change_operational_state
-Activity_resume :Is preceded by: Activity_start"
-,Activity_scenario,,,,Agent Patient Environment1 Environment2,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Activity_scenario,Agent (user) or Instrument (système or computer) runs a Patient (operation).,?,NoMatch,"Activity_scenario :Has subframe: Activity_start
+28,Activity_scenario,,,,Agent Patient Environment1 Environment2,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Activity_scenario,Agent (user) or Instrument (système or computer) runs a Patient (operation).,?,NoMatch,"Activity_scenario :Has subframe: Activity_start
 Activity_scenario :Has subframe: Activity_resume
 Activity_scenario :Is used by: Being_in_operation
 Activity_scenario :Is used by: Being_off_operation
 Activity_scenario :Has subframe: Process_start
 Activity_scenario :Is inherited by: Process_resume"
-,Activity_start,"execute.2b,
+182,Being_off_operation,,,توقف.1,Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Being_off_operation,Patient (système) ceases to function due to a problem.,?,NoMatch,Being_off_operation :Is opposed to: Being_in_operation
+268,Cause_modification,,modifier.1,"عدل.1,
+تعديل.1
+
+","Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Cause_modification,Agent (user) causes Patient (option) to change,?,NoMatch,"Cause_modification :Is used by: Reforming
+Cause_modification :Is causative of: Enhancing"
+321,Change_scenario,,,,,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Change_scenario,Agent (user) applies modifications on Patient (system).,?,NoMatch,"Change_scenario :Has subframe: Cause_change
+Change_scenario :Has subframe: Cause_modification
+Change_scenario :Is used by: Reforming"
+385,Computer_setup_scenario,,,,"Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Computer_setup_scenario,A process through which an Agent (user) sets up a Patient (computer system).,?,NoMatch,"Computer_setup_scenario :Has subframe: Hardware_setup
+Computer_setup_scenario :Has subframe: Installing
+Computer_setup_scenario :Has subframe: Placing
+Computer_setup_scenario :Has subframe: Information_display
+Computer_setup_scenario :Is subframe of: Activity_start
+Computer_setup_scenario :Has subframe: Process_start"
+394,Connecting,connect.1,"accès.2a,
+connecter.1,
+connexion.1.1","إتصل.1,
+إتصال.1.1","Agent
+Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Connecting,Agent (user or computer) hooks up with Destination (network),?,NoMatch,Connecting :Is inherited by: Attaching
+447,Data_flow,,circuler.1,,"Patient
+Lieu",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Data_flow,Patient (data) travels from one Place (hardware or network) to another,?,NoMatch,
+475,Detecting,,reconnaître.1,تعرف.1,"Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Detecting,Agent (software or hardware) identifies Patient (hardware or data) in a system.,?,NoMatch,Detecting :Is used by: Scrutiny
+497,Display_process,,"afficher.1a,
+affichage.1a",ظهر.1a,"Patient
+Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Display_process,A process through which Patient (data) appears on Destination (screen).,?,NoMatch,Display_process :Perspective on: Information_display
+524,Duplication_process,print.1a,"imprimer.1a,
+impression.1a","طبع.1a,
+طباعة.1a","Instrument
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Duplication_process,Instrument (printer) reproduces a hardcopy of Patient (data or graphics),?,NoMatch,Duplication_process :Is perspectivized in: Duplication
+577,Enhancing,,optimiser.1b,"حسن.1,
+تحسين.1","Agent
+Patient
+Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Enhancing,Agent (user or developer) or Instrument (tool) improves the performance of Patient (application or system).,?,NoMatch,Enhancing :Uses: Cause_change
+751,Hardware_setup,install.1,"installer.1,
+installation.1",تثبيت.1,"Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Hardware_setup,Agent (user) sets up Patient (hardware) so that the system works,?,NoMatch,"Hardware_setup :See also: Installing
+Hardware_setup :Is subframe of: Hardware_setup"
+756,Having_access_to,access.1,"accéder.1,
+accès.1","وصول.1.1,
+دخل.1","Agent
+Location
+Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Having_access_to,Agent (user or system) reaches for Destination (data) stored in Location (memory),?,NoMatch,"Having_access_to :Is subframe of: Access_scenario
+Having_access_to :Inherits from: Having_or_lacking_access
+"
+848,Installing_resume,,réinstaller.1,إعادة-تثبيت.1,"Agent
+Patient
+Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Installing_resume,Agent (user) reintegrates Patient (system or program) in Destination (hardware),?,NoMatch,"Installing_resume :See also: Installing
+Installing_resume :Uses: Placing"
+953,Manipulating_components,open.1,"ouvrir.1,
+ouverture.1,
+fermer.1","أغلق.1,
+إغلاق.1,
+فتح.1,
+ضغط.2","Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Manipulating_components,Agent (user) shows or hides the contents of Patient (files) in order to use it or shut it,?,NoMatch,
+1 011,Moving_text_into,paste.1,"coller.1,
+collage.1",لصق.1,"Agent
+Patient
+Destination
+Source",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Moving_text_into,Agent (user) copies or moves Patient (text) into Destination (folder) from Source (clipboard).,?,NoMatch,Moving_text_into :Uses: Placing
+1 186,Program_creation,"write.2,
+program.3,
+programming.1,
+scripting.1","écrire.2,
+écriture.2,
+programmer.1,
+programmation.1","كتابة.2,
+برمجة.1","Agent
+Patient
+Matériau",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Program_creation,Agent (user) creates Patient (program) using Material (language) intended for this purpose.,?,NoMatch,"Program_creation :Inherits from: Product_development
+Program_creation :Is used by: Programming"
+1 187,Programming,configure.1,paramétrer.1,"برمجة.2,
+ضبط.1","Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Programming,Agent (programmer) defines which tasks or operations to be carried out by Patient (memory).,?,NoMatch,Programming :Uses: Program_creation
+1 246,Reforming,update.1,"actualiser.1,
+mettre à jour.1,
+mise à jour.1.1","حدث.1,
+تحديث.1","Agent
+Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Reforming,Agent (user or program) applies changes to Patient (system) to enhance its preformance.,?,NoMatch,Reforming :Uses: Cause_change
+1 288,Reproduction,,copier.2,"نسخ.1.1,
+نسخ.1","Agent
+Patient
+Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Reproduction,Agent (user) reproduces Patient (data) in another Destination (storage unit),?,NoMatch,"Reproduction :Inherits from: Intentionally_create
+Reproduction :Precedes: Moving_text_into"
+1 325,Running_a_program,"run.1b,
+execute.1b,
+execution.1b","exécution.1b,
+exécuter.1b",تشغيل.1b,"Agent
+Patient
+Environment1
+Environment2",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Running_a_program,Agent (user) activates Patient (program) on Environment1 (computer) or Environment2 (system).,?,NoMatch,"Running_a_program :Perspective on: Activity_start
+Running_a_program :Uses: Change operational state"
+1 326,Running_on_system,"run.1a,
+execute.1a","exécuter.1a,
+exécution.1a","تشغيل.1a,
+عمل.1","Patient
+Environment1 | Environment2",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Running_on_system,Patient (program) runs on Environment1 (system) or Environment2 (computer).,?,NoMatch,"Running_on_system :Inherits from: Running_a_program
+Running_on_system :Is perspectivized in: Process start
+
+"
+1 499,Text_editing,edit.1,"éditer.1,
+édition.1",تحرير.1,"Agent
+Patient
+Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Text_editing,Agent (user) makes changes to Patient (document) with Instrument (editor).,?,NoMatch,"Text_editing :Uses: Cause_change
+Text_editing :See also: Cause_modification"
+1 550,Transmitting,send.1,,"أرسل.1,
+إرسال.1","Agent
+Patient
+Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Transmitting,Agent (computer or program) emits Patient (data) to Destination (computer),?,NoMatch,"Transmitting :Is used by: Information_display
+Transmitting :Is opposed to: Receiving
+Transmitting :Precedes: Receiving
+Transmitting :Inherits from: Transfer_scenario
+"
+27,Activity_resume,"restart.1b
+","redémarrer.1b,
+redémarrage.1b",إعادة-تشغيل.1b,Patient Agent,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Activity_resume,"Agent (user) resumes activity of Patient (program, system or computer)",Activity_resume,WeakMatch,"Activity_resume :Inherits from: Change_operational_state
+Activity_resume :Is preceded by: Activity_start"
+29,Activity_start,"execute.2b,
 run.2b","exécuter.2b,
 exécution.2b","نفذ.1,
 تنفيذ.1,
@@ -21,16 +138,15 @@ Activity_start :Is inherited by: Intentionally_create
 Activity_start :Is inherited by: Choosing
 Activity_start :Is inherited by: Name_conferral
 Activity_start :Precedes: Activity_resume"
-,Arranging,configure.1,"configurer.1,
+83,Arranging,configure.1,"configurer.1,
 configuration.1",,Agent Patient ,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Arranging,Agent (user) arranges Patient (software or hardware component) in a certain way for it to work according to his preferences.,Arranging,TooSpecific,
-,Attaching,connect.2,"connecter.2,
+104,Attaching,connect.2,"connecter.2,
 connexion.2.1",توصيل.2.1,Agent Patient Destination,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Attaching,Agent (user) puts together Patient (hardware) to Destination (computer),Attaching,TooSpecific,Attaching :Inherits from: Attaching
-,Being_in_operation,start.1a,"démarrer.1a,
+173,Being_in_operation,start.1a,"démarrer.1a,
 démarrage.1a","أقلع.1a,
 إقلاع.1a
 ",Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Being_in_operation,Patient (system) starts to function,Being_in_operation,TooSpecific,Being_in_operation :Is opposed to: Being_off_operation
-,Being_off_operation,,,توقف.1,Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Being_off_operation,Patient (système) ceases to function due to a problem.,?,NoMatch,Being_off_operation :Is opposed to: Being_in_operation
-,Cause_change,"conversion.1,
+252,Cause_change,"conversion.1,
 convert.1,
 format.2,
 encode.1","convertir.1,
@@ -40,7 +156,7 @@ formater.2",تحويل.1,"Agent
 Patient
 Result",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Cause_change,Agent (user or program) transforms the format of Patient (data) into a different Result (format).,Cause_change,TooSpecific,"Cause_change :Is inherited by: Cause_modification
 Cause_change :Is used by: Reforming"
-,Cause_impact,"click.1,
+267,Cause_impact,"click.1,
 press.1","cliquer.1,
 appuyer.1,
 appui.1","نقر.1,
@@ -49,13 +165,7 @@ appui.1","نقر.1,
 ضغط.1","Agent
 Patient
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Cause_impact,Agent (user) activates Patient (file or icon) with Instrument (mouse) in order to execute a task,Cause_impact,TooSpecific,
-,Cause_modification,,modifier.1,"عدل.1,
-تعديل.1
-
-","Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Cause_modification,Agent (user) causes Patient (option) to change,?,NoMatch,"Cause_modification :Is used by: Reforming
-Cause_modification :Is causative of: Enhancing"
-,Change_operational_state,start.1b,"amorçage.1b,
+316,Change_operational_state,start.1b,"amorçage.1b,
 amorcer.1b,
 démarrer.1b,
 démarrage.1b,
@@ -65,56 +175,26 @@ terminer.1b","أوقف.2,
 إنهاء.1b,
 تسريع.1","Agent | Cause
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Change_operational_state,Agent (user) causes Patient (system) to change its status,Change_operational_state,TooSpecific,Change_operational_state :Is causative of: Being_in_operation
-,Change_scenario,,,,,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Change_scenario,Agent (user) applies modifications on Patient (system).,?,NoMatch,"Change_scenario :Has subframe: Cause_change
-Change_scenario :Has subframe: Cause_modification
-Change_scenario :Is used by: Reforming"
-,Choosing,select.1,"choisir.1,
+328,Choosing,select.1,"choisir.1,
 sélectionner.1,
 sélection.1","اختار.1,
 اختيار.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Choosing,Agent (user) performing an action which consists of choosing Patient (option) among several ones,Choosing,TooSpecific,Choosing :Inherits from: Intentionally act
-,Compatibility,compatible.1,compatible.1,توافق.1,"Patient-a
+380,Compatibility,compatible.1,compatible.1,توافق.1,"Patient-a
 Patient-b",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Compatibility,Patient-a (hardware or software) can work with Patient-b (hardware or software) in a system.,Compatibility,ExactMatch,
-,Computer_setup_scenario,,,,"Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Computer_setup_scenario,A process through which an Agent (user) sets up a Patient (computer system).,?,NoMatch,"Computer_setup_scenario :Has subframe: Hardware_setup
-Computer_setup_scenario :Has subframe: Installing
-Computer_setup_scenario :Has subframe: Placing
-Computer_setup_scenario :Has subframe: Information_display
-Computer_setup_scenario :Is subframe of: Activity_start
-Computer_setup_scenario :Has subframe: Process_start"
-,Connecting,connect.1,"accès.2a,
-connecter.1,
-connexion.1.1","إتصل.1,
-إتصال.1.1","Agent
-Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Connecting,Agent (user or computer) hooks up with Destination (network),?,NoMatch,Connecting :Is inherited by: Attaching
-,Control,,,",تحكم.1.1
+412,Control,,,",تحكم.1.1
 تحكم.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Control,Agent (user or system) takes hold of Patient (process).,Control,TooSpecific,
-,Data_flow,,circuler.1,,"Patient
-Lieu",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Data_flow,Patient (data) travels from one Place (hardware or network) to another,?,NoMatch,
-,Detecting,,reconnaître.1,تعرف.1,"Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Detecting,Agent (software or hardware) identifies Patient (hardware or data) in a system.,?,NoMatch,Detecting :Is used by: Scrutiny
-,Display_process,,"afficher.1a,
-affichage.1a",ظهر.1a,"Patient
-Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Display_process,A process through which Patient (data) appears on Destination (screen).,?,NoMatch,Display_process :Perspective on: Information_display
-,Duplication,"print.1b,
+522,Duplication,"print.1b,
 printing.1b","imprimer.1b,
 impression.1b",طباعة.1b,"Agent
 Patient
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Duplication,Agent (user) reproduces Patient (document) with Instrument (printer),Duplication,TooSpecific,Duplication :Inherits from: Intentionally_create
-,Duplication_process,print.1a,"imprimer.1a,
-impression.1a","طبع.1a,
-طباعة.1a","Instrument
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Duplication_process,Instrument (printer) reproduces a hardcopy of Patient (data or graphics),?,NoMatch,Duplication_process :Is perspectivized in: Duplication
-,Encoding,encrypt.1,"encrypter.1,
+569,Encoding,encrypt.1,"encrypter.1,
 crypter.1",,"Agent
 Patient
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Encoding,Agent (user) changes Patient (data) into a certain form with Instrument (software component).,Encoding,WeakMatch,
-,Enhancing,,optimiser.1b,"حسن.1,
-تحسين.1","Agent
-Patient
-Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Enhancing,Agent (user or developer) or Instrument (tool) improves the performance of Patient (application or system).,?,NoMatch,Enhancing :Uses: Cause_change
-,Erasing,"delete.1,
+585,Erasing,"delete.1,
 deletion.1,
 erase.1","supprimer.1,
 suppression.1,
@@ -122,69 +202,42 @@ effacer.1,
 effacement.1",حذف.1,"Agent
 Patient
 Source",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Erasing,Agent (user or computer component) eliminates Patient (software component) from Source (hardware or application).,Erasing,ExactMatch,
-,Hardware_setup,install.1,"installer.1,
-installation.1",تثبيت.1,"Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Hardware_setup,Agent (user) sets up Patient (hardware) so that the system works,?,NoMatch,"Hardware_setup :See also: Installing
-Hardware_setup :Is subframe of: Hardware_setup"
-,Having_access_to,access.1,"accéder.1,
-accès.1","وصول.1.1,
-دخل.1","Agent
-Location
-Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Having_access_to,Agent (user or system) reaches for Destination (data) stored in Location (memory),?,NoMatch,"Having_access_to :Is subframe of: Access_scenario
-Having_access_to :Inherits from: Having_or_lacking_access
-"
-,Having_or_lacking_access,access.2,accéder.2,وصول.1.2,"Agent
+759,Having_or_lacking_access,access.2,accéder.2,وصول.1.2,"Agent
 Destination
 Location",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Having_or_lacking_access,Agent (user) connects to Location (network) to reach for Destination (information),Having_or_lacking_access,WeakMatch,Having_or_lacking_access :Perspective on: Access_scenario
-,Information_display,,"afficher.1b,
+835,Information_display,,"afficher.1b,
 affichage.1b.1","عرض.1b,
 عرض.1b.1","Agent
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Information_display,Agent (user) demonstrates Patient (data) on Destination (screen).,Information_display,WeakMatch,"Information_display :Uses: Transmitting
 Information_display :Is subframe of: Computer_setup_scenario"
-,Inspecting,,"analyser.1a,
+845,Inspecting,,"analyser.1a,
 analyser.1b","فحص.1,
 تفحص.1","Agent
 Instrument
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Inspecting,Instrument (program) checks Patient (system or computer) for errors or viruses,Inspecting,TooSpecific,"Inspecting :Is used by: Seeking
 Inspecting :Is subframe of: Searching_scenario
 Inspecting :Uses: Scrutiny"
-,Installing,install.2,"installer.2,
+846,Installing,install.2,"installer.2,
 installation.2","تثبيت.2,
 ثبت.2","Agent
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Installing,Agent (user) integrates Patient (system) in Destination (hard disk),Installing,ExactMatch,"Installing :Is used by: Placing
 Installing :Is subframe of: Computer_setup_scenario
 Installing :See also: Hardware_setup"
-,Installing_resume,,réinstaller.1,إعادة-تثبيت.1,"Agent
-Patient
-Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Installing_resume,Agent (user) reintegrates Patient (system or program) in Destination (hardware),?,NoMatch,"Installing_resume :See also: Installing
-Installing_resume :Uses: Placing"
-,Intentionally_create,"create.1,
+856,Intentionally_create,"create.1,
 creation.1","créer.1,
 création.1","أنشأ.1,
 إنشاء.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Intentionally_create,Agent (user) causes that Patient (file) exists,Intentionally_create,WeakMatch,"Intentionally_create :Is inherited by: Text_creation
 Intentionally_create :Uses: Program_creation
 Intentionally_create :Is subframe of: Product_development_scenario"
-,Manipulating_components,open.1,"ouvrir.1,
-ouverture.1,
-fermer.1","أغلق.1,
-إغلاق.1,
-فتح.1,
-ضغط.2","Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Manipulating_components,Agent (user) shows or hides the contents of Patient (files) in order to use it or shut it,?,NoMatch,
-,Moving_text_into,paste.1,"coller.1,
-collage.1",لصق.1,"Agent
-Patient
-Destination
-Source",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Moving_text_into,Agent (user) copies or moves Patient (text) into Destination (folder) from Source (clipboard).,?,NoMatch,Moving_text_into :Uses: Placing
-,Name_conferral,,renommer.1,إعادة-تسمية.1,"Patient
+1 013,Name_conferral,,renommer.1,إعادة-تسمية.1,"Patient
 Agent",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Name_conferral,Agent (user) gives a diffrent name to Patient (file),Name_conferral,WeakMatch,Name_conferral :Inherits from: Activity_start
-,Operating_a_system,,gérer.1,"أدار.1,
+1 047,Operating_a_system,,gérer.1,"أدار.1,
 إدارة.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Operating_a_system,"Agent (hardware or software) administers the functioning of a Patient (a program, a file or a task)",Operating_a_system,TooSpecific,
-,Placing,"copy.1,
+1 113,Placing,"copy.1,
 copy.1.1,
 load.1b,
 save.1,
@@ -206,144 +259,99 @@ Placing :Uses: Installing
 Placing :Is used by: Storing
 Placing :Is subframe of: Computer_setup_scenario
 "
-,Placing_scenario,,,,"Agent
+1 114,Placing_scenario,,,,"Agent
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Placing_scenario,"Agent (user) places Patient (data) in Destination (disk, storage medium or system).",Placing_scenario,WeakMatch,"Placing_scenario :Is perspectivized in: Placing
 Placing_scenario :Is perspectivized in: Removing
 Placing_scenario :Is used by: Installing"
-,Process_resume,,redémarrage.1a,إعادة-تشغيل.1a,Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Process_resume,Patient (système) begins over an operation or process.,Process_resume,WeakMatch,Process_resume :Is preceded by: Process_start
-,Process_start,execute.2a,"exécution.2a,
+1 173,Process_resume,,redémarrage.1a,إعادة-تشغيل.1a,Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Process_resume,Patient (système) begins over an operation or process.,Process_resume,WeakMatch,Process_resume :Is preceded by: Process_start
+1 174,Process_start,execute.2a,"exécution.2a,
 exécuter.2a","تشغيل.2a,
 عمل.2",Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Process_start,Patient (application or program) starts functionning.,Process_start,TooSpecific,"Process_start :Is perspectivized in: Activity_start
 Process_start :Precedes: Process_resume
 Process_start :Is subframe of: Computer_setup_scenario
 "
-,Processing_materials,process.1,"traiter.1,
+1 178,Processing_materials,process.1,"traiter.1,
 traitement.1","عالج.1,
 معالجة.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Processing_materials,Agent (systeme or program) manipulates Patient (data) in order to modify them,Processing_materials,WeakMatch,Processing_materials :Uses: Cause_change
-,Product_development,"develop.1,
+1 182,Product_development,"develop.1,
 development.1","développer.1,
 développement.1","طور.1,
 تطوير.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Product_development,Agent (developer) conceives Patient (program) in manipulating programming elements.,Product_development,ExactMatch,Product_development :Is subframe of: Product_development_scenario
-,Product_development_scenario,,,,"Agent
+1 184,Product_development_scenario,,,,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Product_development_scenario,Agent (programmer) develops Patient (computer program or application).,Product_development_scenario,ExactMatch,"Product_development_scenario :Has subframe: Product_development
 Product_development_scenario :Has subframe: Program_creation
 Product_development_scenario :Has subframe: Intentionally_create
 Product_development_scenario :Is used by: operating_a_system"
-,Program_creation,"write.2,
-program.3,
-programming.1,
-scripting.1","écrire.2,
-écriture.2,
-programmer.1,
-programmation.1","كتابة.2,
-برمجة.1","Agent
-Patient
-Matériau",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Program_creation,Agent (user) creates Patient (program) using Material (language) intended for this purpose.,?,NoMatch,"Program_creation :Inherits from: Product_development
-Program_creation :Is used by: Programming"
-,Programming,configure.1,paramétrer.1,"برمجة.2,
-ضبط.1","Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Programming,Agent (programmer) defines which tasks or operations to be carried out by Patient (memory).,?,NoMatch,Programming :Uses: Program_creation
-,Protecting,,,"
+1 197,Protecting,,,"
 حماية.1","Destination
 Menace
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Protecting,Destination (data) is being preserved from Threat (virus) with an Instrument (password).,Protecting,TooSpecific,
-,Reading_perception,read.2,"lire.2,
+1 224,Reading_perception,read.2,"lire.2,
 lecture.2","قرأ.1,
 قراءة.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Reading_perception,Agent (processor) deciphers Patient (data).,Reading_perception,WeakMatch,Reading_perception :See also: Becoming_aware
-,Receiving,,recevoir.1,"استقبال.1,
+1 230,Receiving,,recevoir.1,"استقبال.1,
 استقبل.1","Destination
 Patient
 Agent",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Receiving,Destination (receiver) obtains Patient (message or data) from Agent (sender),Receiving,WeakMatch,"Receiving :Perspective on: Transfer
 Receiving :Is opposed to: Sending
 Receiving :Uses: Transfer_scenario"
-,Reforming,update.1,"actualiser.1,
-mettre à jour.1,
-mise à jour.1.1","حدث.1,
-تحديث.1","Agent
-Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Reforming,Agent (user or program) applies changes to Patient (system) to enhance its preformance.,?,NoMatch,Reforming :Uses: Cause_change
-,Rejuvenation,,"récupérer.1,
+1 251,Rejuvenation,,"récupérer.1,
 restaurer.1","استعادة.1,
 استرجاع.1,
 استرداد.1","Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Rejuvenation,Agent (user) returns Patient (data or system) that was lost or damaged to its original form,Rejuvenation,WeakMatch,
-,Removing,uninstall.1,"désinstaller.1,
+1 272,Removing,uninstall.1,"désinstaller.1,
 désinstallation.1",,"Agent
 Patient
 Source",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Removing,Agent (user) takes out Patient (software component) from Source (hardware component).,Removing,ExactMatch,"Removing :Precedes: Placing
 Removing :Is opposed to: Placing"
-,Reproduction,,copier.2,"نسخ.1.1,
-نسخ.1","Agent
-Patient
-Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Reproduction,Agent (user) reproduces Patient (data) in another Destination (storage unit),?,NoMatch,"Reproduction :Inherits from: Intentionally_create
-Reproduction :Precedes: Moving_text_into"
-,Response,,,استجاب.1,"Agent
+1 302,Response,,,استجاب.1,"Agent
 Patient",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Response,Agent (hardware or software) interacts with Patient (command),Response,WeakMatch,Response :See also: Becoming_aware
-,Running_a_program,"run.1b,
-execute.1b,
-execution.1b","exécution.1b,
-exécuter.1b",تشغيل.1b,"Agent
-Patient
-Environment1
-Environment2",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Running_a_program,Agent (user) activates Patient (program) on Environment1 (computer) or Environment2 (system).,?,NoMatch,"Running_a_program :Perspective on: Activity_start
-Running_a_program :Uses: Change operational state"
-,Running_on_system,"run.1a,
-execute.1a","exécuter.1a,
-exécution.1a","تشغيل.1a,
-عمل.1","Patient
-Environment1 | Environment2",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Running_on_system,Patient (program) runs on Environment1 (system) or Environment2 (computer).,?,NoMatch,"Running_on_system :Inherits from: Running_a_program
-Running_on_system :Is perspectivized in: Process start
-
-"
-,Scrutiny,"browse.1,
+1 337,Scrutiny,"browse.1,
 browsing.1","naviguer.1,
 navigation.1","تصفح.1.1,
 تصفح.1","Agent
 Location
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Scrutiny,Agent (user) seraches for Patient (information) over the web with Instrument (browser),Scrutiny,WeakMatch,"Scrutiny :Inherits from: Seeking
 Scrutiny :Is subframe of: Searching_scenario"
-,Searching_scenario,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Searching_scenario,Agent (user) looks for Patient (content) in a system,Searching_scenario,ExactMatch,Searching_scenario :Is perspectivized in: Seeking
-,Seeking,,chercher.1,"بحث.1.1,
+1 338,Searching_scenario,,,,Agent Patient,https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Searching_scenario,Agent (user) looks for Patient (content) in a system,Searching_scenario,ExactMatch,Searching_scenario :Is perspectivized in: Seeking
+1 341,Seeking,,chercher.1,"بحث.1.1,
 بحث.1","Agent
 Patient
 Location",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Seeking,"Agent (user) looks for Patient (data, web site or files) in Location (Internet or storage unit)",Seeking,ExactMatch,"Seeking :Perspective on: Searching_scenario
 "
-,Sending,send.2,,إرسال.2,"Agent
+1 345,Sending,send.2,,إرسال.2,"Agent
 Patient
 Destination
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Sending,Agent (user) dispatches Patient (message) to Destination (user) via Instrument (e-mail).,Sending,TooSpecific,"Sending :Is used by: Information_display
 Sending :Is opposed to: Receiving
 Sending :Precedes: Receiving
 Sending :Inherits from: Transfer_scenario"
-,Sharing,,"partage.1.1,
+1 363,Sharing,,"partage.1.1,
 partager.1",مشاركة.1,"Patient
 Agent-a
 Agent-b",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Sharing,Agent-a (user) exchange Patient (data or hardware) with another Agent-b (user),Sharing,TooSpecific,
-,Storing,store.1b,"stocker.1b,
+1 432,Storing,store.1b,"stocker.1b,
 sauvegarder.1","خزن.1,
 تخزين.1,
 حفظ.1","Agent
 Patient
 Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Storing,Agent (user) puts Patient (data) on Destination (storage medium),Storing,ExactMatch,Storing :Uses: Placing
-,Supporting,"support.1,
+1 462,Supporting,"support.1,
 support.1.1",accepter.2,"دعم.1.1,
 دعم.1","Patient
 Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Supporting,Destination (hardware or software) is compatible with Patient (hardware or software) in a system,Supporting,WeakMatch,Supporting :Uses: Compatibility
-,Text_creation,type.1,"taper.1,
+1 498,Text_creation,type.1,"taper.1,
 retaper.1,
 frappe.1",,"Agent
 Patient
 Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Text_creation,Agent (user) creates Patient (document) with Instrument (input device),Text_creation,WeakMatch,"Text_creation :Inherits from: Intentionally_create
 "
-,Text_editing,edit.1,"éditer.1,
-édition.1",تحرير.1,"Agent
-Patient
-Instrument",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Text_editing,Agent (user) makes changes to Patient (document) with Instrument (editor).,?,NoMatch,"Text_editing :Uses: Cause_change
-Text_editing :See also: Cause_modification"
-,Transfer,"download.1,
+1 541,Transfer,"download.1,
 download.1.1,
 upload.1","transférer.1,
 transfert.1,
@@ -355,19 +363,11 @@ Patient
 Source
 Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Transfer,Agent (user) relocates or removes Patient (data) from Source (computer or server) to Destination (computer),Transfer,TooSpecific,"Transfer :Is subframe of: Transfer_scenario
 Transfer :Is perspectivized in: Receiving"
-,Transfer_scenario,,,,"Destination
+1 542,Transfer_scenario,,,,"Destination
 Patient
 Agent",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Transfer_scenario,Destination (user) receives Patient (data) from Agent (user),Transfer_scenario,ExactMatch,"Transfer_scenario :Has subframe: Transfer
 Transfer_scenario :Is perspectivized in: Receiving_scenario
 Transfer_scenario :Is inherited by: Transmitting
 Transfer_scenario :Is used by: Sending
 Transfer_scenario :Is used by: Receiving
-"
-,Transmitting,send.1,,"أرسل.1,
-إرسال.1","Agent
-Patient
-Destination",https://olst.ling.umontreal.ca/dicoinfo/framed/?q=Transmitting,Agent (computer or program) emits Patient (data) to Destination (computer),?,NoMatch,"Transmitting :Is used by: Information_display
-Transmitting :Is opposed to: Receiving
-Transmitting :Precedes: Receiving
-Transmitting :Inherits from: Transfer_scenario
 "

@@ -1,5 +1,5 @@
-FrameName,Definition,FrameElements,LexicalUnits,Link,LinkToBFN,MatchEvaluation
-Age - TBP,"The words and phrases in this frame reference the length of time some Entity has existed (or has filled some role). This length of time is the Entity's Age, and is sometimes expressed by a particular aspect of the Entity - the Expressor - such as a body part or a feature of the Entity (e.g. hands, voice). The Entity need not be a living thing; many of the words in this frame can apply to objects, organizations, etc., for example ""das neue Buch"" (""the new book""). ","Entity
+global_id,id,FrameName,Definition,FrameElements,LexicalUnits,Link,LinkToBFN,MatchEvaluation
+46,0,Age - TBP,"The words and phrases in this frame reference the length of time some Entity has existed (or has filled some role). This length of time is the Entity's Age, and is sometimes expressed by a particular aspect of the Entity - the Expressor - such as a body part or a feature of the Entity (e.g. hands, voice). The Entity need not be a living thing; many of the words in this frame can apply to objects, organizations, etc., for example ""das neue Buch"" (""the new book""). ","Entity
 Age
 Expressor","Age - TBP
 alt - adjective               
@@ -85,7 +85,7 @@ Reifung, die - noun
 veralten - verb                                      
 Vergreisung, die - noun                                  
 wachsen - verb",https://frames.coerll.utexas.edu/frames/age_TBP,Existence,?
-Arguing,The words and phrases in this frame describe a conflict between two Sides (Side_1 and Side_2) who disagree on some Issue. The conflict results in a verbal argument. The Arguing frame involves only a verbal conflict and does not entail any physical altercation.,"Side_1
+77,1,Arguing,The words and phrases in this frame describe a conflict between two Sides (Side_1 and Side_2) who disagree on some Issue. The conflict results in a verbal argument. The Arguing frame involves only a verbal conflict and does not entail any physical altercation.,"Side_1
 Side_2
 Sides
 Issue","Arguing
@@ -98,7 +98,7 @@ Streit, der - noun
 streiten: sich streiten - verb                                              
 verteidigen: (sich) verteidigen - verb                                         
 zanken: sich zanken - verb",https://frames.coerll.utexas.edu/frames/arguing,Quarreling,ExactMatch
-Body Descriptions,This frame is evoked by words describing the entire body and/or a Body_part  of an Individual. The lexical units in this frame all play the role of the frame element Descriptor.,"Body_part
+202,2,Body Descriptions,This frame is evoked by words describing the entire body and/or a Body_part  of an Individual. The lexical units in this frame all play the role of the frame element Descriptor.,"Body_part
 Individual
 Descriptor","Body Descriptions
 attraktiv - adjective                                 
@@ -119,7 +119,7 @@ schön - adjective
 sportlich - adjective                                        
 süß - adjective                                        
 unsportlich - adjective",https://frames.coerll.utexas.edu/frames/body%20descriptions,Body_description_holistic,TooGeneral
-Body Parts,"This frame is evoked by words for Body_parts belonging to a Possessor. The Body_part as well as the body of the Possessor may be characterized by an adjective, the Descriptor.","Body_part
+203,3,Body Parts,"This frame is evoked by words for Body_parts belonging to a Possessor. The Body_part as well as the body of the Possessor may be characterized by an adjective, the Descriptor.","Body_part
 Possessor
 Descriptor","Body Parts
 Arm, der - noun
@@ -168,7 +168,7 @@ Zahn, der - noun
 Zehe, die - noun
 Zunge, die - noun
 ",https://frames.coerll.utexas.edu/frames/body-parts,Body_parts,ExactMatch
-Buying and Selling,"These words describe various perspectives on the commercial transactions, in which a Buyer receives Goods from a Seller or a Store in exchange for some Money or another type of payment.","Buyer
+232,4,Buying and Selling,"These words describe various perspectives on the commercial transactions, in which a Buyer receives Goods from a Seller or a Store in exchange for some Money or another type of payment.","Buyer
 Seller
 Goods
 Money
@@ -229,7 +229,7 @@ Preis, der - noun
 preiswert - adjective
 teuer - adjective
 ",https://frames.coerll.utexas.edu/frames/buying%20and%20selling,Commercial_transaction,ExactMatch
-Causation,"In this frame, some Cause causes an Effect. Almost any kind of thing could constitute a Cause, such as a person, a thing, or a whole situation. When the Effect happens to a particular entity, we call this entity the Affected.","Cause
+247,5,Causation,"In this frame, some Cause causes an Effect. Almost any kind of thing could constitute a Cause, such as a person, a thing, or a whole situation. When the Effect happens to a particular entity, we call this entity the Affected.","Cause
 Effect
 Affected","Causation
 also - conjunction
@@ -253,7 +253,7 @@ weil - conjunction
 wirken - verb
 Wirkung, die - noun
 ",https://frames.coerll.utexas.edu/frames/causation,Causation,ExactMatch
-Character Trait: Negative,"The Character Trait: Negative frame contains lexical units for character traits that are specifically negative, such as ""unhöflich"" (""impolite""), ""grausam"" (""cruel) or ""gemein"" (""mean""). This frame is similar to the Mental Property frame in that they both involve a (usually implicit) Judge who determines that some Protagonist possesses a particular character trait, based on the their Behavior. The primary difference is that with Character Trait, the basis of the judgement is Behavior toward other human beings (the Company). This gives Character Trait frames a definitive social component. ","Protagonist
+324,6,Character Trait: Negative,"The Character Trait: Negative frame contains lexical units for character traits that are specifically negative, such as ""unhöflich"" (""impolite""), ""grausam"" (""cruel) or ""gemein"" (""mean""). This frame is similar to the Mental Property frame in that they both involve a (usually implicit) Judge who determines that some Protagonist possesses a particular character trait, based on the their Behavior. The primary difference is that with Character Trait, the basis of the judgement is Behavior toward other human beings (the Company). This gives Character Trait frames a definitive social component. ","Protagonist
 Company
 Behavior
 Expressor
@@ -286,7 +286,7 @@ unreif - adjective
 unsympathisch - adjective
 unwirsch - adjective
 ",https://frames.coerll.utexas.edu/frames/character%20trait:%20negative,Social_interaction_evaluation,TooSpecific
-Cleaning,"In this frame, a Cleaner cleans a location, object or entity (the Cleaned) by removing some entities or substance (Mess) that are aesthetically or hygienically undesirable. In some cases, the Cleaner uses some cleaning Instrument (e.g. brush, vacuum) and/or Medium (e.g. soap, water) to assist with the cleaning.","Cleaner
+332,7,Cleaning,"In this frame, a Cleaner cleans a location, object or entity (the Cleaned) by removing some entities or substance (Mess) that are aesthetically or hygienically undesirable. In some cases, the Cleaner uses some cleaning Instrument (e.g. brush, vacuum) and/or Medium (e.g. soap, water) to assist with the cleaning.","Cleaner
 Cleaned
 Mess
 Instrument
@@ -401,7 +401,7 @@ Wäsche waschen - multi-word expression
 waschen - verb
 wischen - verb
 ",https://frames.coerll.utexas.edu/frames/cleaning,Emptying,TooSpecific
-Clothing,"This frame refers to Clothing and its characteristics, including anything that people conventionally wear. The Wearer wears a piece of Clothing that is made of a certain material and can have a certain style. In some cases, the Body_location (where the garment is worn) may be specified. Clothing_parts are included in this frame.","Clothing
+336,8,Clothing,"This frame refers to Clothing and its characteristics, including anything that people conventionally wear. The Wearer wears a piece of Clothing that is made of a certain material and can have a certain style. In some cases, the Body_location (where the garment is worn) may be specified. Clothing_parts are included in this frame.","Clothing
 Body_location
 Clothing_part
 Wearer","Clothing
@@ -492,7 +492,7 @@ Schnürsenkel, der - noun
 Sohle, die - noun
 Tasche, die - noun
 ",https://frames.coerll.utexas.edu/frames/clothing,Clothing,ExactMatch
-Clothing Accessories,"A Wearer wears Accessories, which are made of some Material. The Body_part and/or  the Clothing on which the Accessory is worn or attached might be mentioned. Most of the Accessories are non-essential (clothing) items.","Accessory
+337,9,Clothing Accessories,"A Wearer wears Accessories, which are made of some Material. The Body_part and/or  the Clothing on which the Accessory is worn or attached might be mentioned. Most of the Accessories are non-essential (clothing) items.","Accessory
 Body_part
 Clothing
 Material
@@ -510,7 +510,7 @@ Schmuck, der - noun
 Tuch, das - noun
 Uhr, die - noun
 ",https://frames.coerll.utexas.edu/frames/clothing%20accessories,Clothing_parts,WeakMatch
-Communication: Request,"In this frame, a Speaker asks an Addressee for something, or asks them to carry out some action.
+371,10,Communication: Request,"In this frame, a Speaker asks an Addressee for something, or asks them to carry out some action.
 The Speaker is typically the subject of the communication verb, while the Addressee is often realized as the direct object (as in, ""Ich frage dich!""  ""I ask you!"") or with a preposition (as in, ""er verlangt von mir,  dass ich ihm helfe,""     ""he asks of me,  that I help him""). The Message can be expressed in a variety of ways, such as a direct quote, a clause, or a noun phrase (see examples in particular LU entries for LU-specific details of how to express the Message). Least frequent of all the FEs in this frame is the Medium used to convey the Message, which could be something like: ""in einem Brief"" (""in a letter""), ""am Telefon"" (""on the phone""), ""per Email"" (""by email""), or ""im Internet"" (""on the internet""). Although this FE can theoretically be included in any Request evoking sentence, it is rarely encountered, and never mandatory.","Speaker
 Addressee
 Message
@@ -529,7 +529,7 @@ Nachfrage, die - noun
 sagen - verb
 verlangen - verb
 ",https://frames.coerll.utexas.edu/frames/communication:%20request,Request,ExactMatch
-Danger,"There is a likelihood that some Danger will cause harm to an Asset.  Often, a person (the Protagonist) possesses the Asset and is thus vulnerable to the negative impact of the Danger. This frame covers situations that range from taking risks, to being in danger (or safe), to protecting or rescuing an Asset.","Asset
+445,11,Danger,"There is a likelihood that some Danger will cause harm to an Asset.  Often, a person (the Protagonist) possesses the Asset and is thus vulnerable to the negative impact of the Danger. This frame covers situations that range from taking risks, to being in danger (or safe), to protecting or rescuing an Asset.","Asset
 Protagonist
 Danger
 Cause
@@ -582,7 +582,7 @@ retten - verb
 Schutz, der - noun
 schützen - verb
 ",https://frames.coerll.utexas.edu/frames/danger,Being_at_risk,TooGeneral
-Deciding,"In this frame, a person, the Cognizer, makes a choice in favor of a particular entity or course of action (the Chosen). The Chosen is one of several options included in a set of Possibilities, and is selected with some intended Purpose in mind, and an Explanation may be given, which serves as the basis for the choice. Because the Purpose and Explanation involve potential causation, you can find ways to express them in the Causation frame (e.g. ""um...zu,"" ""in order to,"" and ""weil,"" ""because"").
+453,12,Deciding,"In this frame, a person, the Cognizer, makes a choice in favor of a particular entity or course of action (the Chosen). The Chosen is one of several options included in a set of Possibilities, and is selected with some intended Purpose in mind, and an Explanation may be given, which serves as the basis for the choice. Because the Purpose and Explanation involve potential causation, you can find ways to express them in the Causation frame (e.g. ""um...zu,"" ""in order to,"" and ""weil,"" ""because"").
 
 Rarely, the general Topic (about which the decision is made) can be added, as in ""Auf der Versammlung sollten wir  über den Zukunftsplan beschließen."" (""At the meeting, we should decide about the future plan."").","Cognizer
 Chosen
@@ -601,7 +601,7 @@ feststellen - verb
 Wahl, die - noun
 wählen - verb
 ",https://frames.coerll.utexas.edu/frames/deciding,Choosing,ExactMatch
-Desire,"In this frame someone (the Experiencer) wants something to happen - namely, an Event. The Event is some kind of change that affects someone or something (the Affected). Generally, using lexical units in this frame implies that the Event has not actually happened yet, but that the Experiencer believes they would be happier or better off if it did.","Experiencer
+469,13,Desire,"In this frame someone (the Experiencer) wants something to happen - namely, an Event. The Event is some kind of change that affects someone or something (the Affected). Generally, using lexical units in this frame implies that the Event has not actually happened yet, but that the Experiencer believes they would be happier or better off if it did.","Experiencer
 Event
 Affected","Desire
 begehren - verb
@@ -617,7 +617,7 @@ widerwillig - adverb
 wollen - verb
 wünschen: (sich) wünschen - verb
 ",https://frames.coerll.utexas.edu/frames/desire,Desiring,TooSpecific
-Eating and Drinking,An Ingestor consumes food or drink (Ingestibles). This may include the use of an instrument. Sentences that describe the provision of food to others are NOT included in this frame. The subframe Places to eat includes LUs that name places where Ingestors can eat and / or drink.,"Ingestor
+533,14,Eating and Drinking,An Ingestor consumes food or drink (Ingestibles). This may include the use of an instrument. Sentences that describe the provision of food to others are NOT included in this frame. The subframe Places to eat includes LUs that name places where Ingestors can eat and / or drink.,"Ingestor
 Ingestibles","Eating and Drinking
 Abendessen, das - noun
 Ananas, die - noun
@@ -934,7 +934,7 @@ Speise, die - noun
 speisen - verb
 trinken - verb
 ",https://frames.coerll.utexas.edu/frames/Eating_and_Drinking,Ingestion,ExactMatch
-Education,"This frame contains words referring to teaching and learning, including people and things involved in the process. A Student comes to learn about a Subject, a Skill, or a Fact, as a result of instruction by a Teacher. Formal education takes place at Institutions in which students take Courses in order to reach a Qualification, but a Student can also study on their own","Student
+536,15,Education,"This frame contains words referring to teaching and learning, including people and things involved in the process. A Student comes to learn about a Subject, a Skill, or a Fact, as a result of instruction by a Teacher. Formal education takes place at Institutions in which students take Courses in order to reach a Qualification, but a Student can also study on their own","Student
 Teacher
 Course
 Institution
@@ -1058,7 +1058,7 @@ Unterrichtsstunde, die - noun
 Vorlesung, die - noun
 Vorlesungsverzeichnis, das - noun
 ",https://frames.coerll.utexas.edu/frames/education,Education_teaching,ExactMatch
-Exercise and Fitness,"This frame describes situations in which a Person actively improves or maintains their fitness level through physical activity. Sometimes, the exercise targets a particular Body part. The specific Means of maintaining the Person’s fitness level may also be mentioned.","Person
+617,16,Exercise and Fitness,"This frame describes situations in which a Person actively improves or maintains their fitness level through physical activity. Sometimes, the exercise targets a particular Body part. The specific Means of maintaining the Person’s fitness level may also be mentioned.","Person
 Means
 Body_part","Exercise and Fitness
 abnehmen - verb
@@ -1103,7 +1103,7 @@ Turnhalle, die - noun
 zum Sport gehen - multi-word expression
 zunehmen - verb
 ",https://frames.coerll.utexas.edu/frames/exercise%20and%20fitness,Exercising,ExactMatch
-Experiencing Emotion,"In this frame, an Experiencer has emotions, either concerning some Content or a Topic, or caused by a Stimulus. Emotion, here, refers to a broad range of subjective experiences or reactions, including states of mental stimulation, like being interested.","Experiencer
+633,17,Experiencing Emotion,"In this frame, an Experiencer has emotions, either concerning some Content or a Topic, or caused by a Stimulus. Emotion, here, refers to a broad range of subjective experiences or reactions, including states of mental stimulation, like being interested.","Experiencer
 Content
 Topic
 Stimulus","Experiencing Emotion
@@ -1209,7 +1209,7 @@ vermissen - verb
 verzweifelt - adjective
 wütend - adjective
 ",https://frames.coerll.utexas.edu/frames/experiencing%20emotion,Experiencer_focused_emotion,ExactMatch
-Family and Relatives,"This frame contains words that denote kinship relations, i.e. the terms for family members and relatives. In annotations, we use the frame elements Relative_1 and Relative_2, or Relatives when they appear together.","Relative_1
+650,18,Family and Relatives,"This frame contains words that denote kinship relations, i.e. the terms for family members and relatives. In annotations, we use the frame elements Relative_1 and Relative_2, or Relatives when they appear together.","Relative_1
 Relative_2
 Relatives","Family and Relatives
 adoptieren - verb
@@ -1266,7 +1266,7 @@ Zwilling, der - noun
 Zwillingsbruder, der - noun
 Zwillingsschwester, die - noun
 ",https://frames.coerll.utexas.edu/frames/family%20and%20relatives,Kinship,ExactMatch
-Fighting,"These lexical units describe a conflict between two Sides  (Side_1 and Side_2) who disagree on some Issue. The encounter takes the form of a physical fight, and may have a Purpose that the Sides hope to achieve. The difference between the Fighting frame and the Arguing frame is that Fighting always involves some sort of physical altercation, while Arguing denotes a verbal conflict (which may or may not escalate to violence). 
+659,19,Fighting,"These lexical units describe a conflict between two Sides  (Side_1 and Side_2) who disagree on some Issue. The encounter takes the form of a physical fight, and may have a Purpose that the Sides hope to achieve. The difference between the Fighting frame and the Arguing frame is that Fighting always involves some sort of physical altercation, while Arguing denotes a verbal conflict (which may or may not escalate to violence). 
 
 One of the Sides may use an Instrument in the fight (e.g. ""er greift ihn mit einem Messer   an,"" ""he attacks him with a knife""). ","Side_1
 Side_2
@@ -1280,7 +1280,7 @@ kämpfen - verb
 Konflikt, der - noun
 Krieg, der - noun
 ",https://frames.coerll.utexas.edu/frames/fighting,Quarreling,TooSpecific
-Grooming,"In this frame, an Agent engages in personal body care (of either themself or someone else; the Patient is the one being groomed). Sometimes, a specific Body Part of the Patient is mentioned. An Instrument (e.g. a wash cloth) can be used in this process as well as a Medium (e.g. soap and water).","Agent
+741,20,Grooming,"In this frame, an Agent engages in personal body care (of either themself or someone else; the Patient is the one being groomed). Sometimes, a specific Body Part of the Patient is mentioned. An Instrument (e.g. a wash cloth) can be used in this process as well as a Medium (e.g. soap and water).","Agent
 Body_part
 Patient
 Instrument
@@ -1309,7 +1309,7 @@ Zahnpasta, die - noun
 Zahnseide benutzen - verb
 zupfen - verb
 ",https://frames.coerll.utexas.edu/frames/grooming,Grooming,ExactMatch
-Personal Relationship,"The lexical units in this frame have to do with Partners involved in personal relationships; sometimes they are mentioned separately (as Partner_1 and Partner_2). Some of the words denote people engaged in a particular kind of relationship, others denote the relationship itself, and still others the events bringing about or ending the relationships. Read the Details for these lexical units carefully -- German and English speakers use many of them in very different ways (in relation to both cultural meaning and grammatical use)!","Partner_2
+1 103,21,Personal Relationship,"The lexical units in this frame have to do with Partners involved in personal relationships; sometimes they are mentioned separately (as Partner_1 and Partner_2). Some of the words denote people engaged in a particular kind of relationship, others denote the relationship itself, and still others the events bringing about or ending the relationships. Read the Details for these lexical units carefully -- German and English speakers use many of them in very different ways (in relation to both cultural meaning and grammatical use)!","Partner_2
 Partner_1
 Partners","Personal Relationship
 Affäre, die - noun
@@ -1412,7 +1412,7 @@ Single, der - noun
 Verhältnis, das - noun
 verknallt (in+acc.) - adjective
 ",https://frames.coerll.utexas.edu/frames/personal%20relationship,Personal_relationship,ExactMatch
-Relaxing and Resting,Words in the Relaxing and Resting frame describe situations in which the Relaxer (or a specific Body_part of the Relaxer) recovers from an Impairment or an earlier Activity to regain their previous strength and condition. A Stimulus may cause the Relaxer to unwind and recover.,"Relaxer
+1 261,22,Relaxing and Resting,Words in the Relaxing and Resting frame describe situations in which the Relaxer (or a specific Body_part of the Relaxer) recovers from an Impairment or an earlier Activity to regain their previous strength and condition. A Stimulus may cause the Relaxer to unwind and recover.,"Relaxer
 Body_part
 Activity
 Impairment
@@ -1440,7 +1440,7 @@ Ruhe, die - noun
 ruhen - verb
 verschnaufen - verb
 ",https://frames.coerll.utexas.edu/frames/relaxing%20and%20resting,Rejuvenation,WeakMatch
-Sleep,"A Sleeper enters a state of unconsciousness, remains in this state for some amount of time, and then returns to full wakeful consciousness. This process includes the following steps: falling asleep, sleeping, waking up and getting up.",Sleeper,"Sleep
+1 379,23,Sleep,"A Sleeper enters a state of unconsciousness, remains in this state for some amount of time, and then returns to full wakeful consciousness. This process includes the following steps: falling asleep, sleeping, waking up and getting up.",Sleeper,"Sleep
 Alptraum, der - noun
 aufstehen - verb
 aufwachen - verb
@@ -1489,7 +1489,7 @@ bewusstlos - adjective
 Bewusstsein: das Bewusstsein verlieren - multi-word expression
 Ohnmacht: in Ohnmacht fallen - multi-word expression
 ",https://frames.coerll.utexas.edu/frames/sleep,Sleep_wake_cycle,ExactMatch
-Taste and Smell,"The words in this frame have to do with an Experiencer perceiving tastes and smells of a Source. The Source can be a variety of items like foods and drinks, flowers, air, etc. The Descriptors (e.g. sweet or pungent) describe the tastes and smells that can be perceived from the Source. The Attribute describes the kind of perception, i.e. if it is a taste sensation, a smell sensation or both. 
+1 481,24,Taste and Smell,"The words in this frame have to do with an Experiencer perceiving tastes and smells of a Source. The Source can be a variety of items like foods and drinks, flowers, air, etc. The Descriptors (e.g. sweet or pungent) describe the tastes and smells that can be perceived from the Source. The Attribute describes the kind of perception, i.e. if it is a taste sensation, a smell sensation or both. 
 
 ","Source
 Descriptor
@@ -1515,7 +1515,7 @@ süß - adjective
 süßlich - adjective
 würzig - adjective
 ",https://frames.coerll.utexas.edu/frames/taste%20and%20smell,Perception_active,TooSpecific
-Thinking: Awareness,"Awareness is when a Cognizer has a piece of Content in their mental model of the world; they are aware of it. The Cognizer may become aware of the Content through direct perception, but usually awareness comes through deduction based on other things the Cognizer has perceived.
+1 505,25,Thinking: Awareness,"Awareness is when a Cognizer has a piece of Content in their mental model of the world; they are aware of it. The Cognizer may become aware of the Content through direct perception, but usually awareness comes through deduction based on other things the Cognizer has perceived.
 
 This frame is distinct from the Certainty frame, in that it does not profile the relationship of the Cognizer to the Content (i.e. how certain they are that it is true), but rather presupposes it (the Cognizer in Awareness knows or assumes the Content to be true and includes it in their view of the world; their certainty of it is not at issue).","Cognizer
 Content
@@ -1537,7 +1537,7 @@ vorstellen: sich etwas vorstellen - verb
 wissen - verb
 Wissen, das - noun
 ",https://frames.coerll.utexas.edu/frames/thinking:%20awareness,Awareness,ExactMatch
-Thinking: Certainty,"This frame concerns a Cognizer's certainty about the correctness of a belief or set of expectations, the Content or Topic. It only includes uses where a Cognizer is expressed. ","Cognizer
+1 506,26,Thinking: Certainty,"This frame concerns a Cognizer's certainty about the correctness of a belief or set of expectations, the Content or Topic. It only includes uses where a Cognizer is expressed. ","Cognizer
 Content
 Topic
 Expressor
@@ -1548,7 +1548,7 @@ sicher - adjective
 sicher: sich (dat.) sicher sein - multi-word expression
 Zweifel, der - noun
 ",https://frames.coerll.utexas.edu/frames/thinking:%20certainty,Certainty,ExactMatch
-Thinking: Familiarity,"This frame has to do with a Cognizer who is familiar with an Entity; this means the Cognizer has seen or experienced the Entity a number of times, causing the Entity to be recognizable to the Cognizer, to some Degree.","Cognizer
+1 507,27,Thinking: Familiarity,"This frame has to do with a Cognizer who is familiar with an Entity; this means the Cognizer has seen or experienced the Entity a number of times, causing the Entity to be recognizable to the Cognizer, to some Degree.","Cognizer
 Entity
 Degree","Thinking: Familiarity
 auskennen: sich auskennen - verb
@@ -1557,7 +1557,7 @@ kennen - verb
 neu - adjective
 unbekannt - adjective
 ",https://frames.coerll.utexas.edu/frames/thinking:%20familiarity,Familiarity,ExactMatch
-Thinking: Opinion,"A Cognizer holds a particular Opinion, which may be portrayed as being about a particular Topic.","Cognizer
+1 508,28,Thinking: Opinion,"A Cognizer holds a particular Opinion, which may be portrayed as being about a particular Topic.","Cognizer
 Opinion
 Topic
 Degree","Thinking: Opinion
@@ -1569,7 +1569,7 @@ glauben - verb
 meinen - verb
 Meinung, die - noun
 ",https://frames.coerll.utexas.edu/frames/thinking:%20opinion,Opinion,ExactMatch
-Thinking: Pondering,"A person, the Cognizer, thinks about a Topic over a period of time. What is pondered may be a course of action that the person might take, or something more general.
+1 509,29,Thinking: Pondering,"A person, the Cognizer, thinks about a Topic over a period of time. What is pondered may be a course of action that the person might take, or something more general.
 
 ","Cognizer
 Topic","Thinking: Pondering
@@ -1582,7 +1582,7 @@ Idee, die - noun
 nachdenken (über+acc.) - verb
 überlegen - verb
 ",https://frames.coerll.utexas.edu/frames/thinking:%20pondering,Cogitation,ExactMatch
-Vehicle,"Words in this frame refer to Vehicles that people use to travel and for transportation. The subframe Vehicle Parts contains words that name parts of the whole Vehicle, i.e. those that appear as the frame element Vehicle_parts, and the subframe General terms includes terms that are related to vehicles and traffic in general.
+1 587,30,Vehicle,"Words in this frame refer to Vehicles that people use to travel and for transportation. The subframe Vehicle Parts contains words that name parts of the whole Vehicle, i.e. those that appear as the frame element Vehicle_parts, and the subframe General terms includes terms that are related to vehicles and traffic in general.
 
 Because of the close real-world relationship between this frame and the related frames Vehicle: Operate and Vehicle: Ride, which deal with using vehicles as transportation, the frame elements Driver and Passenger from those frames are included here (after all, it wouldn't be a vehicle at all if it couldn't be used for transportation).
 
@@ -1697,7 +1697,7 @@ Transportmittel, das - noun
 Verkehr, der - noun
 Verkehrsmittel, das - noun
 ",https://frames.coerll.utexas.edu/frames/vehicle,Vehicle,TooGeneral
-Work,"These lexical units describe various aspects of employment, where an Employee works for an Employer in a certain Position or Field, completing assigned Tasks for Compensation. Both Employer and Employee must agree to enter into the employment relationship (the Employer hires the Employee, and the Employee agrees to fill the Position in exchange for Compensation ), and either party can end the employment relationship (the Employee can quit, or the Employer can fire the Employee).","Employee
+1 633,31,Work,"These lexical units describe various aspects of employment, where an Employee works for an Employer in a certain Position or Field, completing assigned Tasks for Compensation. Both Employer and Employee must agree to enter into the employment relationship (the Employer hires the Employee, and the Employee agrees to fill the Position in exchange for Compensation ), and either party can end the employment relationship (the Employee can quit, or the Employer can fire the Employee).","Employee
 Employer
 Position
 Field
