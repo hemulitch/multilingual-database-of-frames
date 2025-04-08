@@ -103,6 +103,14 @@ def graph3_menu():
             return render_template('graph3_results.html', frame_name=frame.frame, graph_data=graph_data)
     return render_template('/graph3_menu.html', frames=frames)
 
+@app.route('/graph2_menu', methods=['GET', 'POST'])
+def graph2_menu():
+    if request.method == 'POST':
+        # тут начинка поиска от Полины
+        return render_template('graph2_results.html', frame_name=frame.frame, graph_data=graph_data) # тут разберись, что мы в итоге передаём
+    return render_template('/graph2_menu.html', frames=frames)
+
+    
 @app.route('/')
 def index():
     return render_template('index.html')
