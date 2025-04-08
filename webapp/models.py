@@ -231,3 +231,18 @@ class MultilingualFN_LexicalUnits(db.Model):
     brasilfn_lu_id = db.Column('brasilfn_lu_id', db.Integer)
     spanishfn_lu_id = db.Column('spanishfn_lu_id', db.Integer)
     bfn_lu_id = db.Column('bfn_lu_id', db.Integer)
+
+
+class Multi_Frame_Lus(db.Model):
+    __tablename__ = "multi_frame_lus"
+
+    id = db.Column('id', db.Integer) # нужно ли здесь primary key? вроде бы в таблице нет, будем надеяться, что нет
+    frame = db.Column('FrameName', db.Text)
+    english = db.Column('English', db.Text)
+    french = db.Column('French', db.Text)
+    german = db.Column('German', db.Text)
+    spanish = db.Column('Spanish', db.Text)
+    portuguese = db.Column('Portuguese', db.Text)
+    arabic = db.Column('Arabic', db.Text)
+    chinese = db.Column('Chinese', db.Text)
+    swedish = db.Column('Swedish', db.Text)
