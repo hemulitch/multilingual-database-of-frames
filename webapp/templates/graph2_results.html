@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame Results</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .node { fill: #96c357; cursor: pointer; }
+        .link { stroke-width: 2px; cursor: pointer; }
+        .tooltip {
+            position: absolute;
+            padding: 5px;
+            background: white;
+            border: 1px solid gray;
+            border-radius: 5px;
+            pointer-events: none;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Пока здесь только повторение 3го графа</h1>
+    <svg width="800" height="600"></svg>
+    <div class="tooltip" style="display: none;"></div>
+
+    <div style="background-color: rgb(211, 211, 211); align-content: center;">
+        <p style="text-align: center;">Legend</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: red;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Inheritance</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: blue;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Using</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: green;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Subframe</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: black;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Perspective_on</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: yellow;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Causative_of</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: brown;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Inchoative_of</p>
+        <p><span style="display: inline-block;
+            width: 12px;
+            height: 12px;
+            background-color: purple;
+            border-radius: 50%;
+            vertical-align: middle;"></span> Metaphor</p>
+        
+    </div>
+
+    <script>
+        const graphData = {{ graph_data | safe }};
+        const width = 800, height = 600;
+    
+        const svg = d3.select("svg").attr("width", width).attr("height", height);
+        const tooltip = d3.select(".tooltip");
+    
+        const simulation = d3.forceSimulation(graphData.nodes)
+            .force("link", d3.forceLink(graphData.edges).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-300))
+            .force("center", d3.forceCenter(width / 2, height / 2));
+        
+        const link = svg.selectAll(".link")
+            .data(graphData.edges)
+            .enter().append("line")
+            .attr("class", "link")
+            .attr("stroke", d => d.color)  // Use color for edges
+            .attr("stroke-width", 2);
+    
+        const node = svg.selectAll(".node")
+            .data(graphData.nodes)
+            .enter().append("circle")
+            .attr("class", "node")
+            .attr("r", 10)
+            .attr("fill", "#96c357")
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+        
+        node.on("mouseover", (event, d) => {
+            tooltip.style("left", event.pageX + 10 + "px")
+                .style("top", event.pageY + "px")
+                .style("display", "block")
+                .text(d.name);
+        }).on("mouseout", () => tooltip.style("display", "none"));
+        
+        simulation.on("tick", () => {
+            link.attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+    
+            node.attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+        });
+    
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+    
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+    
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+    </script>
+    <a href="/graph3_menu">Back to Search</a>
+</body>
+</html>
