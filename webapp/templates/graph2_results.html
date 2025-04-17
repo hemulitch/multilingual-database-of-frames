@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Frame Results</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!--  надо разобраться, нужен ли нам этот скрипт  или нужно делать новый -->
     <style>
         .node { fill: #96c357; cursor: pointer; }
         .link { stroke-width: 2px; cursor: pointer; }
@@ -22,8 +22,9 @@
     <h1>Пока здесь только повторение 3го графа</h1>
     <svg width="800" height="600"></svg>
     <div class="tooltip" style="display: none;"></div>
-
-    <div style="background-color: rgb(211, 211, 211); align-content: center;">
+    
+<!-- Возможно здесь добавим разделение язык-цвет -->
+<!--     <div style="background-color: rgb(211, 211, 211); align-content: center;">
         <p style="text-align: center;">Legend</p>
         <p><span style="display: inline-block;
             width: 12px;
@@ -68,7 +69,7 @@
             border-radius: 50%;
             vertical-align: middle;"></span> Metaphor</p>
         
-    </div>
+    </div> -->
 
     <script>
         const graphData = {{ graph_data | safe }};
@@ -134,6 +135,6 @@
             d.fy = null;
         }
     </script>
-    <a href="/graph3_menu">Back to Search</a>
+    <a href="/graph2_menu">Back to Search</a>
 </body>
 </html>
