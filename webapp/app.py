@@ -105,7 +105,7 @@ def graph3_menu():
     
 def join_lus(frame):
   ''' Getting a full list of lexical units from all languages'''
-  fr = session.query(Multi_Frame_Lus).filter(Multi_Frame_Lus.frame==frame).all()[0]
+  fr = Multi_Frame_Lus.query.filter(Multi_Frame_Lus.frame==frame).all()[0]
   langs = [fr.english, fr.arabic, fr.chinese, fr.french, fr.german, fr.swedish, fr.portuguese]
 
   lus = []
@@ -117,7 +117,7 @@ def join_lus(frame):
 
 def connected_by_lus(frame):
   '''Getting a dict of frames and their lexical units'''
-  fr = session.query(Multi_Frame_Lus).filter(Multi_Frame_Lus.frame==frame).all()[0]
+  fr = Multi_Frame_Lus.query.filter(Multi_Frame_Lus.frame==frame).all()[0]
   langs = [fr.english, fr.arabic, fr.chinese, fr.french, fr.german, fr.swedish, fr.portuguese]
 
   lus = []
@@ -128,10 +128,10 @@ def connected_by_lus(frame):
 
   connected_frames = []
   for lu in lus:
-    frames = session.query(Lus_to_frame).filter(Lus_to_frame.lus_name==lu).all()
+    frames = Lus_to_frame.query.filter(Lus_to_frame.lus_name==lu).all()
     if len(frames) >0:
       for frame in frames[0].frames.split(', '):
-        cfs = session.query(Multi_Frame_Lus).filter(Multi_Frame_Lus.frame == frame).all()
+        cfs = Multi_Frame_Lus.query.filter(Multi_Frame_Lus.frame == frame).all()
         for cf in cfs:
           connected_frames.append({
             "frame_id": cf.id,
@@ -142,40 +142,40 @@ def connected_by_lus(frame):
   return connected_frames
 
 def matches(node1, node2):
-    ''' Finding requested lexical units'''
     matched_lus = []
-    for lu in node1['lus']:
-        if lu in node2['lus']:
+    for lu in nodes[node1][2]:
+        if lu in nodes[node2][2]:
             matched_lus.append(lu)
     return(matched_lus)
     
-@app.route('/graph2_menu', methods=['GET', 'POST'])
 def graph2_menu():
+    frames = Multi_Frame_Lus.query.with_entities(Multi_Frame_Lus.id, Multi_Frame_Lus.frame).all()
     if request.method == 'POST':
         frame_id = int(request.form['frame_id'])
         frame = Multi_Frame_Lus.query.get(frame_id)
         if frame:
             connected_frames = connected_by_lus(frame.frame)
-            nodes = {frame.id: {"id": frame.id, "name": frame.frame}}
-            edges = set()
+            nodes = {}
+            edges = []
             for cf in connected_frames:
-                if cf["frame_id"] not in nodes:
-                    nodes[cf["frame_id"]] = {"id": cf["frame_id"], "name": cf["frame_name"], 'lus': cf['frame_lus']}
+              if cf['frame_id'] not in nodes:
+                    nodes[cf["frame_id"]] = (cf["frame_id"], cf["frame_name"], cf['frame_lus'])
 
             for node1 in nodes:
               for node2 in nodes:
-                if node1['id'] != node2['id'] and len(matches(node1, node2)>0):
-                  edges.add((
-                      node1['id'],
-                      node2['id'],
+
+                if node1 != node2 and len(matched_lus)>0:
+                    edges.append((
+                      nodes[node1][0],
+                      nodes[node2][0],
                       matches(node1, node2)
+
                   ))
 
             edges_list = [
                 {"node1": edge[0], "node2": edge[1], "connection": edge[2]}
                 for edge in edges
             ]
-
             graph_data = {"nodes": list(nodes.values()), "edges": edges_list}
             print(edges)
             return render_template('graph2_results.html', frame_name=frame.frame, graph_data=graph_data)
