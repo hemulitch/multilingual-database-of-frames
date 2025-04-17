@@ -246,3 +246,11 @@ class Multi_Frame_Lus(db.Model):
     arabic = db.Column('Arabic', db.Text)
     chinese = db.Column('Chinese', db.Text)
     swedish = db.Column('Swedish', db.Text)
+
+class Lus_to_frame(db.Model):
+  __tablename__ = "lus_to_frame"
+  __table_args__ = {'extend_existing': True}
+
+  id = db.Column('id', db.Integer, primary_key=True)
+  lus_name = db.Column('lu_name', db.Text)
+  frames = db.Column('frames', db.Text)
