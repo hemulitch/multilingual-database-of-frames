@@ -165,7 +165,7 @@ def graph2_menu():
             for node1 in nodes:
               for node2 in nodes:
 
-                if node1 != node2 and len(matched_lus)>0:
+                if node1 != node2 and len(matches(node1, node2))>0:
                     edges.append((
                       nodes[node1][0],
                       nodes[node2][0],
