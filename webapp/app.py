@@ -142,6 +142,7 @@ def connected_by_lus(frame):
   return connected_frames
 
 def matches(node1, node2):
+    global nodes
     matched_lus = []
     for lu in nodes[node1][2]:
         if lu in nodes[node2][2]:
