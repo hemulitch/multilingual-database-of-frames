@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template, request, redirect, url_for
 import os
-from models import db, BFN, BFN_Relationship, RelationTypes, BFN_LexicalUnits, BrasilFN,  BrasilFN_LexicalUnits, DiCoEnviro, DiCoEnviro_LexicalUnits, DiCoInfo, DiCoInfo_LexicalUnits, GermanFN, GermanFN_LexicalUnits, GFOL, GFOL_LexicalUnits, SpanishFN, SpanishFN_LexicalUnits, SweFN, SweFN_LexicalUnits, MultilingualFN, MultilingualFN_LexicalUnits, Multi_Frame_Lus
+from models import db, BFN, BFN_Relationship, RelationTypes, BFN_LexicalUnits, BrasilFN,  BrasilFN_LexicalUnits, DiCoEnviro, DiCoEnviro_LexicalUnits, DiCoInfo, DiCoInfo_LexicalUnits, GermanFN, GermanFN_LexicalUnits, GFOL, GFOL_LexicalUnits, SpanishFN, SpanishFN_LexicalUnits, SweFN, SweFN_LexicalUnits, MultilingualFN, MultilingualFN_LexicalUnits, Multi_Frame_Lus, Lus_to_frame
 from sqlalchemy import or_
 import pandas as pd
 import networkx as nx
