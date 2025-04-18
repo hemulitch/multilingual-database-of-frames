@@ -148,6 +148,7 @@ def matches(node1, node2):
             matched_lus.append(lu)
     return(matched_lus)
     
+@app.route('/graph2_menu', methods=['GET', 'POST'])    
 def graph2_menu():
     frames = Multi_Frame_Lus.query.with_entities(Multi_Frame_Lus.id, Multi_Frame_Lus.frame).all()
     if request.method == 'POST':
