@@ -141,8 +141,7 @@ def connected_by_lus(frame):
 
   return connected_frames
 
-def matches(node1, node2):
-    global nodes
+def matches(node1, node2, nodes):
     matched_lus = []
     for lu in nodes[node1][2]:
         if lu in nodes[node2][2]:
@@ -166,11 +165,11 @@ def graph2_menu():
             for node1 in nodes:
               for node2 in nodes:
 
-                if node1 != node2 and len(matches(node1, node2))>0:
+                if node1 != node2 and len(matches(node1, node2, nodes))>0:
                     edges.append((
                       nodes[node1][0],
                       nodes[node2][0],
-                      matches(node1, node2)
+                      matches(node1, node2, nodes)
 
                   ))
 
@@ -178,10 +177,12 @@ def graph2_menu():
                 {"node1": edge[0], "node2": edge[1], "connection": edge[2]}
                 for edge in edges
             ]
+            
             graph_data = {"nodes": list(nodes.values()), "edges": edges_list}
             print(edges)
             return render_template('graph2_results.html', frame_name=frame.frame, graph_data=graph_data)
     return render_template('/graph2_menu.html', frames=frames)
+
 
     
 @app.route('/')
