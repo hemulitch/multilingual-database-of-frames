@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Frame Results</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script> <!--  надо разобраться, нужен ли нам этот скрипт  или нужно делать новый -->
+    <title>Graph Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        .node { fill: #96c357; cursor: pointer; }
-        .link { stroke-width: 2px; cursor: pointer; }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .node circle { fill: #96c357; cursor: pointer; }
+        .link { stroke: black; stroke-opacity: 0.6; }
         .tooltip {
             position: absolute;
             padding: 5px;
@@ -19,122 +22,137 @@
     </style>
 </head>
 <body>
-<!--     <h1>Пока здесь только повторение 3го графа</h1> -->
-    <svg width="800" height="600"></svg>
-    <div class="tooltip" style="display: none;"></div>
-    
-<!-- Возможно здесь добавим разделение язык-цвет -->
-<!--     <div style="background-color: rgb(211, 211, 211); align-content: center;">
-        <p style="text-align: center;">Legend</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: red;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Inheritance</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: blue;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Using</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: green;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Subframe</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: black;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Perspective_on</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: yellow;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Causative_of</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: brown;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Inchoative_of</p>
-        <p><span style="display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: purple;
-            border-radius: 50%;
-            vertical-align: middle;"></span> Metaphor</p>
-        
-    </div> -->
+    <h1>Connections for Frame: {{ frame_name }}</h1>
+<div id="graph-container"></div>
+<script type="module">
+// Данные
+const graph_data = {{ graph_data | safe }};
 
-    <script>
-        const graphData = {{ graph_data | safe }};
-        const width = 800, height = 600;
-    
-        const svg = d3.select("svg").attr("width", width).attr("height", height);
-        const tooltip = d3.select(".tooltip");
-    
-        const simulation = d3.forceSimulation(graphData.nodes)
-            .force("link", d3.forceLink(graphData.edges).id(d => d.id).distance(100))
-            .force("charge", d3.forceManyBody().strength(-300))
-            .force("center", d3.forceCenter(width / 2, height / 2));
-        
-        const link = svg.selectAll(".link")
-            .data(graphData.edges)
-            .enter().append("line")
-            .attr("class", "link")
-            .attr("stroke", d => d.color)  // Use color for edges
-            .attr("stroke-width", 2);
-    
-        const node = svg.selectAll(".node")
-            .data(graphData.nodes)
-            .enter().append("circle")
-            .attr("class", "node")
-            .attr("r", 10)
-            .attr("fill", "#96c357")
-            .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
-        
-        node.on("mouseover", (event, d) => {
-            tooltip.style("left", event.pageX + 10 + "px")
-                .style("top", event.pageY + "px")
-                .style("display", "block")
-                .text(d.name);
-        }).on("mouseout", () => tooltip.style("display", "none"));
-        
-        simulation.on("tick", () => {
-            link.attr("x1", d => d.source.x)
-                .attr("y1", d => d.source.y)
-                .attr("x2", d => d.target.x)
-                .attr("y2", d => d.target.y);
-    
-            node.attr("cx", d => d.x)
-                .attr("cy", d => d.y);
-        });
-    
-        function dragstarted(event, d) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
-        }
-    
-        function dragged(event, d) {
-            d.fx = event.x;
-            d.fy = event.y;
-        }
-    
-        function dragended(event, d) {
-            if (!event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-        }
-    </script>
-    <a href="/graph2_menu">Back to Search</a>
+// Размеры окна
+const width = 800;
+const height = 600;
+
+// SVG-контейнер
+const svg = d3.select("#graph-container").append("svg")
+              .attr("width", width)
+              .attr("height", height);
+
+// Преобразуем данные в пригодный для использования формат
+const nodesMap = new Map();
+for (const nodeData of graph_data.nodes) {
+    // Разбираем кортеж/список, используя деструктуризацию
+    let [id, name, verbs] = nodeData;
+    // Приводим name к строке (если это список, берём первый элемент)
+    let final_name = typeof(name) === 'string' ? name : name[0];
+    nodesMap.set(id, { id, name: final_name });
+}
+
+// Извлекаем готовые узлы и рёбра
+const nodes = Array.from(nodesMap.values());
+const links = graph_data.edges.map(edge => ({
+    source: nodesMap.get(edge.node1),
+    target: nodesMap.get(edge.node2),
+    value: edge.connection.length,
+    connection: edge.connection
+}));
+
+// Создаём симуляцию движения графа
+const simulation = d3.forceSimulation(nodes)
+                     .force("link", d3.forceLink(links).distance(100))
+                     .force("charge", d3.forceManyBody())
+                     .force("center", d3.forceCenter(width / 2, height / 2));
+
+// Элемент для всплывающей подсказки
+let tooltip = document.createElement("div");
+tooltip.className = "tooltip";
+document.body.appendChild(tooltip);
+
+// Линии (ребра)
+const link = svg.append("g")
+                .attr("class", "links")
+                .selectAll("line")
+                .data(links)
+                .enter()
+                .append("line")
+                .attr("stroke", "#ccc")
+                .attr("stroke-width", d => Math.max(0.7, d.value))
+                .each(function(d) {
+                    this.__data__.connection = d.connection;
+                });
+
+// Всплывающая подсказка при наведении на ребро
+link.on("mouseover", function(event, d) {
+    const content = `<b>Connection:</b> ${d.connection.join(", ")}`;
+    tooltip.innerHTML = content;
+    tooltip.style.display = 'block';
+})
+   .on("mousemove", function(event) {
+       tooltip.style.left = `${event.pageX + 10}px`;
+       tooltip.style.top = `${event.pageY + 10}px`;
+   })
+   .on("mouseout", function() {
+       tooltip.style.display = 'none';
+   });
+
+// Добавляем узлы
+const node = svg.append("g")
+                .attr("class", "nodes")
+                .selectAll("g")
+                .data(nodes)
+                .enter()
+                .append("g")
+                .call(d3.drag()
+                      .on("start", dragstarted)
+                      .on("drag", dragged)
+                      .on("end", dragended));
+
+// Рисуем кружочки и подписываем узлы
+node.append("circle")
+    .attr("r", 8);
+
+node.append("text")
+    .attr("dx", 15)
+    .attr("dy", ".35em")
+    .text(d => d.name);
+
+// Функции для перетаскивания узлов
+function dragstarted(event, d) {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragged(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+}
+
+function dragended(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+}
+
+// Обновляем позицию узлов и рёбер при передвижении
+simulation.on("tick", () => {
+    link.attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+    node.attr("transform", d => `translate(${d.x},${d.y})`);
+});
+
+// Расставляем узлы по случайным позициям
+nodes.forEach(node => {
+    node.x = Math.random() * width / 2 + width / 4;
+    node.y = Math.random() * height / 2 + height / 4;
+});
+
+// Запускаем симуляцию
+simulation.restart();
+
+</script>
+ <a href="/graph2_menu">Back to Search</a>
 </body>
 </html>
