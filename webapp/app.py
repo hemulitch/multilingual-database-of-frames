@@ -141,14 +141,14 @@ def connected_by_lus(frame):
 
   return connected_frames
 
-def matches(node1, node2, nodes):
+def matches(node1, node2):
     matched_lus = []
-    for lu in nodes[node1][2]:
-        if lu in nodes[node2][2]:
+    for lu in node1[2]:
+        if lu in node2[2]:
             matched_lus.append(lu)
     return(matched_lus)
-    
-@app.route('/graph2_menu', methods=['GET', 'POST'])    
+
+@app.route('/graph2_menu', methods=['GET', 'POST'])
 def graph2_menu():
     frames = Multi_Frame_Lus.query.with_entities(Multi_Frame_Lus.id, Multi_Frame_Lus.frame).all()
     if request.method == 'POST':
@@ -156,29 +156,34 @@ def graph2_menu():
         frame = Multi_Frame_Lus.query.get(frame_id)
         if frame:
             connected_frames = connected_by_lus(frame.frame)
-            nodes = {}
+            nodes_ids = []
+            nodes = []
             edges = []
             for cf in connected_frames:
-              if cf['frame_id'] not in nodes:
-                    nodes[cf["frame_id"]] = (cf["frame_id"], cf["frame_name"], cf['frame_lus'])
+              if cf['frame_id'] not in nodes_ids:
+                    nodes_ids.append(cf["frame_id"])
+                    nodes.append([cf["frame_id"], cf["frame_name"], cf['frame_lus']])
 
             for node1 in nodes:
               for node2 in nodes:
 
-                if node1 != node2 and len(matches(node1, node2, nodes))>0:
+                if node1 != node2 and len(matches(node1, node2))>0:
                     edges.append((
-                      nodes[node1][0],
-                      nodes[node2][0],
-                      matches(node1, node2, nodes)
+                      node1[0],
+                      node2[0],
+                      matches(node1, node2)
 
                   ))
+
+
 
             edges_list = [
                 {"node1": edge[0], "node2": edge[1], "connection": edge[2]}
                 for edge in edges
             ]
-            
-            graph_data = {"nodes": list(nodes.values()), "edges": edges_list}
+
+
+            graph_data = {"nodes": nodes, "edges": edges_list}
             print(edges)
             return render_template('graph2_results.html', frame_name=frame.frame, graph_data=graph_data)
     return render_template('/graph2_menu.html', frames=frames)
