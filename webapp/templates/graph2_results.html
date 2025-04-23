@@ -27,7 +27,10 @@
 <script type="module">
 // Данные
 const graph_data = {{ graph_data | safe }};
-
+if(graph_data.edges.length === 0){
+    alert('The chosen frame has no lexical connections to others');
+}
+else{
 // Размеры окна
 const width = 800;
 const height = 600;
@@ -151,7 +154,7 @@ nodes.forEach(node => {
 
 // Запускаем симуляцию
 simulation.restart();
-
+}
 </script>
  <a href="/graph2_menu">Back to Search</a>
 </body>
